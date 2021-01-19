@@ -1,0 +1,3 @@
+Hello World!
+
+Checkout nhánh master -> pull về -> checkout nhánh mình -> rebase -> bắt đầu dev -> add, commit, push -> merge
