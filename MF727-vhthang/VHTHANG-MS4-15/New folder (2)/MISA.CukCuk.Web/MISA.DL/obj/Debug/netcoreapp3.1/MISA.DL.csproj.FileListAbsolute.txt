@@ -10,3 +10,15 @@ E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL
 E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\obj\Debug\netcoreapp3.1\MISA.DL.csproj.CopyComplete
 E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\obj\Debug\netcoreapp3.1\MISA.DL.dll
 E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\obj\Debug\netcoreapp3.1\MISA.DL.pdb
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\bin\Debug\netcoreapp3.1\MISA.DL.deps.json
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\bin\Debug\netcoreapp3.1\MISA.DL.dll
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\bin\Debug\netcoreapp3.1\MISA.DL.pdb
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\bin\Debug\netcoreapp3.1\MISA.Common.dll
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\obj\Debug\netcoreapp3.1\MISA.DL.csprojAssemblyReference.cache
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\obj\Debug\netcoreapp3.1\MISA.DL.AssemblyInfoInputs.cache
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\obj\Debug\netcoreapp3.1\MISA.DL.AssemblyInfo.cs
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\obj\Debug\netcoreapp3.1\MISA.DL.csproj.CoreCompileInputs.cache
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\obj\Debug\netcoreapp3.1\MISA.DL.csproj.CopyComplete
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\obj\Debug\netcoreapp3.1\MISA.DL.dll
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.DL\obj\Debug\netcoreapp3.1\MISA.DL.pdb

@@ -136,7 +136,7 @@
             </div>
             <div class="dialog-footer">
                 <button id="btnDelete" class="m-btn m-btn-display">Xóa</button>
-                <button id="btnCancel" class="m-btn m-btn-cancel">Hủy</button>
+                <button id="btnCancel" class="m-btn m-btn-cancel" @click="btnCloseDialog">Hủy</button>
                 <button id="btnSave" class="m-btn" @click="saveInformation"><i class="far fa-save"></i><span class="btn-text">Lưu</span></button>
 
             </div>

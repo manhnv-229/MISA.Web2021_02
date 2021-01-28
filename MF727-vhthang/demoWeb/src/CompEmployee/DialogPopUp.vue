@@ -4,7 +4,7 @@
         <div class="dialog-popup-content">
             <div class="dialog-header">
           <div class="dialog-header-titlepopup">Thông báo</div>
-          <div class="dialog-header-close">
+          <div class="dialog-header-close" @click="btnCancelPopup">
             <button>x</button>
           </div>
         </div>
@@ -13,8 +13,8 @@
 
             </div>
             <div class="dialog-footer">
-                <button id="btnCancelCf" class="m-btn m-btn-cancel" >Hủy</button>
-                <button id="btnDeleteCf" class="m-btn m-btn-display" style="display:none;" onclick="deleteEmployee()">Xóa</button>
+                <button id="btnCancelCf" class="m-btn m-btn-cancel" @click="btnCancelPopup">Hủy</button>
+                <button id="btnDeleteCf" class="m-btn m-btn-display" style="display:none;">Xóa</button>
             </div>
         </div>
     
@@ -28,6 +28,11 @@ export default {
         isDialogPopupHide:{
             type:Boolean,
             default:true,
+        }
+    },
+    methods:{
+        btnCancelPopup(){
+            this.$emit('btnCancelPopup');
         }
     }
 }
@@ -53,5 +58,8 @@ export default {
             font-size: 15px;
             
             font-weight: bold;
+}
+.dialog-popup-content .dialog-body{
+    padding: 24px 24px 24px;
 }
 </style>

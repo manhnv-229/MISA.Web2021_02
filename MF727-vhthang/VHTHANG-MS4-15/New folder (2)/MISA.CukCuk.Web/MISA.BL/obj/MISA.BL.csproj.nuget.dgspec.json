@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj": {}
+    "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj": {}
   },
   "projects": {
-    "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj": {
+    "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj",
+        "projectUniqueName": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj",
         "projectName": "MISA.BL",
-        "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\obj\\",
+        "projectPath": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj",
+        "packagesPath": "C:\\Users\\vhthang1\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vhthang1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {
-                "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj"
+              "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {
+                "projectPath": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj"
               },
-              "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj": {
-                "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj"
+              "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj": {
+                "projectPath": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj"
               }
             }
           }
@@ -68,20 +65,17 @@
         }
       }
     },
-    "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {
+    "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj",
+        "projectUniqueName": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj",
         "projectName": "MISA.Common",
-        "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\obj\\",
+        "projectPath": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj",
+        "packagesPath": "C:\\Users\\vhthang1\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vhthang1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -125,20 +119,17 @@
         }
       }
     },
-    "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj": {
+    "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj",
+        "projectUniqueName": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj",
         "projectName": "MISA.DL",
-        "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\obj\\",
+        "projectPath": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj",
+        "packagesPath": "C:\\Users\\vhthang1\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vhthang1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,8 +143,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {
-                "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj"
+              "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {
+                "projectPath": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj"
               }
             }
           }

@@ -28,13 +28,13 @@
                     </div>
                     <div class="content-right">
                         <div>
-                            <button class="m-btn m-btn-h-icon" id="btnAdd" @click="addEmployee">  <!-- onclick="addEmployee()" -->
+                            <button class="m-btn m-btn-h-icon" id="btnAdd" @click="addEmployee">  
                                 <div class="btn-icon"></div>
                                 <div class="btn-text">Thêm nhân viên mới</div>
                             </button>
                         </div>
                         <div class="margin-btn-top">
-                            <button class="m-btn m-btn-default" id="btnReload" @click="refreshData"><!-- onclick="loadData()" -->
+                            <button class="m-btn m-btn-default" id="btnReload" @click="refreshData">
                                 <div class="btn-icon2"></div>
                             </button>
                         </div>
@@ -67,8 +67,8 @@
                         <tbody class="tb1">
                             <tr 
                                 v-for="employee in Employees"
-                                v-bind:key="employee.employeeId">
-                                
+                                v-bind:key="employee.employeeId"
+                                @click="showEmployee(employee)">
                             <td>
                                 <div class="cell">{{ employee.employeeCode }}</div>
                                 </td>
@@ -76,16 +76,16 @@
                                 <div class="cell">{{ employee.employeeName }}</div>
                                 </td>
                                 <td>
-                                <div class="cell">{{ employee.employeeBirth }}</div>
+                                <div class="cell">{{ formatDate(employee.employeeBirth) }}</div>
                                 </td>
                                 <td>
-                                <div class="cell">{{ employee.employeeGender }}</div>
+                                <div class="cell">{{ formatGender(employee.employeeGender) }}</div>
                                 </td>
                                 <td>
                                 <div class="cell">{{ employee.employeeIdentifyNumber }}</div>
                                 </td>
                                 <td>
-                                <div class="cell">{{ employee.employeeDateRegistration }}</div>
+                                <div class="cell">{{ formatDate(employee.employeeDateRegistration) }}</div>
                                 </td>
                                 <td>
                                 <div class="cell">{{ employee.employeePlaceRegistration }}</div>
@@ -109,7 +109,7 @@
                                 <div class="cell">{{ employee.employeeSalaryGrade }}</div>
                                 </td>
                                 <td>
-                                <div class="cell">{{ employee.employeeJoinDate }}</div>
+                                <div class="cell">{{ formatDate(employee.employeeJoinDate) }}</div>
                                 </td>
                                 <td>
                                 <div class="cell">{{ employee.employeeStatus }}</div>
@@ -138,7 +138,31 @@ export default {
         },
         refreshData(){
 
-        }
+        },
+        showEmployee(data){
+            
+            this.$emit('showEmployee',data);
+        },
+        formatGender(value){
+            if(value == 1){
+                return "Nam";
+            }else if(value == 0){
+                return "Nữ";
+            }else return "Khác";
+
+        },
+        formatDate(date) {
+    
+        var date = new Date(date);
+        var day = date.getDate();
+        var month = date.getMonth() + 1;
+        var year = date.getFullYear();
+        if  (year < 1800) return "01/01/1800";
+        if (day < 10) day = '0' + day;
+        if (month < 10) month = '0' + month;
+        return day + '/' + month + '/' + year;
+}
+
     }
 }
 </script>
@@ -244,6 +268,7 @@ export default {
     border: 1px solid #bbbbbb;
     font-size: 12px;
     box-sizing: border-box;
+    font-family: GoogleSans-Regular;
 }
 
 

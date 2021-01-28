@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {}
+    "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {}
   },
   "projects": {
-    "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {
+    "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj",
+        "projectUniqueName": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj",
         "projectName": "MISA.Common",
-        "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\obj\\",
+        "projectPath": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj",
+        "packagesPath": "C:\\Users\\vhthang1\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProject\\MISA.Web2021_02\\MF727-vhthang\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vhthang1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

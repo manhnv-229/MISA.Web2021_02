@@ -47,7 +47,7 @@ select {
     border: none;
     font-size: 13px;
     margin: 20px 0px 10px 30px;
-    
+    font-family: GoogleSans-Regular;
 }
 
 .account {

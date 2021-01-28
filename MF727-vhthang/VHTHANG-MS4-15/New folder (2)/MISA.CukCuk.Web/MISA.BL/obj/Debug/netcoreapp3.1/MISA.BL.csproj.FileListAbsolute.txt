@@ -12,3 +12,17 @@ E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL
 E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.csproj.CopyComplete
 E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.dll
 E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.pdb
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.BL.deps.json
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.BL.dll
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.BL.pdb
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.Common.dll
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.DL.dll
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.DL.pdb
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.csprojAssemblyReference.cache
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.AssemblyInfoInputs.cache
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.AssemblyInfo.cs
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.csproj.CoreCompileInputs.cache
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.csproj.CopyComplete
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.dll
+E:\MyProject\MISA.Web2021_02\MF727-vhthang\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.pdb

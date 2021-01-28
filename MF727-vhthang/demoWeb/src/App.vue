@@ -17,7 +17,7 @@
             <content-employee
                 v-bind:Employees="Employees"
                 @addEmployee="addEmployee"
-                
+                @showEmployee="showEmployee"
             />
             <paging-bar/> 
             
@@ -33,7 +33,10 @@
                 @saveInformation="saveInformation"
                 :employee="employee"
             />
-    <dialog-pop-up :isDialogPopupHide="isDialogPopupHide"/>
+    <dialog-pop-up 
+        :isDialogPopupHide="isDialogPopupHide"
+        @btnCancelPopup="btnCancelPopup"
+        />
 
 
     
@@ -118,8 +121,15 @@ export default {
     }
   },
   methods:{
+      btnCancelPopup(){
+          this.isDialogPopupHide=true;
+      },
       handleMenu(){
           
+      },
+      showEmployee(data){
+          this.isDialogAddHide=false;
+          this.employee = data;
       },
       addEmployee(){
           // mở dialog
