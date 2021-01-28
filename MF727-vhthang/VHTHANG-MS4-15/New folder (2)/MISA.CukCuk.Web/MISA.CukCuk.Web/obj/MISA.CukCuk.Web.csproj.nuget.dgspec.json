@@ -1,0 +1,295 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.CukCuk.Web\\MISA.CukCuk.Web.csproj": {}
+  },
+  "projects": {
+    "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj",
+        "projectName": "MISA.BL",
+        "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {
+                "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj"
+              },
+              "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj": {
+                "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj",
+        "projectName": "MISA.Common",
+        "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.CukCuk.Web\\MISA.CukCuk.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.CukCuk.Web\\MISA.CukCuk.Web.csproj",
+        "projectName": "MISA.CukCuk.Web",
+        "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.CukCuk.Web\\MISA.CukCuk.Web.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.CukCuk.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj": {
+                "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.BL\\MISA.BL.csproj"
+              },
+              "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {
+                "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj",
+        "projectName": "MISA.DL",
+        "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\MISA.DL.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj": {
+                "projectPath": "E:\\program\\WDT2020\\WDT2020\\VHTHANG-MS4-15\\New folder (2)\\MISA.CukCuk.Web\\MISA.Common\\MISA.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

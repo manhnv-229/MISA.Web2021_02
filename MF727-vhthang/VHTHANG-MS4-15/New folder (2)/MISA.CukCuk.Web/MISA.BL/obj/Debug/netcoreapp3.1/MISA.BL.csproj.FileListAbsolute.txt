@@ -1,0 +1,14 @@
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.BL.deps.json
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.BL.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.BL.pdb
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.Common.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.DL.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\bin\Debug\netcoreapp3.1\MISA.DL.pdb
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.csprojAssemblyReference.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.AssemblyInfoInputs.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.AssemblyInfo.cs
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.csproj.CoreCompileInputs.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.csproj.CopyComplete
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.BL\obj\Debug\netcoreapp3.1\MISA.BL.pdb
