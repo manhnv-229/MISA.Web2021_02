@@ -25,8 +25,8 @@ namespace Infrastructure
         /// <summary>
         /// Đối tượng tương tác với database
         /// </summary>
-        IDbConnection _dbConnection;
-        string className;
+        protected IDbConnection _dbConnection;
+        protected string className;
         #endregion
         #region Constructor
         public BaseRepository(IConfiguration configuration)

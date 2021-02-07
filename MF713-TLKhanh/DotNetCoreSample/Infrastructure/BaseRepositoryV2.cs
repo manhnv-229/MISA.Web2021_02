@@ -24,8 +24,8 @@ namespace Infrastructure
         /// <summary>
         /// Đối tượng tương tác với database
         /// </summary>
-        IDbConnection _dbConnection;
-        string className;
+        protected IDbConnection _dbConnection;
+        protected string className;
         #endregion
         #region Constructor
         public BaseRepositoryV2(IConfiguration configuration)
@@ -37,7 +37,7 @@ namespace Infrastructure
         }
         #endregion
         #region Method
-        public IEnumerable<T> Get(string sqlcommand = null, object parameters = null, CommandType commandType = CommandType.Text)
+        public virtual IEnumerable<T> Get(string sqlcommand = null, object parameters = null, CommandType commandType = CommandType.Text)
         {
 
             if (sqlcommand == null)
@@ -46,7 +46,7 @@ namespace Infrastructure
 
         }
 
-        public int Insert(T entity)
+        public virtual int Insert(T entity)
         {
             var properties = entity.GetType().GetProperties();
             var propParam = "";
@@ -67,7 +67,7 @@ namespace Infrastructure
             return res;
         }
 
-        public int Update(string id, T entity)
+        public virtual int Update(string id, T entity)
         {
             var res = _dbConnection.Execute(
                 $"Proc_Update{className}ById",
@@ -77,7 +77,7 @@ namespace Infrastructure
             return res;
         }
 
-        public int Delete(string id)
+        public virtual int Delete(string id)
         {
             var _param = new DynamicParameters();
             _param.Add($"{className}Id", id);
