@@ -1,0 +1,24 @@
+Xóa dữ liệu Khi thêm mới - done
+Đẩy Mess vào trong dialog thông báo - done
+Chỉnh sửa v-modal vào trong hộp select - loading
+Xóa nhân viên , cách hiển thị các nút - loading
+Đặt lại tên - done
+Nút làm mới - done
+Hoạt ảnh loading khi load dữ liệu - 
+Thiết kế lại load dữ liệu theo trang - 
+Menu đóng mở -
+Sắp xếp dữ liệu - 
+Mức lương - 
+Chỉnh sửa nhân viên -
+
+
+dresponse trả về
+{data: "Thêm thành công", status: 201, statusText: "Created", headers: {…}, config: {…}, …}
+config: {url: "http://localhost:52327/api/Employees", method: "post", data: "{"employeeId":"13009ae2-3273-11e8-fb69-4afe230d73a…e":"2021-01-14","employeeStatus":"Đang làm việc"}", headers: {…}, transformRequest: Array(1), …}
+data: "Thêm thành công"
+headers: {content-length: "18", content-type: "text/plain; charset=utf-8"}
+request: XMLHttpRequest {readyState: 4, timeout: 0, withCredentials: false, upload: XMLHttpRequestUpload, onreadystatechange: ƒ, …}
+status: 201
+statusText: "Created"
+__proto__: Object
+
