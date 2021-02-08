@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kimerce.Backend</name>
+    </assembly>
+    <members>
+        <member name="M:Kimerce.Backend.Controllers.Books.BookController.#ctor(Kimerce.Backend.Infrastructure.Services.Books.IBookService)">
+            <summary>
+            Controller tương tác với book trong database thứ 2 
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:Kimerce.Backend.Controllers.Books.BookController.GetAll">
+            <summary>
+            Lấy toàn bộ sách trong bảng book ra
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Kimerce.Backend.Controllers.Employees.EmployeeController.#ctor(Kimerce.Backend.Infrastructure.Services.Employees.IEmployeeService)">
+            <summary>
+            Controller tương tác với Employee trong DB số 1 
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:Kimerce.Backend.Controllers.Employees.EmployeeController.GetAll(System.String)">
+            <summary>
+            Trả về danh sách các nhận viên 
+            </summary>
+            <param name="Filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kimerce.Backend.Controllers.Employees.EmployeeController.Create(Kimerce.Backend.Dto.Models.Employees.EmployeeModel)">
+            <summary>
+            Tạo mới một nhân viên
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kimerce.Backend.Controllers.Employees.EmployeeController.Update(Kimerce.Backend.Dto.Models.Employees.EmployeeModel)">
+            <summary>
+            Chỉnh sửa một nhân viên tồn tại sẵn trong database
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kimerce.Backend.Controllers.Employees.EmployeeController.Delete(System.Guid)">
+            <summary>
+            Xóa một nhân viên trong bản ghi - không xóa thật
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Kimerce.Backend.Domain.BaseEntities.BaseEntity">
+            <summary>
+            Thực thể chung
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Domain.BaseEntities.BaseEntity.CreatedTime">
+            <summary>
+            Ngày tạo
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Domain.BaseEntities.BaseEntity.UpdatedTime">
+            <summary>
+            Ngày cập nhật
+            </summary>
+        </member>
+        <member name="T:Kimerce.Backend.Domain.BaseEntities.BaseEntityByInt">
+            <summary>
+            Thực thể chỉ được tạo bởi người dùng
+            </summary>
+        </member>
+        <member name="T:Kimerce.Backend.Domain.BaseEntities.BaseEntityInt">
+            <summary>
+            Thực thể có mã kiểu uint
+            </summary>
+        </member>
+        <member name="T:Kimerce.Backend.Domain.Books.Book">
+            <summary>
+            1 Bảng trong Db thứ 2 có tên book 
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Dto.AutoMapperConfig.Mapper">
+            <summary>
+            Mapper
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Dto.AutoMapperConfig.MapperConfiguration">
+            <summary>
+            Mapper configuration
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Dto.Results.BaseResult.Result">
+            <summary>
+            Kết quả
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Dto.Results.BaseResult.Message">
+            <summary>
+            Thông điệp
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Dto.Results.CreateOrUpdateResultInt.Id">
+            <summary>
+            id trả về
+            </summary>
+        </member>
+        <member name="T:Kimerce.Backend.Infrastructure.Data.KimDbContext">
+            <summary>
+            /DBContext 1 for employee api 
+            </summary>
+        </member>
+        <member name="T:Kimerce.Backend.Infrastructure.Data.MisaDbContext">
+            <summary>
+            DbContext 2 để test tên là MisaDbContext
+            </summary>
+        </member>
+        <member name="T:Kimerce.Backend.Infrastructure.Repositories.MisaRepository`1">
+            <summary>
+            Các phương thức tương tác với DataBase 2 qua Reposotory
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Kimerce.Backend.Infrastructure.Services.Books.BookService.#ctor(Kimerce.Backend.Infrastructure.Repositories.IMisaRepository{Kimerce.Backend.Domain.Books.Book})">
+            <summary>
+            Class cung cấp phương thức để thao tác với database liên quan đến employees
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:Kimerce.Backend.Infrastructure.Services.Books.BookService.GetBookcs">
+            <summary>
+            Lấy danh sách quyển sách 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Kimerce.Backend.Infrastructure.Services.Books.IBookService">
+            <summary>
+            Interface của Book Service 
+            </summary>
+        </member>
+        <member name="M:Kimerce.Backend.Infrastructure.Services.Books.IBookService.GetBookcs">
+            <summary>
+            lấy danh sách sách trong db 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Kimerce.Backend.Infrastructure.Services.Employees.EmployeeService">
+            <summary>
+            Các method tương tác với dữ liệu Employee
+            </summary>
+        </member>
+        <member name="M:Kimerce.Backend.Infrastructure.Services.Employees.EmployeeService.#ctor(Kimerce.Backend.Infrastructure.Repositories.IRepository{Kimerce.Backend.Domain.Employees.Employee})">
+            <summary>
+            Class cung cấp phương thức để thao tác với database liên quan đến employees
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:Kimerce.Backend.Infrastructure.Services.Employees.EmployeeService.Create(Kimerce.Backend.Dto.Models.Employees.EmployeeModel)">
+            <summary>
+            Tạo nhân viên mới 
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kimerce.Backend.Infrastructure.Services.Employees.EmployeeService.GetAll(System.String)">
+            <summary>
+            Lấy danh sách các nhân viên chưa bị xóa 
+            </summary>
+            <param name="Filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kimerce.Backend.Infrastructure.Services.Employees.EmployeeService.Update(Kimerce.Backend.Dto.Models.Employees.EmployeeModel)">
+            <summary>
+            Cập nhật nhân viên đang có trong công ty 
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kimerce.Backend.Infrastructure.Services.Employees.EmployeeService.Delete(System.Guid)">
+            <summary>
+            Xóa nhân viên 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Kimerce.Backend.Infrastructure.Services.Employees.IEmployeeService">
+            <summary>
+            Interface của Employee Service 
+            </summary>
+        </member>
+        <member name="M:Kimerce.Backend.Infrastructure.Services.Employees.IEmployeeService.GetAll(System.String)">
+            <summary>
+            Lấy danh sách nhân viên theo filter, nếu không có params lock thì trả về tất
+            </summary>
+            <param name="Filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kimerce.Backend.Infrastructure.Services.Employees.IEmployeeService.Create(Kimerce.Backend.Dto.Models.Employees.EmployeeModel)">
+            <summary>
+            Tạo một nhân viên mới
+            </summary>
+            <param name="employeeModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kimerce.Backend.Infrastructure.Services.Employees.IEmployeeService.Update(Kimerce.Backend.Dto.Models.Employees.EmployeeModel)">
+            <summary>
+            Chỉnh sửa một nhân viên đã tồn tại
+            </summary>
+            <param name="employeeModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kimerce.Backend.Infrastructure.Services.Employees.IEmployeeService.Delete(System.Guid)">
+            <summary>
+            Xóa một employee ra khỏi danh sách nhân viên
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Kimerce.Backend.Infrastructure.SmartTable.Pagination.From">
+            <summary>
+            Từ
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Infrastructure.SmartTable.Pagination.PageIndex">
+            <summary>
+            Trang thứ
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Infrastructure.SmartTable.Pagination.PageSize">
+            <summary>
+            Kích thước trang
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Infrastructure.SmartTable.Pagination.Total">
+            <summary>
+            Tổng số bản ghi
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Infrastructure.SmartTable.Pagination.TotalPages">
+            <summary>
+            Tổng số trang
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Infrastructure.SmartTable.Pagination.Start">
+            <summary>
+            Bản ghi bắt đầu
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Infrastructure.SmartTable.Pagination.TotalItemCount">
+            <summary>
+            Tổng số lượng bản ghi
+            </summary>
+        </member>
+        <member name="T:Kimerce.Backend.Infrastructure.SmartTable.SmartTableParam">
+            <summary>
+            Tham số tìm kiếm
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Infrastructure.SmartTable.SmartTableParam.Pagination">
+            <summary>
+            Phân trang
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Infrastructure.SmartTable.SmartTableParam.Search">
+            <summary>
+            Điều kiện tìm kiếm
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Infrastructure.SmartTable.SmartTableParam.Sort">
+            <summary>
+            Điều kiện sắp xếp
+            </summary>
+        </member>
+        <member name="P:Kimerce.Backend.Infrastructure.SmartTable.SmartTableParam.IsExport">
+            <summary>
+            Có phải xuất dữ liệu hay không?
+            </summary>
+        </member>
+        <member name="T:Kimerce.Backend.Startup">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:Kimerce.Backend.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+    </members>
+</doc>
