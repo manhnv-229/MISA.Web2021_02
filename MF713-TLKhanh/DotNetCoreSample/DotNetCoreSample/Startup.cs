@@ -45,7 +45,7 @@ namespace DotNetCoreSample
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DotNetCoreSample", Version = "v1" });
             });
             services.AddScoped<ICustomerService, CustomerService>();
-            services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepositoryV2<>));
+            services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
         }
 

@@ -67,9 +67,11 @@ namespace Infrastructure
 
         public int Update(string id, T entity)
         {
+            var _params = MappingParams(entity);
+            _params.Add($"@{className}Id", id);
             var res = _dbConnection.Execute(
                 $"Proc_Update{className}ById",
-                MappingParams(entity),
+                _params,
                 commandType: CommandType.StoredProcedure
                 );
             return res;
