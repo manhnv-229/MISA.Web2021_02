@@ -1,0 +1,12 @@
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csprojAssemblyReference.cache
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.AssemblyInfoInputs.cache
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.AssemblyInfo.cs
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.deps.json
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.dll
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.pdb
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csproj.CopyComplete
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.dll
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.pdb
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb

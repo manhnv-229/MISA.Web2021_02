@@ -1,0 +1,9 @@
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.deps.json
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.dll
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csprojAssemblyReference.cache
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.AssemblyInfoInputs.cache
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.AssemblyInfo.cs
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csproj.CoreCompileInputs.cache
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.dll
+D:\hieu\misatraning\misa_project\MISA.Hieu.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.pdb
