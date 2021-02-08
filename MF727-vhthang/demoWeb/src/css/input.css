@@ -1,0 +1,41 @@
+﻿.input1{
+    padding: 10px 16px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #bbbbbb;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: GoogleSans-Regular;
+}
+.input1:focus {
+   border: 1px solid #019160;
+   font-size:13px;
+
+}
+
+label{
+    font-family:'Google-Medium';
+    font-size:13px;
+    color:#000000;
+    padding-bottom:4px;
+}
+
+.input1 > option {
+    padding: 10px 16px !important;
+    font-size: 13px !important;
+    height: 40px !important;
+}
+.input1 option:hover {
+    background-color:#E9EBEE !important;
+    
+}
+.input1 > option:checked {
+    background-color: #019160 !important;
+    color: white !important;
+}
+.input-search {
+    padding-left: 40px;
+}
+

@@ -1,0 +1,116 @@
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\appsettings.Development.json
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\appsettings.json
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.CukCuk.Web.exe
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.CukCuk.Web.deps.json
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.json
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.dev.json
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.CukCuk.Web.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.CukCuk.Web.pdb
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Dapper.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Google.Protobuf.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MySql.Data.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Zstandard.Net.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Renci.SshNet.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.csprojAssemblyReference.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.GeneratedMSBuildEditorConfig.editorconfig
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfoInputs.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfo.cs
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CoreCompileInputs.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.Manifest.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.xml
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\scopedcss\bundle\MISA.CukCuk.Web.styles.css
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.RazorTargetAssemblyInfo.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CopyComplete
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.pdb
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.genruntimeconfig.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.BL.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.Common.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.DL.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.BL.pdb
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.Common.pdb
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.DL.pdb
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\appsettings.Development.json
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\appsettings.json
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.CukCuk.Web.exe
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.CukCuk.Web.deps.json
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.json
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.dev.json
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.CukCuk.Web.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.CukCuk.Web.pdb
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Dapper.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Google.Protobuf.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MySql.Data.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Zstandard.Net.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Renci.SshNet.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.BL.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.Common.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.DL.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.BL.pdb
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.Common.pdb
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\bin\Debug\net5.0\MISA.DL.pdb
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.csprojAssemblyReference.cache
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.GeneratedMSBuildEditorConfig.editorconfig
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfoInputs.cache
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfo.cs
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CoreCompileInputs.cache
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.Manifest.cache
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.xml
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\scopedcss\bundle\MISA.CukCuk.Web.styles.css
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.RazorTargetAssemblyInfo.cache
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CopyComplete
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.pdb
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.CukCuk.Web\obj\Debug\net5.0\MISA.CukCuk.Web.genruntimeconfig.cache

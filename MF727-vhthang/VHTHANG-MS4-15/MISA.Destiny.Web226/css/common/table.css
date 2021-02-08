@@ -1,0 +1,78 @@
+﻿.grid {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width:100%;
+    height: calc(100vh - 230px);
+}
+
+
+.grid .grid-header {
+    height: 56px;
+}
+
+    .grid .grid-content{
+        height: calc(100% - 25px);
+    }
+
+
+
+.grid table th {
+    border-bottom: 1px solid #bbbbbb;
+    text-align: left;
+}
+
+    .grid table th .cell {
+        padding: 15px 16px !important;
+    }
+
+.grid table td {
+    border-bottom: 1px solid #bbbbbb;
+    padding: 15px 16px !important;
+    text-align: left;
+    white-space: nowrap;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+
+.grid table th {
+    z-index: 1;
+    position: sticky;
+    background-color: #ffffff;
+    top: 0px;
+    left: 0;
+    padding-top: 22px !important;
+    font-weight: bold !important;
+}
+
+.grid tbody tr:nth-child(2n) {
+    background-color: #fafafa;
+}
+
+.grid tbody tr:hover:nth-child(2n) {
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+
+.tb1 tr:hover {
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+
+.grid table td span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.grid td div {
+    max-width: 200px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+

@@ -1,0 +1,32 @@
+﻿.grid{
+    display: grid;
+}
+
+.grid-dialog-container {
+    display: grid;
+    grid-template-columns: 180px auto auto;
+    grid-gap: 10px;
+}
+
+.grid-item1 {  
+    grid-area: 1 / 1 / span 10 / span 1;
+}
+
+.grid-item2 {
+    grid-column: 2 / span 2;
+}
+.grid-item3 {
+    grid-column: 1 / span 3;
+}
+
+
+.input1 {
+    margin:0px;
+}
+.grid-content {
+    display: grid;
+    grid-template-columns: auto 200px 60px;
+    grid-gap: 10px;
+}
+
+
