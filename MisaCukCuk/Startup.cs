@@ -43,13 +43,12 @@ namespace MisaCukCuk
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MisaCukCuk", Version = "v1" });
             });
 
-            // Note Review Code: Đây là config tầng data phụ thực hiện theo yêu cầu của anh
-            // tầng data chả luôn chả về mảng rỗng, thêm sửa xóa luôn trả về 1
+            // Note Review Code: Đây là config tầng data phụ thực hiện theo yêu cầu của anh Mạnh
+            // tầng data chả về data giả, thêm sửa xóa luôn trả về 1
             /*services.AddScoped((typeof(IDbContext<>)), (typeof(DbContextV2<>)));
             services.AddScoped((typeof(IOfficeRepository<>)), (typeof(MISA.DataLayer.DbContext2.OfficeRepositoryV2<>)));
             services.AddScoped((typeof(IPositionRepository<>)), (typeof(MISA.DataLayer.DbContext2.PositionRepositoryV2<>)));
-            services.AddScoped((typeof(IEmployeeRepository<>)), (typeof(MISA.DataLayer.DbContext2.EmployeeRepositoryV2<>)));
-            services.AddScoped((typeof(IBaseService<>)), (typeof(BaseService<>)));*/
+            services.AddScoped((typeof(IEmployeeRepository<>)), (typeof(MISA.DataLayer.DbContext2.EmployeeRepositoryV2<>)));*/
 
             // Note Review Code: Đây là config tầng data chính
             // đầy đủ các chức năng thêm sửa xóa.
@@ -57,7 +56,7 @@ namespace MisaCukCuk
             services.AddScoped((typeof(IOfficeRepository<>)), (typeof(MISA.DataLayer.DbContext1.OfficeRepository<>)));
             services.AddScoped((typeof(IPositionRepository<>)), (typeof(MISA.DataLayer.DbContext1.PositionRepository<>)));
             services.AddScoped((typeof(IEmployeeRepository<>)), (typeof(MISA.DataLayer.DbContext1.EmployeeRepository<>)));
-            
+
             //Config tầng service
             services.AddScoped((typeof(IBaseService<>)), (typeof(BaseService<>)));
             services.AddScoped<IEmployeeService, EmployeeService>();
