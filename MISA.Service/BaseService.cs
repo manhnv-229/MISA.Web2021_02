@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MISA.Service
 {
-    public class BaseService : IBaseService<T>
+    public class BaseService<T> : IBaseService<T>
     {
         public ServiceResult DeleteEntityById<T>(string id)
         {
