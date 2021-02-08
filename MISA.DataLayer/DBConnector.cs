@@ -4,23 +4,30 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using Dapper;
+using Microsoft.Extensions.Configuration;
 using MySql.Data.MySqlClient;
 
 namespace MISA.DataLayer
 {
-    public class DBConnector<TEntity>
+    public class DBConnector<TEntity> : IDBConnector<TEntity>
     {
         #region DECLARE
-        /// <summary>
-        /// Tạo kết nối
-        /// </summary>
-        protected static string _connectionString = "Host=103.124.92.43;Port=3306; User Id=nvmanh;Password=12345678;Database=MS2_30_Trinh_CukCuk;Character Set=utf8";
+        IConfiguration _configuration;
+        IDbConnection _db;
+        string _connectionString;
+        //string _connectionString = "Host=103.124.92.43;Port=3306; User Id=nvmanh;Password=12345678;Database=MS2_30_Trinh_CukCuk;Character Set=utf8";
         #endregion
 
         #region Constructor
-        protected IDbConnection _db;
-        public DBConnector()
+        //protected IDbConnection _db;
+        //public DBConnector()
+        //{
+        //    _db = new MySqlConnection(_connectionString);
+        //}
+        public DBConnector(IConfiguration configuration)
         {
+            _configuration = configuration;
+            _connectionString = _configuration.GetConnectionString("TXTConnection");
             _db = new MySqlConnection(_connectionString);
         }
         #endregion

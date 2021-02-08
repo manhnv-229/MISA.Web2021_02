@@ -7,12 +7,20 @@ using Microsoft.AspNetCore.Mvc;
 using MISA.DataLayer;
 using MISA.Common.Models;
 using MISA.Services;
+using MISA.Service.Interface;
 
 namespace MISA_API_Demo.Controllers
 {
     public class EmployeesController : BaseEntityController<Employee>
     {
-
+        #region DECLARE
+        #endregion
+        #region Constructor
+        public EmployeesController(IEmployeeService employeeService) : base(employeeService)
+        {
+        }
+        #endregion
+        #region Method
         /// <summary>
         /// Tạo mới nhân viên
         /// </summary>
@@ -80,5 +88,6 @@ namespace MISA_API_Demo.Controllers
                 MISACode = EnumCodes.Success,
             });
         }
+        #endregion
     }
 }

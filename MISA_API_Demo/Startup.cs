@@ -1,9 +1,11 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -11,7 +13,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MISA.Common.Models;
 using MISA.DataLayer;
+using MISA.Service;
+using MISA.Service.Interface;
+using MISA.Services;
 using Newtonsoft.Json.Serialization;
 
 namespace MISA_API_Demo
@@ -31,6 +37,12 @@ namespace MISA_API_Demo
             //DBConnector.connectionString = Configuration.GetConnectionString("TXTConnection");
             //services.AddControllers();
             services.AddCors();
+
+            // Cấu hình DI
+            services.AddScoped(typeof(IDBConnector<>), typeof(DBConnectorV2<>));
+            services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
+            services.AddScoped<ICustomerService, CustomerService>();
+
             services.AddSwaggerGen(c =>
                 {
                     c.SwaggerDoc("v1", new OpenApiInfo{
@@ -62,16 +74,20 @@ namespace MISA_API_Demo
                     c.RoutePrefix = "swagger";
                 });
 
-            // X? l� exeption chung
-            //app.UseExceptionHandler(appError =>
-            //{
-            //    appError.Run(async context =>
-            //    {
-                    
-            //    });
-            //});
-
             app.UseHttpsRedirection();
+
+            // Xử lí exeption chung
+            app.UseExceptionHandler(a => a.Run(async context =>
+            {
+                var exceptionHandlerPathFeature = context.Features.Get<IExceptionHandlerPathFeature>();
+                var exception = exceptionHandlerPathFeature.Error;
+
+                var serviceResult = new ErroMsg();
+                serviceResult.DevMsg = exception.Message;
+                serviceResult.UserMsg.Add(MISA.Common.Properties.Resources.ExceptionMsg);
+                await context.Response.WriteAsync(serviceResult.DevMsg);
+                await context.Response.WriteAsync(serviceResult.UserMsg.ToString());
+            }));
 
             app.UseRouting();
 

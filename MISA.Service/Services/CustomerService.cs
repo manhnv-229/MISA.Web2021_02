@@ -5,19 +5,24 @@ using System.Threading.Tasks;
 using MISA.DataLayer;
 using MISA.Common.Models;
 using MISA.Service;
+using MISA.Service.Interface;
 
 namespace MISA.Services
 {
-    public class CustomerService:BaseService<Customer>
+    public class CustomerService:BaseService<Customer>, ICustomerService
     {
+        #region DECLARE
         CustomerRepositoty _dBConnector;
         ActionServiceResult _actionServiceResult;
-        public CustomerService()
+        #endregion
+        #region Constructor
+        public CustomerService(IDBConnector<Customer> dbContext) : base(dbContext)
         {
             _dBConnector = new CustomerRepositoty();
             _actionServiceResult = new ActionServiceResult();
         }
-
+        #endregion
+        #region Method
         /// <summary>
         /// Thêm mới khách hàng
         /// </summary>
@@ -131,5 +136,6 @@ namespace MISA.Services
                 }
             }
         }
+        #endregion
     }
 }

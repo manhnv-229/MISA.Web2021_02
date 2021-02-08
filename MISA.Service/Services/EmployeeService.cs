@@ -11,14 +11,18 @@ namespace MISA.Services
 {
     public class EmployeeService: BaseService<Employee>
     {
+        #region DECLARE
         EmployeeRepositoty _dBConnector;
         ActionServiceResult _actionServiceResult;
+        #endregion
+        #region Constructor
         public EmployeeService()
         {
             _dBConnector = new EmployeeRepositoty();
             _actionServiceResult = new ActionServiceResult();
         }
-
+        #endregion
+        #region Method
         /// <summary>
         /// Thêm mới nhân viên
         /// </summary>
@@ -127,5 +131,6 @@ namespace MISA.Services
                 }
             }
         }
+        #endregion
     }
 }

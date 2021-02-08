@@ -9,11 +9,21 @@ using MISA.DataLayer;
 using MISA.Common.Models;
 using MISA.Services;
 using MySql.Data.MySqlClient;
+using MISA.Service.Interface;
 
 namespace MISA_API_Demo.Controllers
 {
-    public class CustomersController : BaseEntityController<Customer>
+    public class CustomersController: BaseEntityController<Customer>
     {
+        #region DECLARE
+        CustomerService customerService;
+        #endregion
+        #region Constructor
+        public CustomersController(ICustomerService customerService) : base(customerService)
+        {
+        }
+        #endregion
+        #region Method
         /// <summary>
         /// Thêm mới khách hàng
         /// </summary>
@@ -63,5 +73,6 @@ namespace MISA_API_Demo.Controllers
                     return NoContent();
             }
         }
+        #endregion
     }
 }

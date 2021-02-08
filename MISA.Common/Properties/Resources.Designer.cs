@@ -97,6 +97,15 @@ namespace MISA.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Có lỗi xảy ra! Vui lòng liên hệ MISA!.
+        /// </summary>
+        public static string ExceptionMsg {
+            get {
+                return ResourceManager.GetString("ExceptionMsg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Thành công.
         /// </summary>
         public static string SuccessMsg {

@@ -129,6 +129,9 @@
   <data name="ErrorRequired" xml:space="preserve">
     <value>không được phép để trống. </value>
   </data>
+  <data name="ExceptionMsg" xml:space="preserve">
+    <value>Có lỗi xảy ra! Vui lòng liên hệ MISA!</value>
+  </data>
   <data name="SuccessMsg" xml:space="preserve">
     <value>Thành công</value>
   </data>

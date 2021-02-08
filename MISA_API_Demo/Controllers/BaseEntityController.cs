@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using MISA.DataLayer;
 using MISA.Common.Models;
 using MISA.Service;
+using MISA.Service.Interface;
 
 namespace MISA_API_Demo.Controllers
 {
@@ -14,17 +15,23 @@ namespace MISA_API_Demo.Controllers
     [ApiController]
     public class BaseEntityController<TEntity> : ControllerBase
     {
-        protected DBConnector<TEntity> _db;
-        protected BaseService<TEntity> _base;
+        #region DECLARE
+        protected IDBConnector<TEntity> _db;
+        protected IBaseService<TEntity> _base;
+        #endregion
 
+        #region Constructor
         /// <summary>
         /// Khởi tạo kết nối tới DB
         /// </summary>
-        public BaseEntityController()
+        public BaseEntityController(IBaseService<TEntity> baseService, IDBConnector<TEntity> dbconnection)
         {
-            _base = new BaseService<TEntity>();
-            _db = new DBConnector<TEntity>();
+            _base = baseService;
+           _db = dbconnection;
         }
+        #endregion
+
+        #region Method
         /// <summary>
         /// Lấy danh sách khách hàng
         /// </summary>
@@ -161,5 +168,6 @@ namespace MISA_API_Demo.Controllers
                 MISACode = EnumCodes.Success,
             });
         }
+        #endregion
     }
 }
