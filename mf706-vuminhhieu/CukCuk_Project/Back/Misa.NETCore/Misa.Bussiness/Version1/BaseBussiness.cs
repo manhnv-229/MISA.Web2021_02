@@ -142,6 +142,33 @@ namespace Misa.Bussiness.Version1
         }
 
         /// <summary>
+        /// Lấy ra 1 đối tượng theo ID 
+        /// </summary>
+        /// <returns>ServiceResult</returns>
+        /// create 5/2/2021
+        public async Task<ServiceResult> GetById(string id)
+        {
+            var result = await _baseData.GetById(id);
+            ServiceResult serviceResult = new ServiceResult();
+            if (result != null)
+            {
+                serviceResult.MISACukCukCode = MISACukCukServiceCode.Success;
+            }
+            else
+            {
+                serviceResult.MISACukCukCode = MISACukCukServiceCode.Exception;
+                serviceResult.Error.Add(new ErrorResult()
+                {
+                    DevMsg = Properties.Resources.ErrorServive_Employee_GetData,
+                    UserMsg = Properties.Resources.ErrorServive_Employee_GetData
+
+                });
+            }
+            return serviceResult;
+
+        }
+
+        /// <summary>
         /// Kiểm tra tính hợp lệ của dữ liệu
         /// </summary>
         /// <param name="entity"> thông tin đối tượng</param>
@@ -195,9 +222,9 @@ namespace Misa.Bussiness.Version1
                     }
                 }
                 //Nếu có attribute là [FixLength] thì thực hiện kiểm độ dài
-                if (property.IsDefined(typeof(MaxLength), true))
+                if (property.IsDefined(typeof(FixLength), true))
                 {
-                    var requiredAttribute = property.GetCustomAttributes(typeof(MaxLength), true).FirstOrDefault();
+                    var requiredAttribute = property.GetCustomAttributes(typeof(FixLength), true).FirstOrDefault();
                     if (requiredAttribute != null)
                     {
                         var propertyText = (requiredAttribute as FixLength).PropertyName;

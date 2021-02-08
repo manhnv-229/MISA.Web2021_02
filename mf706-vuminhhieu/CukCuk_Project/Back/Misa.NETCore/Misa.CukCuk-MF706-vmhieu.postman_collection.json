@@ -431,11 +431,23 @@
 		},
 		{
 			"name": "https://localhost:44339/api/employee/allFull",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"fullName\": \"Hiếu Minh Vũ6\",\r\n            \"dateOfBirth\": \"1975-09-02T00:00:00\",\r\n            \"gender\": 2,\r\n            \"identityCardNumber\": \"30166499786433\",\r\n            \"identityDate\": \"2007-03-10T00:00:00\",\r\n            \"identityPlace\": \"622 Edgewood Ct, Madison, WI, 63307\",\r\n            \"email\": \"Simone_G_Lik123@example.com\",\r\n            \"phoneNumber\": \"(958) 256-3255\",\r\n            \"positionId\": \"19165ed7-212e-21c4-0428-030d4265475f\",\r\n            \"departmentId\": \"43a6bdf5-1b6b-451b-3695-2c566fa88632\",\r\n            \"taxCode\": \"786091866785\",\r\n            \"salary\": 65560409,\r\n            \"dateJoin\": \"1996-09-13T00:00:00\",\r\n            \"workStatus\": 1\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "https://localhost:44339/api/employee/allFull",
+					"raw": "https://localhost:44339/api/employee/fullAll",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -444,7 +456,7 @@
 					"path": [
 						"api",
 						"employee",
-						"allFull"
+						"fullAll"
 					]
 				},
 				"description": "Lấy toàn bộ danh sách nhân viên + tên phòng ban, tên vị trí"

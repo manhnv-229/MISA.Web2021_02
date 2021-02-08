@@ -26,6 +26,8 @@ namespace Misa.Bussiness.Interfaces
         /// create 4/2/2021
         public Task<ServiceResult> GetData(PageRequestBase pageRequestBase);
 
+        
+
 
         /// <summary>
         /// thêm mới đối tượng - kỹ thuật DI
@@ -52,7 +54,20 @@ namespace Misa.Bussiness.Interfaces
 
         public Task<ServiceResult> Delete(string id);
 
+        /// <summary>
+        /// Lấy ra 1 đối tượng theo ID  - kỹ thuật DI
+        /// </summary>
+        /// <returns>ServiceResult</returns>
+        /// create 5/2/2021
+        public Task<ServiceResult> GetById(string id);
 
+
+        /// <summary>
+        /// Vdidate dữ liệu 
+        /// </summary>
+        /// <param name="serviceResult"></param>
+        /// <param name="entity"></param>
+        /// create: 8/2/2021
         public void ValidateObject(ref ServiceResult serviceResult, T entity);
     }
 }

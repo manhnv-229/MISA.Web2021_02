@@ -128,7 +128,7 @@ namespace Misa.Bussiness.Version1
         {
             ServiceResult serviceResult = new ServiceResult();
             _baseBussiness.ValidateObject(ref serviceResult, employee);
-            var oldEmployee =await _employeeData.GetById(employee.EmployeeId);
+            var oldEmployee = (await _baseBussiness.GetById(employee.EmployeeId.ToString())).Data as Employee;
             
             // check mã nhân viên có bị trùng
             if (employee.EmployeeCode != oldEmployee.EmployeeCode)

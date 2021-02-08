@@ -62,6 +62,34 @@ namespace Misa.Bussiness.Version2
             };
         }
 
+        // <summary>
+        /// Lấy ra 1 đối tượng theo ID 
+        /// </summary>
+        /// <returns>ServiceResult</returns>
+        /// create 5/2/2021
+        public async Task<ServiceResult> GetById(string id)
+        {
+            var result = await _baseData.GetById(id);
+            ServiceResult serviceResult = new ServiceResult();
+            if (result != null)
+            {
+                serviceResult.Data = result;
+                serviceResult.MISACukCukCode = MISACukCukServiceCode.Success;
+            }
+            else
+            {
+                serviceResult.MISACukCukCode = MISACukCukServiceCode.Exception;
+                serviceResult.Error.Add(new ErrorResult()
+                {
+                    DevMsg = Properties.Resources.ErrorServive_Employee_GetData,
+                    UserMsg = Properties.Resources.ErrorServive_Employee_GetData
+
+                });
+            }
+            return serviceResult;
+
+        }
+
         /// <summary>
         /// Thêm mới đối tượng
         /// </summary>
@@ -174,5 +202,6 @@ namespace Misa.Bussiness.Version2
                 }
             }
         }
+       
     }
 }
