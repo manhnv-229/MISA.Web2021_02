@@ -42,9 +42,9 @@ namespace MISA.CukCuk.Web
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MISA.CukCuk.Web", Version = "v1" });
             });
-            /*services.AddScoped<IDbConnector, DbConnector>(); // inject interface*/
-            services.AddScoped<IDbConnector, DbConnectorV2>(); // inject interface
-            services.AddScoped<IEmployeeService, EntityService>(); // inject interface
+            services.AddScoped<IDbConnector, DbConnector>(); // inject interface
+            /* services.AddScoped<IDbConnector, DbConnectorV2>(); // inject interface*/
+            services.AddScoped<IEmployeeService, EmployeeService>(); // inject interface
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

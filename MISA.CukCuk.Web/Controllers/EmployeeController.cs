@@ -24,7 +24,8 @@ namespace MISA.CukCuk.Web.Controllers
             // check trung ma khach hang
             try
             {
-                var res = _employeeService.InsertEntity<Employee>(entity);
+                
+                var res = _employeeService.InsertEntity(entity);
                 switch (res.Code)
                 {
                     case EnumPattern.BadRequest:
@@ -50,7 +51,7 @@ namespace MISA.CukCuk.Web.Controllers
         }
         public override IActionResult Put([FromBody] Employee entity)
         {
-            var res = _employeeService.ModifiedEntity<Employee>(entity, entity.EmployeeId.ToString());
+            var res = _employeeService.ModifiedEntity(entity, entity.EmployeeId.ToString());
             switch (res.Code)
             {
                 case EnumPattern.BadRequest:

@@ -34,7 +34,7 @@ namespace MISA.CukCuk.Web.Controllers
         public IActionResult Get()
         {
       
-            return Ok(_employeeService.GetAllData<T>());
+            return Ok(_employeeService.GetAllData());
         }
         /// <summary>
         /// Lấy danh sách các đối tượng theo Page
@@ -46,7 +46,7 @@ namespace MISA.CukCuk.Web.Controllers
         [HttpGet("paging")]
         public IActionResult GetEmployeePaging([FromQuery] int pageNumber = 1, [FromQuery] int limit = 50)
         {
-            return Ok(_employeeService.GetAllData<T>(pageNumber,limit).Data);
+            return Ok(_employeeService.GetAllData(pageNumber,limit).Data);
         }
         /// <summary>
         /// Lấy mã đối tượng lớn nhất
@@ -56,7 +56,7 @@ namespace MISA.CukCuk.Web.Controllers
         [HttpGet("maxcode")]
         public IActionResult GetMaxCode()
         {
-            return Ok(_employeeService.GetMaxCode<T>());
+            return Ok(_employeeService.GetMaxCode());
         }
 
         /// <summary>
@@ -69,7 +69,7 @@ namespace MISA.CukCuk.Web.Controllers
         public IActionResult GetAllEmployeeByPosition([FromQuery]string positionName)
         {
 
-            return Ok(_employeeService.GetAllEmployeeByPosition<T>(positionName));
+            return Ok(_employeeService.GetAllEmployeeByPosition(positionName));
         }
         /// <summary>
         /// Lấy danh sahs đối tượng theo phòng ban
@@ -81,7 +81,7 @@ namespace MISA.CukCuk.Web.Controllers
         public IActionResult GetAllEmployeeByDepartmentPosition([FromQuery]string departmentName)
         {
 
-            return Ok(_employeeService.GetAllEmployeeByDepartment<T>(departmentName));
+            return Ok(_employeeService.GetAllEmployeeByDepartment(departmentName));
         }
         /// <summary>
         /// Search danh sách đối tượng theo keyword
@@ -93,7 +93,7 @@ namespace MISA.CukCuk.Web.Controllers
         public IActionResult SearchOther([FromQuery] string searchText, [FromQuery] Guid? departmentId, [FromQuery] Guid? positionId)
         {
 
-            return Ok(_employeeService.SearchOther<T>(searchText, departmentId, positionId));
+            return Ok(_employeeService.SearchOther(searchText, departmentId, positionId));
         }
         /// <summary>
         /// Trả về danh sách đối tượng theo phòng ban và vị trí/ chức vụ
@@ -105,7 +105,7 @@ namespace MISA.CukCuk.Web.Controllers
         [HttpGet("filters")]
         public IActionResult SearchOther([FromQuery]string postionName = " ",[FromQuery] string departmentName = " ")
         {
-            return Ok(_employeeService.SearchOther<T>(postionName, departmentName));
+            return Ok(_employeeService.SearchOther(postionName, departmentName));
             
         }
         /// <summary>
@@ -118,7 +118,7 @@ namespace MISA.CukCuk.Web.Controllers
         public IActionResult Get(string id)
         {
 
-            return Ok(_employeeService.GetEntityById<T>(id));
+            return Ok(_employeeService.GetEntityById(id));
         }
 
         /// <summary>
@@ -174,8 +174,7 @@ namespace MISA.CukCuk.Web.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteById(string id)
         {
-
-            return Ok(_employeeService.DeleteEntityById<T>(id));
+            return Ok(_employeeService.DeleteEntityById(id));
         }
         #endregion
     }

@@ -15,14 +15,14 @@ using MISA.Service.interfaces;
 namespace MISA.CukCuk.Web.Controllers
 {
    
-    public class CustomersController : BaseEntityController<Customer>
+   /* public class CustomersController : BaseEntityController<Customer>
     {
-        public CustomersController(IEmployeeService employeeService) : base(employeeService)
+        *//*public CustomersController(ICustomerService customerService) : base(customerService)
         {
         }
         public override IActionResult Post([FromBody] Customer entity)
         {  
-            var res = _employeeService.InsertEntity<Customer>(entity);
+            var res = _employeeService.InsertEntity(entity);
             switch (res.Code)
             {
                 case EnumPattern.BadRequest:
@@ -39,8 +39,8 @@ namespace MISA.CukCuk.Web.Controllers
             }
 
 
-        }
+        }*//*
 
 
-    }
+    }*/
 }

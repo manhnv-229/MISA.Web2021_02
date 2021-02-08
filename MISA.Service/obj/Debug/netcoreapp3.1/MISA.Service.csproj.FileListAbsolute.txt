@@ -12,3 +12,17 @@ D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\obj\Debug\
 D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.csproj.CopyComplete
 D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.dll
 D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.pdb
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Service.deps.json
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Service.dll
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Service.pdb
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Common.dll
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\bin\Debug\netcoreapp3.1\MISA.DataLayer.dll
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\bin\Debug\netcoreapp3.1\MISA.DataLayer.pdb
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.csprojAssemblyReference.cache
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.AssemblyInfoInputs.cache
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.AssemblyInfo.cs
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.csproj.CoreCompileInputs.cache
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.csproj.CopyComplete
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.dll
+C:\Users\phamn\source\repos\WDT2020\phamngocthuan\MISA.Web2021_02\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.pdb

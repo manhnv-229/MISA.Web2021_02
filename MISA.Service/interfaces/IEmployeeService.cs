@@ -15,14 +15,14 @@ namespace MISA.Service.interfaces
         /// <param name="limit">Giới hạn bản ghi</param>
         /// <returns></returns>
         /// Created by PN Thuận : 6/2/2021
-        ServiceResult GetAllData<T>(int pageNumber, int limit);
+        ServiceResult GetAllData(int pageNumber, int limit);
         /// <summary>
         /// Trả về mã lớn nhất của đối tượng
         /// </summary>
         /// <typeparam name="T">Kiểu dữ liệu truyền vào</typeparam>
         /// <returns></returns>
         /// Created by PN Thuận : 6/2/2021
-        ServiceResult GetMaxCode<T>();
+        ServiceResult GetMaxCode();
         /// <summary>
         /// Trả về danh sách các đối tượng theo vị trí, chức vụ
         /// </summary>
@@ -30,7 +30,7 @@ namespace MISA.Service.interfaces
         /// <param name="position">Tên vị trí, chức vụ</param>
         /// <returns></returns>
         /// Created by PN Thuận : 6/2/2021
-        ServiceResult GetAllEmployeeByPosition<T>(string position);
+        ServiceResult GetAllEmployeeByPosition(string position);
         /// <summary>
         /// Trả vè danh sách các đối tượng theo phòng ban
         /// </summary>
@@ -38,7 +38,7 @@ namespace MISA.Service.interfaces
         /// <param name="department">Tên phòng ban</param>
         /// <returns></returns>
         /// Created by PN Thuận : 6/2/2021
-        ServiceResult GetAllEmployeeByDepartment<T>(string department);
+        ServiceResult GetAllEmployeeByDepartment(string department);
         /// <summary>
         /// Lọc danh sách các đối tượng theo Mã, Họ tên, Số điện thoại, Vị trí/ Chức vụ, Phòng ban
         /// </summary>
@@ -48,7 +48,7 @@ namespace MISA.Service.interfaces
         /// <param name="position">Id vị trí/chức vu || Null</param>
         /// <returns></returns>
         /// Created by PN Thuận : 6/2/2021
-        ServiceResult SearchOther<T>(string searchText, Guid? department, Guid? position);
+        ServiceResult SearchOther(string searchText, Guid? department, Guid? position);
         /// <summary>
         /// Lọc sánh sách các đối tượng theo vị trí/ chức vụ và phòng ban
         /// </summary>
@@ -57,7 +57,7 @@ namespace MISA.Service.interfaces
         /// <param name="departmentName">Tên phòng ban</param>
         /// <returns></returns>
         /// Created by PN Thuận : 6/2/2021
-        ServiceResult SearchOther<T>(string positionName, string departmentName);
+        ServiceResult SearchOther(string positionName, string departmentName);
         /// <summary>
         /// Lấy thông tin đối tượng theo Id
         /// </summary>
@@ -65,7 +65,7 @@ namespace MISA.Service.interfaces
         /// <param name="id">Id của đối tượng</param>
         /// <returns></returns>
         /// Created by PN Thuận : 6/2/2021
-        ServiceResult GetEntityById<T>(string id);
+        ServiceResult GetEntityById(string id);
         /// <summary>
         /// Thêm đối tượng vào danh sách
         /// </summary>
