@@ -1,0 +1,12 @@
+D:\ThucTapMiSa\FresherProject.API\FresherProject.DataLayer\bin\Debug\netcoreapp3.1\FresherProject.Common.dll
+D:\ThucTapMiSa\FresherProject.API\FresherProject.DataLayer\obj\Debug\netcoreapp3.1\FresherProject.DataLayer.csprojAssemblyReference.cache
+D:\ThucTapMiSa\FresherProject.API\FresherProject.DataLayer\obj\Debug\netcoreapp3.1\FresherProject.DataLayer.AssemblyInfoInputs.cache
+D:\ThucTapMiSa\FresherProject.API\FresherProject.DataLayer\obj\Debug\netcoreapp3.1\FresherProject.DataLayer.AssemblyInfo.cs
+D:\ThucTapMiSa\FresherProject.API\FresherProject.DataLayer\bin\Debug\netcoreapp3.1\FresherProject.DataLayer.deps.json
+D:\ThucTapMiSa\FresherProject.API\FresherProject.DataLayer\bin\Debug\netcoreapp3.1\FresherProject.DataLayer.dll
+D:\ThucTapMiSa\FresherProject.API\FresherProject.DataLayer\bin\Debug\netcoreapp3.1\FresherProject.DataLayer.pdb
+D:\ThucTapMiSa\FresherProject.API\FresherProject.DataLayer\bin\Debug\netcoreapp3.1\FresherProject.Common.pdb
+D:\ThucTapMiSa\FresherProject.API\FresherProject.DataLayer\obj\Debug\netcoreapp3.1\FresherProject.DataLayer.csproj.CoreCompileInputs.cache
+D:\ThucTapMiSa\FresherProject.API\FresherProject.DataLayer\obj\Debug\netcoreapp3.1\FresherProject.DataLayer.csproj.CopyComplete
+D:\ThucTapMiSa\FresherProject.API\FresherProject.DataLayer\obj\Debug\netcoreapp3.1\FresherProject.DataLayer.dll
+D:\ThucTapMiSa\FresherProject.API\FresherProject.DataLayer\obj\Debug\netcoreapp3.1\FresherProject.DataLayer.pdb

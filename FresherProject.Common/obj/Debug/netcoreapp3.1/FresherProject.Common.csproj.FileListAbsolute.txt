@@ -1,0 +1,9 @@
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Common\bin\Debug\netcoreapp3.1\FresherProject.Common.deps.json
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Common\bin\Debug\netcoreapp3.1\FresherProject.Common.dll
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Common\bin\Debug\netcoreapp3.1\FresherProject.Common.pdb
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Common\obj\Debug\netcoreapp3.1\FresherProject.Common.csprojAssemblyReference.cache
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Common\obj\Debug\netcoreapp3.1\FresherProject.Common.AssemblyInfoInputs.cache
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Common\obj\Debug\netcoreapp3.1\FresherProject.Common.AssemblyInfo.cs
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Common\obj\Debug\netcoreapp3.1\FresherProject.Common.csproj.CoreCompileInputs.cache
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Common\obj\Debug\netcoreapp3.1\FresherProject.Common.dll
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Common\obj\Debug\netcoreapp3.1\FresherProject.Common.pdb
