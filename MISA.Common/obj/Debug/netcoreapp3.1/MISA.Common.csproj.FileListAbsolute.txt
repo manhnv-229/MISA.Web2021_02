@@ -1,0 +1,11 @@
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.deps.json
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.dll
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.dll
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.pdb
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csproj.GenerateResource.cache
