@@ -10,10 +10,10 @@ namespace AplicationCore.Services
 {
     public class CustomerService : BaseService<Customer>, ICustomerService
     {
-        ICustomerRepository _customerRepository;
-        public CustomerService(ICustomerRepository customerRepository) : base(customerRepository)
+        IBaseRepository<Customer> _baseRepository;
+        public CustomerService(IBaseRepository<Customer> baseRepository) : base(baseRepository)
         {
-            _customerRepository = customerRepository;
+            _baseRepository = baseRepository;
         }
         public override bool Validate(Customer customer, ErrorMsg errorMsg = null, string id = null)
         {
@@ -38,12 +38,12 @@ namespace AplicationCore.Services
                 isValid = false;
             }
             
-            var customerByCode = _customerRepository.Get($"Select * from Customer Where CustomerCode = '{customer.CustomerCode}'").FirstOrDefault();
-            var customerByPhone = _customerRepository.Get($"Select * from Customer Where PhoneNumber = '{customer.PhoneNumber}'").FirstOrDefault();
+            var customerByCode = _baseRepository.Get($"Select * from Customer Where CustomerCode = '{customer.CustomerCode}'").FirstOrDefault();
+            var customerByPhone = _baseRepository.Get($"Select * from Customer Where PhoneNumber = '{customer.PhoneNumber}'").FirstOrDefault();
             // Xử lý valy date các trường cho update
             if(id != null)
             {
-                var customerById = _customerRepository.Get($"Select * from Customer Where CustomerId = '{id}'").FirstOrDefault();
+                var customerById = _baseRepository.Get($"Select * from Customer Where CustomerId = '{id}'").FirstOrDefault();
                 if (customerByCode != null && customerByCode.CustomerCode != customerById.CustomerCode)
                 {
                     if (errorMsg != null)
