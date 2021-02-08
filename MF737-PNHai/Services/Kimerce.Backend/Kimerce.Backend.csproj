@@ -1,0 +1,149 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\C#\Kimerce\Services\Kimerce.Backend\Kimerce.Backend.xml</DocumentationFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200113090228_kimerce.1.20.02.01.cs" />
+    <Compile Remove="Migrations\20200113090228_kimerce.1.20.02.01.Designer.cs" />
+    <Compile Remove="Migrations\20200114075352_Kimerce.1.20.14.01.cs" />
+    <Compile Remove="Migrations\20200114075352_Kimerce.1.20.14.01.Designer.cs" />
+    <Compile Remove="Migrations\20200114075944_Kimerce.1.2020.01.14.1.cs" />
+    <Compile Remove="Migrations\20200114075944_Kimerce.1.2020.01.14.1.Designer.cs" />
+    <Compile Remove="Migrations\20200114090059_Kimerce.1.20.1.2.cs" />
+    <Compile Remove="Migrations\20200114090059_Kimerce.1.20.1.2.Designer.cs" />
+    <Compile Remove="Migrations\20200114092815_Kimerce.1.20.14.01.3.cs" />
+    <Compile Remove="Migrations\20200114092815_Kimerce.1.20.14.01.3.Designer.cs" />
+    <Compile Remove="Migrations\20200115074844_kimerce.1.20.01.1.cs" />
+    <Compile Remove="Migrations\20200115074844_kimerce.1.20.01.1.Designer.cs" />
+    <Compile Remove="Migrations\20200115080325_kimerce.1.20.01.2.cs" />
+    <Compile Remove="Migrations\20200115080325_kimerce.1.20.01.2.Designer.cs" />
+    <Compile Remove="Migrations\20200117070544_Kimerce.17.1.2020.1.cs" />
+    <Compile Remove="Migrations\20200117070544_Kimerce.17.1.2020.1.Designer.cs" />
+  </ItemGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Kimerce.Backend.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200129195555_kimerce.01.20.01.16.cs" />
+    <Compile Remove="Migrations\20200129195555_kimerce.01.20.01.16.Designer.cs" />
+    <Compile Remove="Migrations\20200131015412_kimerce.01.20.01.17.cs" />
+    <Compile Remove="Migrations\20200131015412_kimerce.01.20.01.17.Designer.cs" />
+    <Compile Remove="Migrations\20200206111035_Kimerce.1.20.2.1.cs" />
+    <Compile Remove="Migrations\20200206111035_Kimerce.1.20.2.1.Designer.cs" />
+    <Compile Remove="Migrations\20200206114415_Kimerce.1.20.2.1.cs" />
+    <Compile Remove="Migrations\20200206114415_Kimerce.1.20.2.1.Designer.cs" />
+    <Compile Remove="Migrations\20200206120051_Kimerce.1.20.2.1.cs" />
+    <Compile Remove="Migrations\20200206120051_Kimerce.1.20.2.1.Designer.cs" />
+    <Compile Remove="Migrations\20200212165329_kimerce.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200212165329_kimerce.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200212165748_kimerce.1.20.2.3.cs" />
+    <Compile Remove="Migrations\20200212165748_kimerce.1.20.2.3.Designer.cs" />
+    <Compile Remove="Migrations\20200212165958_kimerce.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200212165958_kimerce.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200212170627_kimerce.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200212170627_kimerce.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200212170934_kimerce.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200212170934_kimerce.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200212171157_kimerce.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200212171157_kimerce.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200212172755_kimerce.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200212172755_kimerce.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200212173555_kimerce.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200212173555_kimerce.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200212194718_kimerce.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200212194718_kimerce.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200212195009_kimerce.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200212195009_kimerce.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200212200325_kimerce.1.20.2.3.cs" />
+    <Compile Remove="Migrations\20200212200325_kimerce.1.20.2.3.Designer.cs" />
+    <Compile Remove="Migrations\20200213075404_1.cs" />
+    <Compile Remove="Migrations\20200213075404_1.Designer.cs" />
+    <Compile Remove="Migrations\20200213075510_2.cs" />
+    <Compile Remove="Migrations\20200213075510_2.Designer.cs" />
+    <Compile Remove="Migrations\20200213075624_2.cs" />
+    <Compile Remove="Migrations\20200213075624_2.Designer.cs" />
+    <Compile Remove="Migrations\20200213075832_2.cs" />
+    <Compile Remove="Migrations\20200213075832_2.Designer.cs" />
+    <Compile Remove="Migrations\20200213103112_kimerce.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200213103112_kimerce.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200213103809_kimerce.1.20.2.1.cs" />
+    <Compile Remove="Migrations\20200213103809_kimerce.1.20.2.1.Designer.cs" />
+    <Compile Remove="Migrations\20200221034625_Kimere.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200221034625_Kimere.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200221045511_Kimere.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200221045511_Kimere.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200221045809_Kimere.1.20.2.3.cs" />
+    <Compile Remove="Migrations\20200221045809_Kimere.1.20.2.3.Designer.cs" />
+    <Compile Remove="Migrations\20200221050025_Kimere.1.20.2.1.cs" />
+    <Compile Remove="Migrations\20200221050025_Kimere.1.20.2.1.Designer.cs" />
+    <Compile Remove="Migrations\20200221062052_Kimere.1.20.2.2.cs" />
+    <Compile Remove="Migrations\20200221062052_Kimere.1.20.2.2.Designer.cs" />
+    <Compile Remove="Migrations\20200221062313_Kimere.1.20.2.1.cs" />
+    <Compile Remove="Migrations\20200221062313_Kimere.1.20.2.1.Designer.cs" />
+    <Compile Remove="Migrations\20200228030708_Kimerce.1.28.2.20.1.cs" />
+    <Compile Remove="Migrations\20200228030708_Kimerce.1.28.2.20.1.Designer.cs" />
+    <Compile Remove="Migrations\20200229153540_Kimerce.1.20.2.1.cs" />
+    <Compile Remove="Migrations\20200229153540_Kimerce.1.20.2.1.Designer.cs" />
+    <Compile Remove="Migrations\20210208031645_required-data.cs" />
+    <Compile Remove="Migrations\20210208031645_required-data.Designer.cs" />
+  </ItemGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Kimerce.Backend.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Commands\ProductCategoryCommands\" />
+    <Folder Include="Application\Events\ProductCategoryEvents\" />
+    <Folder Include="Infrastructure\Logs\" />
+    <Folder Include="Infrastructure\Exceptions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="DataAnnotationsExtensions" Version="5.0.1.27" />
+    <PackageReference Include="GemBox.Spreadsheet" Version="45.0.0.1094" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0-preview1.19506.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0-preview1-19509-03" />
+    <PackageReference Include="Moment.js" Version="2.24.0" />
+    <PackageReference Include="Microsoft.VisualStudio.TaskRunnerExplorer.14.0" Version="14.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.ReDoc" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.TaskRunnerExplorer.14.0" Version="14.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.ReDoc" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.0.0" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+
+</Project>

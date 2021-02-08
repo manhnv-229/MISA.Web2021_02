@@ -1,0 +1,26 @@
+{
+  "name": "Kimerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ 
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://210.245.26.190:3000/Aisaca/Kimerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^16.0.0",
+    "@ckeditor/ckeditor5-vue": "^1.0.1",
+    "ckeditor": "^4.12.1",
+    "vee-validate": "^3.2.3",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
