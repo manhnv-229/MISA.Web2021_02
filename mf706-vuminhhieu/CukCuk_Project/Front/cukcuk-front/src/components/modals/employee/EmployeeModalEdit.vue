@@ -1,7 +1,5 @@
 <template>
-  <transition name="bounce">
-  <div class="h-dialog" v-show="visible">
-    <div class="h-dialog-background"></div>
+  <BaseModalConfirm ref="BaseForm_ref">
     <div class="h-dialog-content">
       <div class="h-dialog-header">
         <div class="h-dialog-header-title">Thông tin nhân viên</div>
@@ -220,7 +218,7 @@
         <button
           class="h-btn h-cancel-btn"
           id="btnCancel"
-          v-on:click="visible = false"
+          v-on:click="hide()"
         >
           Hủy
         </button>
@@ -229,15 +227,12 @@
         </button>
       </div>
     </div>
-
-    
-  </div>
-  </transition>
-  
+  </BaseModalConfirm>
 </template>
 
 <script>
 import * as axios from "axios";
+import BaseModalConfirm from "../BaseModalForm.vue"
 
 export default {
   props: {
@@ -248,6 +243,9 @@ export default {
       visible: false,
     };
   },
+  components: {
+    BaseModalConfirm
+  },
   // created() {
   //   console.log("run create");
   //   console.log(this.employee);
@@ -255,20 +253,20 @@ export default {
   
  
   methods: {
-    async hide() {
+    hide: async function() {
      
-      this.visible = false;
+      await this.$refs.BaseForm_ref.hide();
 
       
     },
-    show() {  
-      this.visible = true;     
+    show: async function() {  
+      await this.$refs.BaseForm_ref.show();    
     },
 
-    async Confirm(){      
+    Confirm : async function(){      
       console.log(this.employee);
       var edited;
-      await axios.put('http://api.manhnv.net/api/employees', this.employee)
+      await axios.put('http://api.manhnv.net/api/Employees', this.employee)
             .then(function (res) {
               console.log("success in edit: "+res);
               edited = true;
@@ -316,33 +314,3 @@ export default {
   border: 2px solid #019160;
   background-color: #019160;
 }
-
-.bounce-enter-active {
-  animation: bounce-in .5s;
-}
-
-.bounce-leave-active {
-  animation: bounce-out .3s;
-}
-@keyframes bounce-in {
-  0% {
-    transform: translatey(-15px)  ;
-    opacity: 0;
-  }
-  20% {
-    transform:scale(1.02)  ;
-    opacity: 1;
-  }
-  100% {
-    transform:scale(1) translatey(0px) ;
-    opacity: 1;
-  }
-}
-@keyframes bounce-out {
-  
-  100% {
-    transform: translatey(-15px) ;
-    opacity: 0;
-  }
-}
-</style>

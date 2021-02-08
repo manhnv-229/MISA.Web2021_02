@@ -206,8 +206,11 @@ watch:{
     async getData() {
       this.processing = true;
       this.resetSelected();
-      const response = await axios.get("http://api.manhnv.net/api/employees");
+      const response = await axios.get("http://api.manhnv.net/api/Employees");     
+      //this.employees = response.data.data;
       this.employees = response.data;
+       console.log("employees");
+      console.log(this.employees);
       this.processing = false;
       // console.log(this.employees);
     },
@@ -233,7 +236,7 @@ watch:{
       console.log(this.selected);
     },
     //mở modal edit
-    openEmployeeModalEdit(employee) {
+    openEmployeeModalEdit: async function(employee)  {
       this.employee = employee;
       // console.log(this.employee);
       if (
@@ -252,14 +255,14 @@ watch:{
         this.employee.JoinDate = this.employee.JoinDate.split("T")[0];
       }
 
-      this.$refs.EmployeeModalEdit_ref.show();
+      await this.$refs.EmployeeModalEdit_ref.show();
 
       // console.log(this.$refs.EmployeeModalEdit.show());
     },
 
     
     //kiểm xoát việc mở form edit bởi cha nó
-    showEditModel:function() {
+    showEmployeeModalEdit:function() {
       
       if (this.selected.length < 1) {
         alert("vui lòng chọn nhân viên");
@@ -277,13 +280,13 @@ watch:{
       this.selected.length = 0; // tối ưu về hiệu suất
     },
     //kiểm xoát việc mở form delete bởi cha nó
-    showEmployeeModalDelete() {
+    showEmployeeModalDelete: async function() {
       if (this.selected.length < 1) {
         alert("vui lòng chọn nhân viên");
         return;
       }     
      
-      this.$refs.EmployeeModalDelete_ref.show();
+      await this.$refs.EmployeeModalDelete_ref.show();
     },
     // thông báo cho cha nó sau khi đã sửa
     editedCofirm: async function (e) {
@@ -312,7 +315,7 @@ watch:{
       
         alert(strAnnounce);
         var get = this.getData();
-        this.$refs.EmployeeModalDelete_ref.hide();
+        await this.$refs.EmployeeModalDelete_ref.hide();
         get.await;
       
     },
@@ -336,7 +339,7 @@ watch:{
   text-align: center;
 }
 .selected {
-  background-color: rgba(150, 109, 48, 0.767) !important;
+  background-color: rgba(0, 131, 238, 0.767) !important;
   color: #ffffff;
 }
 </style>

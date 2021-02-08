@@ -25,7 +25,7 @@ export default {
   },
 
   methods: {
-    hide() {
+    hide : async function(){
       this.visible = false;
     },
     show: async function () {

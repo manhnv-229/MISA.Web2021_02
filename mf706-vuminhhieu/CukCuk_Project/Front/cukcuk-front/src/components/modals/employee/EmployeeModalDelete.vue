@@ -1,5 +1,6 @@
 <template>
   <BaseModalForm ref="BaseForm_ref">
+  <div class="h-dialog-content content-delete">
         <div class="warning-text">
           <h2 style="color: red">
             Cảnh báo có {{ listId.length }} nhân viên được chọn !
@@ -16,6 +17,7 @@
             Có
           </button>   
         </div>     
+  </div>
   </BaseModalForm>
 </template>
 
@@ -36,14 +38,14 @@ export default {
     BaseModalForm
   },
   methods: {
-    hide() {
-       this.$refs.BaseForm_ref.hide();
+     hide: async function() {
+       await this.$refs.BaseForm_ref.hide();
     },
-    show() {
-      this.$refs.BaseForm_ref.show();
+    show: async function() {
+      await this.$refs.BaseForm_ref.show();
     },
 
-    async Confirm() {
+    Confirm: async function() {
       var confirm = [];
       console.log(this.employee);
       this.listId.forEach(async function (item) {

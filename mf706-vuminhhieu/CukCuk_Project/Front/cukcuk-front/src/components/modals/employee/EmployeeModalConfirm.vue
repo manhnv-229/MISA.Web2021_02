@@ -24,9 +24,9 @@ export default {
     console.log(this.successConfirm);
  },
   methods: {
-    hide() {
+    hide: async function() {
      
-      this.$refs.BaseModalConfirm_ref.hide();
+      await this.$refs.BaseModalConfirm_ref.hide();
     },
     show: async function() {       
         await this.$refs.BaseModalConfirm_ref.show(); 

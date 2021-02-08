@@ -1,7 +1,5 @@
 <template>
-<transition name="component-fade" mode="out-in">
-<div class="h-dialog" v-show="visible">
-    <div class="h-dialog-background"></div>
+<BaseModalConfirm ref="BaseForm_ref">
     <div class="h-dialog-content">
       <div class="h-dialog-header">
         <div class="h-dialog-header-title">Thông tin nhân viên</div>
@@ -233,27 +231,13 @@
         </button>
       </div>
     </div>
-
-    <!--<div class="warning">
-                <div class="warning__content" title="Warning!!!">
-                    <div class="warning-text">
-                        <h2 style="color: red;">Cảnh báo !!!</h2>
-                        <p style="font-size: 16px;padding: 16px;">Bạn có chắc muốn Xóa thông tin nhân viên này không ?</p>
-                    </div>
-                    <div class="warning-btn">
-                        <button class="m-btn cancel-btn" id="btnCancel2">Hủy</button>
-                        <button class="m-btn save-btn" id="btnOk">Có</button>
-                    </div>
-                </div>
-            </div>-->
-  </div>
-</transition>
+    </BaseModalConfirm>
   
 </template>
 
 <script>
 import * as axios from "axios";
-
+import BaseModalConfirm from "../BaseModalForm.vue"
 export default {
   // props: {
   //     showModal: Boolean
@@ -284,20 +268,22 @@ export default {
       },
     };
   },
- 
+  components: {
+    BaseModalConfirm
+  },
   methods: {
-    hide() {
+    hide: async function(){
      
-      this.visible = false;
+      this.$refs.BaseForm_ref.hide();
     },
-    show() {       
-      this.visible = true;     
+    show: async function() {       
+       this.$refs.BaseForm_ref.show();
     },
 
-    async Confirm(){      
+    Confirm : async function(){      
       var confirm = false;
       console.log(this.employee);
-      await axios.post('http://api.manhnv.net/api/employees', this.employee)
+      await axios.post('http://api.manhnv.net/api/Employees', this.employee)
             .then(function (res) {
               console.log("success: "+res);
              confirm = true;
@@ -315,47 +301,4 @@ export default {
 </script>
 
 <style src="../modal.scss" lang="scss" />
-<style scoped>
-.currency-for-input {
-  position: absolute;
-  right: 12px;
-  top: 22px;
-  line-height: 40px;
-  font-style: italic;
-}
 
-.label-text {
-  margin-bottom: 2px;
-}
-
-.default-avt {
-  width: 170px;
-  height: 165px;
-  border: 1px solid #ccc;
-  /* background-image: url('../../content/img/default-avatar.jpg'); */
-  background-size: contain;
-  margin: 0 auto;
-  cursor: pointer;
-}
-
-.hr-group-label {
-  width: 70px;
-  margin-left: 0;
-  margin-top: 7px;
-  margin: 7px 0 7px 0;
-  border: 2px solid #019160;
-  background-color: #019160;
-}
-
-.component-fade-enter-active {
-  transition: all .3s ease-in-out;
-}
-.component-fade-leave-active {
-  transition: all .3s ease-in-out;
-}
-.component-fade-enter, .component-fade-leave-to
-/* Trước 2.1.8 thì dùng .slide-fade-leave-active */ {
-  transform: translateY(-15px);
-  opacity: 0;
-}
-</style>

@@ -2,11 +2,12 @@
 <transition name="component-fade" mode="out-in">
 <div class="h-dialog" v-show="visible">
     <div class="h-dialog-background"></div>
-    <div class="h-dialog-content content-delete">     
+         
      <slot></slot>
+    
     </div>
     
-  </div>
+ 
 </transition>
   
 </template>
@@ -21,11 +22,11 @@ export default {
   },
  
   methods: {
-    hide() {
+    hide: async function() {
      
       this.visible = false;
     },
-    show() {       
+    show: async function() {       
       this.visible = true;     
     },
 
@@ -36,7 +37,6 @@ export default {
 
 <style src="./modal.scss" lang="scss" />
 <style scoped>
-
 
 
 .component-fade-enter-active {

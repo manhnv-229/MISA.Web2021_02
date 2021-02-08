@@ -112,10 +112,10 @@ export default {
 
     },
     openEditModal: async function() {
-      await this.$refs.table_ref.showEditModel();
+      await this.$refs.table_ref.showEmployeeModalEdit();
     },
     openDeleteModal() {
-      this.$refs.table_ref.showDeleteModal();
+      this.$refs.table_ref.showEmployeeModalDelete();
     },
     reloadData: async function(){
       await this.$refs.table_ref.getData();  
