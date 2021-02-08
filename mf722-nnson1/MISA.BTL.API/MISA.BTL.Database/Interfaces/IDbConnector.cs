@@ -12,11 +12,8 @@ namespace MISA.BTL.Database.Interfaces
         int Insert(T entity);
         int Update(T entity);
         int Delete(string id);
-
         bool CheckCustomerGroupIdExist(string id);
-
         bool CheckCustomerGroupNameExist(string name);
-
         bool CheckEmptyCustomerGroupName(string customerGroupName);
         bool CheckCustomerIdExist(string id);
         bool CheckCustomerCodeExist(string code);

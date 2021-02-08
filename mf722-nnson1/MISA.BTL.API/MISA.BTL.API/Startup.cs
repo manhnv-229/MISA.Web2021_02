@@ -71,7 +71,7 @@ namespace MISA.BTL.API
 
                 var errorMsg = new ErrorMsg();
                 errorMsg.DevMsg = exception.Message;
-                errorMsg.UserMsg.Add("Có lỗi xảy ra vui lòng liên hệ MISA để được trợ giúp");
+                errorMsg.UserMsg.Add(MISA.BTL.Common.Properties.Resources.Exception);
 
                 await context.Response.WriteAsJsonAsync(errorMsg);
             }));

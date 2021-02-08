@@ -113,6 +113,12 @@ namespace MISA.BTL.Database
             return affectRows;
         }
 
+        /// <summary>
+        /// Kiểm tra id nhóm khách hàng tồn tại không
+        /// </summary>
+        /// <param name="id">id cần kiểm tra</param>
+        /// <returns>true: đã tồn tại; false: chưa tồn tại</returns>
+        /// CreatedBy: NNSON (08/02/2021)
         public bool CheckCustomerGroupIdExist(string id)
         {
             var entity = dbConnection.Query($"SELECT * FROM CustomerGroup WHERE CustomerGroupId = '{id}'");
@@ -126,6 +132,12 @@ namespace MISA.BTL.Database
             return false;
         }
 
+        /// <summary>
+        /// Kiểm tra tên nhóm khách hàng đã tồn tại chưa
+        /// </summary>
+        /// <param name="name">tên nhóm khách hàng cần kiểm tra</param>
+        /// <returns>true: đã tồn tại; false: chưa tồn tại</returns>
+        /// CreatedBy: NNSON (08/02/2021)
         public bool CheckCustomerGroupNameExist(string name)
         {
             var entity = dbConnection.Query($"SELECT * FROM CustomerGroup WHERE CustomerGroupName = '{name}'");
@@ -139,6 +151,12 @@ namespace MISA.BTL.Database
             return false;
         }
 
+        /// <summary>
+        /// Kiểm tra trường tên nhóm khách hàng có để trống hay không
+        /// </summary>
+        /// <param name="customerGroupName">giá trị trường tên nhóm khách hàng</param>
+        /// <returns>true: để trống; false: đã có giá trị</returns>
+        /// CreatedBy: NNSON (08/02/2021)
         public bool CheckEmptyCustomerGroupName(string customerGroupName)
         {
             if (customerGroupName == string.Empty)

@@ -34,18 +34,26 @@ namespace MISA.BTL.Business
             return serviceResult;
         }*/
 
+        /// <summary>
+        /// Xác thực dữ liệu nhóm khách hàng
+        /// </summary>
+        /// <param name="customerGroup">object nhóm khách hàng cần kiểm tra</param>
+        /// <param name="errorMsg">thông tin lỗi nếu có</param>
+        /// <returns>true: dữ liệu xác thực đúng; false: dữ liệu xác thực sai</returns>
+        /// CreatdBy: NNSON (08/02/2021)
         protected override bool ValidateData(CustomerGroup customerGroup, ErrorMsg errorMsg = null)
         {
             var isValid = true;
-            // 1. check trùng mã: 
+            // 1. check tên nhóm khách hàng để trống: 
             if (_dbConnector.CheckEmptyCustomerGroupName(customerGroup.CustomerGroupName) == true)
             {
-                errorMsg.UserMsg.Add(Properties.Resources.Erro_Required_CustomerGroupName);
+                errorMsg.UserMsg.Add(MISA.BTL.Common.Properties.Resources.Erro_Required_CustomerGroupName);
                 isValid = false;
             }
+            // 2. check trùng tên nhóm khách hàng:
             if (_dbConnector.CheckCustomerGroupNameExist(customerGroup.CustomerGroupName) == true)
             {
-                errorMsg.UserMsg.Add(Properties.Resources.Erro_Duplicate_CustomerGroupName);
+                errorMsg.UserMsg.Add(MISA.BTL.Common.Properties.Resources.Erro_Duplicate_CustomerGroupName);
                 isValid = false;
             }
 

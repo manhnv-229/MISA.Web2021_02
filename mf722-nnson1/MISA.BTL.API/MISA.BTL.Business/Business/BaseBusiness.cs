@@ -12,10 +12,22 @@ namespace MISA.BTL.Business
     public class BaseBusiness<T>:IBaseBusiness<T>
     {
         IDbConnector<T> _dbConnector;
+
+        /// <summary>
+        /// Hàm khởi tạo
+        /// </summary>
+        /// <param name="dbConnector"></param>
+        /// CreatdBy: NNSON (08/02/2021)
         public BaseBusiness(IDbConnector<T> dbConnector)
         {
             _dbConnector = dbConnector;
         }
+
+        /// <summary>
+        /// Lấy toàn bộ dữ liệu
+        /// </summary>
+        /// <returns></returns>
+        /// CreatdBy: NNSON (08/02/2021)
         public virtual ServiceResult GetData()
         {
             var serviceResult = new ServiceResult();
@@ -26,6 +38,12 @@ namespace MISA.BTL.Business
             return serviceResult;
         }
 
+        /// <summary>
+        /// Thêm dữ liệu
+        /// </summary>
+        /// <param name="entity">object cần thêm mới</param>
+        /// <returns></returns>
+        /// CreatdBy: NNSON (08/02/2021)
         public virtual ServiceResult Insert(T entity)
         {
             var serviceResult = new ServiceResult();
@@ -47,6 +65,12 @@ namespace MISA.BTL.Business
             }
         }
 
+        /// <summary>
+        /// Sửa thông tin dữ liệu
+        /// </summary>
+        /// <param name="entity">object đã sửa</param>
+        /// <returns></returns>
+        /// CreatdBy: NNSON (08/02/2021)
         public virtual ServiceResult Update(T entity)
         {
             var serviceResult = new ServiceResult();
@@ -68,6 +92,12 @@ namespace MISA.BTL.Business
             }
         }
 
+        /// <summary>
+        /// Xóa dữ liệu
+        /// </summary>
+        /// <param name="id">id của object cần xóa</param>
+        /// <returns></returns>
+        /// CreatdBy: NNSON (08/02/2021)
         public virtual ServiceResult Delete(string id)
         {
             var serviceResult = new ServiceResult();
@@ -76,6 +106,13 @@ namespace MISA.BTL.Business
             return serviceResult;
         }
 
+        /// <summary>
+        /// Xác thực dữ liệu
+        /// </summary>
+        /// <param name="entity">object cần kiểm tra</param>
+        /// <param name="errorMsg">thông tin lỗi nếu có</param>
+        /// <returns></returns>
+        /// CreatdBy: NNSON (08/02/2021)
         protected virtual bool ValidateData(T entity, ErrorMsg errorMsg = null)
         {
             return true;
