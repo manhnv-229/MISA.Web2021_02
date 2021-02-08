@@ -11,6 +11,7 @@ namespace MISA.DataLayer.Interface
         IEnumerable<MISAEntity> GetData(string sqlCommand = null, object parameter = null, CommandType commandType = CommandType.StoredProcedure);
         int InsertObject(MISAEntity entities);
         int UpdateObject(MISAEntity entities);
+        //int DeleteObject(string[] ids);
         #endregion
     }
 }

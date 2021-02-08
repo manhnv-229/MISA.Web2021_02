@@ -83,6 +83,25 @@ namespace MISA.DataLayer
             // Trả về số bản ghi được sửa
             return res;
         }
+
+        /// <summary>
+        /// Hàm xóa đối tượng từ Database
+        /// </summary>
+        /// <param name="ids">Mảng id của các đối tượng cần xóa</param>
+        /// <returns>Số lượng bản ghi được xóa</returns>
+        /// CreatedBy PVTRONG (08/02/2021)
+        //public int DeleteObject(string[] ids)
+        //{
+        //    var className = typeof(MISAEntity).Name;
+        //    var res = 0;
+        //    foreach (var id in ids)
+        //    {
+        //        if(_dbConnection.Execute($"Proc_Delete{className}", param: id, commandType: CommandType.StoredProcedure) == 1)
+        //        res += 1;
+        //    }
+        //    // Trả về số bản ghi được xóa
+        //    return res;
+        //}
         #endregion
     }
 }

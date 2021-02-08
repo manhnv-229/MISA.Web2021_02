@@ -52,6 +52,7 @@ namespace MISA.DEMO.API
             services.AddScoped<IDepartmentContext, DepartmentContext>();
             services.AddScoped<IPositionContext, PositionContext>();
             services.AddScoped<IEmployeeContext, EmployeeContext>();
+            //services.AddScoped(typeof(IDbContext<>), typeof(DbContextV<>));
             services.AddScoped(typeof(IDbContext<>), typeof(DbContextV2<>));
         }
 

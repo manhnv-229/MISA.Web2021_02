@@ -20,14 +20,14 @@ namespace MISA.DataLayer
         /// <param name="employeeCode">Mã nhân viên</param>
         /// <returns>nhân viên đó nếu có còn ko thì trả về null</returns>
         /// CreatedBy PVTRONG (7/2/2021)
-        public bool CheckEmployeeCodeExis(string employeeCode)
+        public int CheckEmployeeCodeExis(string employeeCode)
         {
             var res = _dbConnection.Query<Employee>($"SELECT PhoneNumber FROM Employee AS E WHERE E.EmployeeCode = '{employeeCode}'").FirstOrDefault();
             if (res != null)
             {
-                return true;
+                return 0;
             }
-            return false;
+            return 1;
         }
 
         /// <summary>
@@ -36,14 +36,14 @@ namespace MISA.DataLayer
         /// <param name="phoneNumber">Số điẹn thoại</param>
         /// <returns>Đã tồn tại hay chưa (true: đã tồn tại, false: chưa tồn tại)</returns>
         /// CreatedBy PVTRONG (7/2/2021)
-        public bool CheckEmployeePhoneNumberExis(string phoneNumber)
+        public int CheckEmployeePhoneNumberExis(string phoneNumber)
         {
             var res = _dbConnection.Query<Employee>($"SELECT PhoneNumber FROM Employee AS E WHERE E.PhoneNumber = '{phoneNumber}'").FirstOrDefault();
             if(res != null)
             {
-                return true;
+                return 0;
             }
-            return false;
+            return 1;
         }
 
         // Sửa thông tin nhân viên: 

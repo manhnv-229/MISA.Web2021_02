@@ -80,6 +80,24 @@ namespace MISA.DEMO.API.Controllers
             else return StatusCode(200, serviceResult.Data);
 
         }
+
+        /// <summary>
+        /// Hàm xóa đối tượng
+        /// </summary>
+        /// <param name="ids">Mảng id của các đối tượng</param>
+        /// <returns>Số bản ghi được xóa</returns>
+        /// CreatedBy PVTRONG (08/02/2021)
+        //[HttpDelete]
+        //public IActionResult Delete([FromBody] string[] ids)
+        //{
+        //    var serviceResult = _baseService.Delete(ids);
+        //    if (serviceResult.Success == false)
+        //    {
+        //        return StatusCode(400, serviceResult.Data);
+        //    }
+        //    else if (serviceResult.Success == true && (int)serviceResult.Data > 0) return StatusCode(200, serviceResult.Data);
+        //    else return StatusCode(200, serviceResult.Data);
+        //}
         #endregion
     }
 }

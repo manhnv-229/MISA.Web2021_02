@@ -41,7 +41,8 @@ namespace MISA.Service
         {
             var serviceResult = new ServiceResult();
             var error = new ErrorMsg();
-            var isValid = ValidateData(entity, error);
+            string mode = "add";
+            var isValid = ValidateData(entity, error, mode);
             
             // Xử lý nghiệp vụ: 
             if (isValid == true)
@@ -74,16 +75,23 @@ namespace MISA.Service
         /// <param name="entity">Đối tượng cần validate</param>
         /// <returns>true: dữ liệu hợp lệ, false: không hợp lệ</returns>
         /// CreatedBy PVTRONG (7/2/2021)
-        protected virtual  bool ValidateData(MISAEntity entity, ErrorMsg errorMsg = null)
+        protected virtual  bool ValidateData(MISAEntity entity, ErrorMsg errorMsg = null, string mode = "add")
         {
             return true;
         }
 
+        /// <summary>
+        /// Hàm chỉnh sửa thông tin đối tượng
+        /// </summary>
+        /// <param name="entity">Đối tượng cần được chỉnh sửa thông tin</param>
+        /// <returns>Số lượng bản ghi được chỉnh sửa</returns>
+        /// CreatedBy PVTRONG (08/02/2021)
         public virtual ServiceResult Update(MISAEntity entity)
         {
             var serviceResult = new ServiceResult();
             var error = new ErrorMsg();
-            var isValid = ValidateData(entity, error);
+            string mode = "edit";
+            var isValid = ValidateData(entity, error, mode);
             // Xử lý nghiệp vụ: 
             if (isValid == true)
             {
@@ -107,6 +115,23 @@ namespace MISA.Service
             return serviceResult;
 
         }
+
+        /// <summary>
+        /// Hàm xóa đối tượng
+        /// </summary>
+        /// <param name="ids">mảng id của các đối tượng</param>
+        /// <returns>Số lượng bản ghi bị xóa</returns>
+        /// CreatedBy PVTRONG (08/02/2021)
+        //public virtual ServiceResult Delete(string[] ids)
+        //{
+        //    var serviceResult = new ServiceResult();
+
+        //    var rowAffects = _dbContext.DeleteObject(ids);
+        //    serviceResult.Msg = "Xóa thành công";
+        //    serviceResult.Data = rowAffects;
+        //    serviceResult.Success = true;
+        //    return serviceResult;
+        //}
         #endregion
     }
 }

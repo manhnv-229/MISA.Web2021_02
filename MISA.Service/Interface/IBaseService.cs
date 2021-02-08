@@ -10,5 +10,6 @@ namespace MISA.Service.Interface
         ServiceResult GetData(object param = null);
         ServiceResult Insert(MISAEntity misaEntity);
         ServiceResult Update(MISAEntity entity);
+        //ServiceResult Delete(string[] ids);
     }
 }

@@ -18,7 +18,7 @@ namespace MISA.Service
 
         #region Method
         // Validate Data
-        protected override bool ValidateData(Employee employee, ErrorMsg errorMsg = null)
+        protected override bool ValidateData(Employee employee, ErrorMsg errorMsg = null, string mode = "add")
         {
             var employeeContext = new EmployeeContext();
             // Validate dữ liệu:
@@ -61,9 +61,15 @@ namespace MISA.Service
             }
 
             // Check trùng mã:
-            var isExis = employeeContext.CheckEmployeeCodeExis(employeeCode);
+            int isExis = employeeContext.CheckEmployeeCodeExis(employeeCode);
 
-            if (isExis == true)
+            if (isExis > 0 && mode == "add")
+            {
+                if (errorMsg != null)
+                    errorMsg.UserMsg.Add(MISA.Common.Properties.Resources.ErrorService_DuplicateEmployeeCode.ToString());
+                isValid = false;
+            }
+            if (isExis > 1 && mode == "edit")
             {
                 if (errorMsg != null)
                     errorMsg.UserMsg.Add(MISA.Common.Properties.Resources.ErrorService_DuplicateEmployeeCode.ToString());
@@ -72,17 +78,20 @@ namespace MISA.Service
             // Check trùng số điện thoại:
             isExis = employeeContext.CheckEmployeePhoneNumberExis(phoneNumber);
 
-            if (isExis == true)
+            if (isExis > 0  && mode == "add")
             {
                 if (errorMsg != null)
                     errorMsg.UserMsg.Add(MISA.Common.Properties.Resources.ErrorService_DuplicateEmployeePhoneNumber.ToString());
                 isValid = false;
             }
-            return isValid;
+            if(isExis > 1 && mode == "edit")
+            {
+                if (errorMsg != null)
+                    errorMsg.UserMsg.Add(MISA.Common.Properties.Resources.ErrorService_DuplicateEmployeePhoneNumber.ToString());
+                isValid = false;
+            }
+            return isValid; 
         }
-        // Sửa thông tin nhân viên:
-
-        // Xóa nhân viên:
 
 
 

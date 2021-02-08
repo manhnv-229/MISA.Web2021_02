@@ -14,7 +14,7 @@ namespace MISA.Service.Service
         {
 
         }
-        protected override bool ValidateData(Employee entity, ErrorMsg errorMsg = null)
+        protected override bool ValidateData(Employee entity, ErrorMsg errorMsg = null, string mode = null)
         {
             return true;
         }
