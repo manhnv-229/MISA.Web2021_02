@@ -58,7 +58,7 @@ namespace Misa.NETCore
             });
 
             // cấu hình Dependency Injection 
-            services.AddScoped(typeof(IBaseData<>), typeof(DbConnection_V2<>));
+            services.AddScoped(typeof(IBaseData<>), typeof(DbConnection<>));
             services.AddScoped(typeof(IBaseBussiness<>), typeof(BaseBussiness<>));
            
             services.AddScoped<IEmployeeData, EmployeeData>();
