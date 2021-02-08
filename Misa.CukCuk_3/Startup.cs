@@ -16,6 +16,8 @@ using Misa.DL;
 using Misa.DL.CustomerRepository;
 using Misa.DL.EmployeeRepository;
 using Newtonsoft.Json.Serialization;
+using Misa.BL.Interface.IDBContext;
+using Misa.CukCuk_3.DL.DbConnector;
 
 namespace Misa.CukCuk_3
 {
@@ -32,6 +34,9 @@ namespace Misa.CukCuk_3
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //add scope dbContect
+            services.AddScoped<IDBConnector, DBConnector>();
+
             //add scope Base Repository
             services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
