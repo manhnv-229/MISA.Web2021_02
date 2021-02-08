@@ -1,6 +1,7 @@
 ﻿using Misa.BL.Interface.IDBContext;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Text;
 
 namespace Misa.DL.DbConnector
@@ -23,6 +24,11 @@ namespace Misa.DL.DbConnector
         }
 
         public IEnumerable<T> GetData<T>(string sql)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDbConnection GetDBConnection()
         {
             throw new NotImplementedException();
         }

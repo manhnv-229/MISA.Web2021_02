@@ -4,14 +4,16 @@ using Misa.BL.Interface.IRepository;
 using Misa.BL.Entity;
 using System.Data;
 using System.Collections.Generic;
+using Misa.BL.Interface.IDBContext;
 
 namespace Misa.DL.EmployeeRepository
 {
     public class EmployeeRepository : BaseRepository<Employee>, IEmployeeRepository
     {
-        public EmployeeRepository(IConfiguration config) : base(config)
+        IDBConnector _iDbConnector;
+        public EmployeeRepository(IDBConnector iDbConnector) : base(iDbConnector)
         {
-
+            _iDbConnector = iDbConnector;
         }
 
         #region delete entity
@@ -20,7 +22,8 @@ namespace Misa.DL.EmployeeRepository
             var storeName = $"Proc_DeleteEmployeeByEmployeeCode";
             DynamicParameters dynamicParameters = new DynamicParameters();
             dynamicParameters.Add($"@EmployeeCode", code);
-            int affect = dbConnection.Execute(storeName, dynamicParameters, commandType: CommandType.StoredProcedure);
+            var connector = base.GetDBConnection();
+            int affect = connector.Execute(storeName, dynamicParameters, commandType: CommandType.StoredProcedure);
             return affect;
         }
         #endregion
@@ -29,7 +32,8 @@ namespace Misa.DL.EmployeeRepository
         public string GetEmployeeCodeMax()
         {
             var storeName = $"Proc_GetEmployeeCodeMax";
-            string employeeCodeMax = (string)dbConnection.ExecuteScalar(storeName, commandType: CommandType.StoredProcedure);
+            var connector = base.GetDBConnection();
+            string employeeCodeMax = (string)connector.ExecuteScalar(storeName, commandType: CommandType.StoredProcedure);
             return employeeCodeMax;
         }
         #endregion

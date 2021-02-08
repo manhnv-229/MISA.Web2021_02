@@ -206,6 +206,11 @@ namespace Misa.CukCuk_3.DL.DbConnector
                 return total;
             }
         }
+
+        public IDbConnection GetDBConnection()
+        {
+            return dbConnection;
+        }
         #endregion
     }
 }

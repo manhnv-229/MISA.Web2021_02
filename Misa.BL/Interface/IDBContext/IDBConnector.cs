@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Text;
 
 namespace Misa.BL.Interface.IDBContext
@@ -63,6 +64,13 @@ namespace Misa.BL.Interface.IDBContext
         /// <returns>số lượng bản ghi: long</returns>
         /// createdBy: Manh Tien (5/2/2021)
         public long Count<T>(List<string> fieldNames = null, List<string> values = null);
+
+        /// <summary>
+        /// lấy DBconnection của database
+        /// </summary>
+        /// <returns>connection của database</returns>
+        /// createdBy: Manh Tien (8/2/2021)
+        public IDbConnection GetDBConnection();
 
     }
 }

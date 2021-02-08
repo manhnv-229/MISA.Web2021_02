@@ -4,6 +4,7 @@ using Misa.BL.Interface.IRepository;
 using Misa.CukCuk_3.DL.DbConnector;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Text;
 
 namespace Misa.DL
@@ -46,5 +47,9 @@ namespace Misa.DL
             return _iDbConnector.Delete<T>(id);
         }
 
+        public IDbConnection GetDBConnection()
+        {
+            return _iDbConnector.GetDBConnection();
+        }
     }
 }

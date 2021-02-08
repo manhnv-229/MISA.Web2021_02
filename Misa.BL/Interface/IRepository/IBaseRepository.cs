@@ -1,12 +1,20 @@
 ﻿using Misa.BL.Result;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Text;
 
 namespace Misa.BL.Interface.IRepository
 {
     public interface IBaseRepository<T>
     {
+        /// <summary>
+        /// lấy db connection
+        /// </summary>
+        /// <returns>DBConnection</returns>
+        /// createdBy:Manh Tien(8/2/2021)
+        public IDbConnection GetDBConnection();
+
         #region get entity
         /// <summary>
         /// lấy bản ghi bằng sql
