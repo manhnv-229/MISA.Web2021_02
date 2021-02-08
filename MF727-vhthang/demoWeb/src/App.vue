@@ -2,7 +2,7 @@
   <div id="app">
      <div class="main">
         <!--phan ben trai-->
-        <menu-left 
+        <EmployeeMenu
             v-on:handleMenu="handleMenu"
             v-bind:MenuBarCus="MenuBarCus"
         />
@@ -11,15 +11,17 @@
         <!--phan ben phai-->
 
         <div class="panel-right">
-            <header-page
+            <EmployeeHeader
                 v-bind:Department="Department"
             />
-            <content-employee
-                v-bind:Employees="Employees"
+            <EmployeeContent
+                :Employees="Employees"
                 @addEmployee="addEmployee"
                 @showEmployee="showEmployee"
+                @refreshData="refreshData"
             />
-            <paging-bar/> 
+            
+            <EmployeePagingBar/> 
             
             
             
@@ -27,15 +29,17 @@
         
 
     </div>
-    <DialogEmployee 
-                v-bind:isDialogAddHide="isDialogAddHide"
+    <EmployeeDialogAdd
+                :isDialogAddHide="isDialogAddHide"
                 @btnCloseDialog="btnCloseDialog"
                 @saveInformation="saveInformation"
                 :employee="employee"
+                :isDeleteHide="isDeleteHide"
             />
-    <dialog-pop-up 
+    <EmployeeDialogPopUp
         :isDialogPopupHide="isDialogPopupHide"
         @btnCancelPopup="btnCancelPopup"
+        :msgPopUp="msgPopUp"
         />
 
 
@@ -45,25 +49,37 @@
 
 <script>
 import 'regenerator-runtime/runtime'
-import MenuLeft from './CompEmployee/MenuLeft.vue';
-import PagingBar from './CompEmployee/PagingBar.vue';
-import ContentEmployee from './CompEmployee/ContentEmployee.vue';
-// import DialogEmployee from './CompEmployee/DialogEmployee.vue';
-// import DialogPopUp from './CompEmployee/DialogPopUp.vue';
-import HeaderPage from './CompEmployee/HeaderPage.vue';
+import EmployeeMenu from './Employee/EmployeeMenu.vue';
+import EmployeePagingBar from './Employee/EmployeePagingBar.vue';
+import EmployeeContent from './Employee/EmployeeContent.vue';
+import EmployeeHeader from './Employee/EmployeeHeader.vue';
 import * as axios from "axios";
 import './css/button.css';
 import './css/input.css';
 import './css/grid.css';
-import DialogEmployee from './CompEmployee/DialogEmployee.vue';
-import DialogPopUp from './CompEmployee/DialogPopUp.vue';
+import EmployeeDialogAdd from './Employee/EmployeeDialogAdd.vue';
+import EmployeeDialogPopUp from './Employee/EmployeeDialogPopUp.vue';
+
+
 
 export default {
   name: 'app',
   data () {
     return {
-    isDialogPopupHide:false,
-    
+    //Ẩn thông báo    
+    isDialogPopupHide:true,
+    //ẩn nút xóa
+    isDeleteHide:true,
+    //add or update
+    isAdd:true,
+    //tin nhắn thông báo
+    msgPopUp:"",
+    //mã code phản hồi
+    codeResponse:0,
+    //trang hiện tại
+    pageCurrent:1,
+    //Loại sắp xếp
+    typeSort:0,
 
       MenuBarCus:[
           {src:"dashboard.png", title:'Tổng quan'},
@@ -116,60 +132,158 @@ export default {
         employeeJoinDate: "2000-12-21",
         employeeStatus: "Đã nghỉ",
     },
+   
     
       
     }
   },
   methods:{
+      //Nút ẩn thông báo
       btnCancelPopup(){
+          if(this.codeResponse == 201){
+              this.isDialogPopupHide=true;
+              this.isDialogAddHide=true;
+          }else
           this.isDialogPopupHide=true;
       },
+
+      //Xử lý menu  
       handleMenu(){
           
       },
-      showEmployee(data){
-          this.isDialogAddHide=false;
-          this.employee = data;
+
+      //Refresh dữ liệu
+      async refreshData(){
+          //Tạo hoạt ảnh loading
+          //Lấy dữ liệu
+          const response =await axios.get("http://localhost:52327/api/v1/Employees");
+          this.Employees = response.data;
       },
+
+      //Xử lý hiển thị 1 nhân viên  
+      showEmployee(data){
+          //mở dialog
+          this.isDeleteHide=false;
+          this.isAdd=false;
+          this.isDialogAddHide=false;
+          //lấy data từ Employees 
+          //xử lý data
+          data.employeeBirth = this.formatDateShow(data.employeeBirth);
+          data.employeeDateRegistration = this.formatDateShow(data.employeeDateRegistration);
+          data.employeeJoinDate = this.formatDateShow(data.employeeJoinDate);
+          //truyền vào bảng
+          this.employee = data;
+
+      },
+
+      //Xử lý thông tin dang ngày tháng để hiển thị
+      formatDateShow(date){
+          var date = new Date(date);
+          var day = date.getDate();
+            var month = date.getMonth() + 1;
+            var year = date.getFullYear();
+            if  (year < 1800) return "01/01/1800";
+            if (day < 10) day = '0' + day;
+            if (month < 10) month = '0' + month;
+            return year + '-' + month + '-' + day;
+      },
+
+      //Nút thêm nhân viên
       addEmployee(){
+          this.isAdd=true;
+          this.employee = {
+            employeeId: "13009ae2-3273-11e8-fb69-4afe230d73a5",
+            employeeCode: "",
+            employeeName: "",
+            employeeBirth: null,
+            employeeGender: "Nam",
+            employeeIdentifyNumber: "",
+            employeeDateRegistration: null,
+            employeePlaceRegistration: "",
+            employeeEmail: "",
+            employeePhone: "",
+            employeePosition: "-1",
+            employeeDepartment: "-1",
+            employeeTaxNumber: "",
+            employeeSalaryGrade: "",
+            employeeJoinDate: null,
+            employeeStatus: "-1",}
           // mở dialog
+            this.isDeleteHide=true;
             this.isDialogAddHide=false;
             
           //lấy mã code cao nhất
+
           // đẩy vào code
             this.getHighestCode();
 
       },
+
+      //Nút đóng Cửa sổ thêm nhân viên  
       btnCloseDialog(){
           this.isDialogAddHide=true;
       },
-      async saveInformation(){
-          const response = await axios.post("http://localhost:52327/api/Employees",this.employee);
-          console.log(response.data);
+
+      //Lưu nhân viên bao gồm cả thêm mới và sửa nhân viên  
+      saveInformation(){
+          //kiểm tra là thêm hay sửa
+          if(this.isAdd == true){
+
+          
+          axios.post("http://localhost:52327/api/v1/Employees", this.employee
+                
+            )
+            .then(response => {
+               console.log(response);
+                this.msgPopUp=response.data;
+                this.codeResponse=response.data.code;
+                //Mở popup
+                this.isDialogPopupHide=false;
+            })
+            .catch(err => {
+                if (err.response) {
+                console.log(err.response.data);
+                this.msgPopUp=err.response.data.userMsg;
+                this.codeResponse=err.response.data.code;
+                this.isDialogPopupHide=false;
+                } else if (err.request) {
+                console.log(err.request)
+                } else {
+                
+                }
+            })
+          
+          
+          }
+          
       },
+      validate(){
+          //Kiểm tra các trừơng bắt buộc còn thiếu
+          if(this.employeeCode == "" || this.employeeBirth == ""){}
+      },
+
       
       
       async getHighestCode() {
-          const response =await axios.get("http://localhost:52327/api/Employees/code");
+          const response =await axios.get("http://localhost:52327/api/v1/Employees/code");
           this.employee.employeeCode = response.data;
+          
          
       },
   },
   
   components:{
-    MenuLeft,
-    PagingBar,
-    ContentEmployee,
-    // DialogEmployee,
-    // DialogPopUp,
-    HeaderPage,
-    DialogEmployee,
-    DialogPopUp,
-
+    EmployeeMenu,
+    EmployeePagingBar,
+    EmployeeContent,
+    EmployeeHeader,
+    EmployeeDialogAdd,
+    EmployeeDialogPopUp,
+   
 
   },
    async created() {
-    const response =await axios.get("http://localhost:52327/api/Employees");
+    const response =await axios.get("http://localhost:52327/api/v1/Employees");
     this.Employees = response.data;
     
   },

@@ -1,0 +1,20 @@
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.deps.json
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csprojAssemblyReference.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.AssemblyInfoInputs.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.AssemblyInfo.cs
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csproj.CoreCompileInputs.cache
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.dll
+E:\program\WDT2020\WDT2020\VHTHANG-MS4-15\New folder (2)\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.pdb
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.deps.json
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csprojAssemblyReference.cache
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.AssemblyInfoInputs.cache
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.AssemblyInfo.cs
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csproj.CoreCompileInputs.cache
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.dll
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.pdb
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.Properties.Resources.resources
+E:\program\Misa.Fresher\MISA.Web2021_02\MF727-vhthang\Btvn-t2\MISA.CukCuk.Web\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csproj.GenerateResource.cache
