@@ -32,7 +32,16 @@ namespace MISA.CukCuk.MF734.PVTHANG.Api.Controllers
         public virtual IActionResult Get()
         {
             var res = _baseService.GetAll();
-            return StatusCode((int)res.Code, res);
+            switch (res.Code)
+            {
+                case Common.Enum.ResultCode.Created:
+                case Common.Enum.ResultCode.NoContent:
+                case Common.Enum.ResultCode.Ok:
+                    return StatusCode((int)res.Code, res.Data);
+                default:
+                    return StatusCode((int)res.Code, res.Message);
+            }
+            
         }
 
         /// <summary>
@@ -45,7 +54,15 @@ namespace MISA.CukCuk.MF734.PVTHANG.Api.Controllers
         public virtual IActionResult Get(String id)
         {
             var res = _baseService.GetById(id);
-            return StatusCode((int)res.Code, res);
+            switch (res.Code)
+            {
+                case Common.Enum.ResultCode.Created:
+                case Common.Enum.ResultCode.NoContent:
+                case Common.Enum.ResultCode.Ok:
+                    return StatusCode((int)res.Code, res.Data);
+                default:
+                    return StatusCode((int)res.Code, res.Message);
+            }
         }
 
         /// <summary>
@@ -58,7 +75,15 @@ namespace MISA.CukCuk.MF734.PVTHANG.Api.Controllers
         public virtual IActionResult Post([FromBody] TEntity entity)
         {
             var res = _baseService.Insert(entity);
-            return StatusCode((int)res.Code, res);
+            switch (res.Code)
+            {
+                case Common.Enum.ResultCode.Created:
+                case Common.Enum.ResultCode.NoContent:
+                case Common.Enum.ResultCode.Ok:
+                    return StatusCode((int)res.Code, res.Data);
+                default:
+                    return StatusCode((int)res.Code, res.Message);
+            }
         }
 
         /// <summary>
@@ -71,7 +96,15 @@ namespace MISA.CukCuk.MF734.PVTHANG.Api.Controllers
         public virtual IActionResult Put([FromBody] TEntity entity)
         {
             var res = _baseService.Update(entity);
-            return StatusCode((int)res.Code, res);
+            switch (res.Code)
+            {
+                case Common.Enum.ResultCode.Created:
+                case Common.Enum.ResultCode.NoContent:
+                case Common.Enum.ResultCode.Ok:
+                    return StatusCode((int)res.Code, res.Data);
+                default:
+                    return StatusCode((int)res.Code, res.Message);
+            }
         }
 
         /// <summary>
@@ -84,7 +117,15 @@ namespace MISA.CukCuk.MF734.PVTHANG.Api.Controllers
         public virtual IActionResult Delete(String id)
         {
             var res = _baseService.Delete(id);
-            return StatusCode((int)res.Code, res);
+            switch (res.Code)
+            {
+                case Common.Enum.ResultCode.Created:
+                case Common.Enum.ResultCode.NoContent:
+                case Common.Enum.ResultCode.Ok:
+                    return StatusCode((int)res.Code, res.Data);
+                default:
+                    return StatusCode((int)res.Code, res.Message);
+            }
         }
     }
 }

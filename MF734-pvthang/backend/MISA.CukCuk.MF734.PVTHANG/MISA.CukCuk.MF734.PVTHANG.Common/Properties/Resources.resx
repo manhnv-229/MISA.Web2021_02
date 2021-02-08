@@ -120,11 +120,20 @@
   <data name="ErrorDuplicate" xml:space="preserve">
     <value>đã được sử dụng</value>
   </data>
+  <data name="ErrorException" xml:space="preserve">
+    <value>Đã xảy ra lỗi, vui lòng liên hệ MISA để được hỗ trợ!</value>
+  </data>
   <data name="ErrorRequired" xml:space="preserve">
     <value>không được để trống</value>
   </data>
   <data name="ErrorUnauthorized" xml:space="preserve">
     <value>Bạn không có quyền thực hiện!</value>
+  </data>
+  <data name="Fail" xml:space="preserve">
+    <value>Thất bại!</value>
+  </data>
+  <data name="NoContent" xml:space="preserve">
+    <value>Không có dữ liệu trả về!</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>Thành công</value>

@@ -70,6 +70,15 @@ namespace MISA.CukCuk.MF734.PVTHANG.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Đã xảy ra lỗi, vui lòng liên hệ MISA để được hỗ trợ!.
+        /// </summary>
+        public static string ErrorException {
+            get {
+                return ResourceManager.GetString("ErrorException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to không được để trống.
         /// </summary>
         public static string ErrorRequired {
@@ -84,6 +93,24 @@ namespace MISA.CukCuk.MF734.PVTHANG.Common.Properties {
         public static string ErrorUnauthorized {
             get {
                 return ResourceManager.GetString("ErrorUnauthorized", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thất bại!.
+        /// </summary>
+        public static string Fail {
+            get {
+                return ResourceManager.GetString("Fail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Không có dữ liệu trả về!.
+        /// </summary>
+        public static string NoContent {
+            get {
+                return ResourceManager.GetString("NoContent", resourceCulture);
             }
         }
         

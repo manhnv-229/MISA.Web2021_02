@@ -63,7 +63,11 @@ namespace MISA.CukCuk.MF734.PVTHANG.Api
                 var exceptionHandlerPathFeature = context.Features.Get<IExceptionHandlerPathFeature>();
                 var exception = exceptionHandlerPathFeature.Error;
 
-                await context.Response.WriteAsJsonAsync("error: Exception!");
+                var devMsg = exception.Message;
+                var userMsg = Common.Properties.Resources.ErrorException;
+
+                //await context.Response.WriteAsJsonAsync(new { error = exception.Message });
+                await context.Response.WriteAsJsonAsync(new { DevMsg = devMsg,  UserMsg = userMsg });
             }));
 
             app.UseRouting();

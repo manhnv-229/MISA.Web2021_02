@@ -35,7 +35,10 @@ namespace MISA.CukCuk.MF734.PVTHANG.Service.Classes
             if (res != null && res.Count() > 0)
                 _serviceResult.Code = Common.Enum.ResultCode.Ok;
             else
+            {
+                _serviceResult.Message = Common.Properties.Resources.NoContent;
                 _serviceResult.Code = Common.Enum.ResultCode.NoContent;
+            }
             return _serviceResult;
         }
 
@@ -48,13 +51,16 @@ namespace MISA.CukCuk.MF734.PVTHANG.Service.Classes
         public virtual ServiceResult GetById(String id)
         {
             //Get
-            var res = _databaseConnector.GetList<TEntity>($"Proc_Get{_className}ById", new { Id = id });
+            var res = _databaseConnector.GetFirst<TEntity>($"Proc_Get{_className}ById", new { Id = id });
             _serviceResult.Data = res;
             _serviceResult.Message = Common.Properties.Resources.Success;
-            if (res != null && res.Count() > 0)
+            if (res != null)
                 _serviceResult.Code = Common.Enum.ResultCode.Ok;
             else
+            {
+                _serviceResult.Message = Common.Properties.Resources.NoContent;
                 _serviceResult.Code = Common.Enum.ResultCode.NoContent;
+            }
             return _serviceResult;
         }
 
@@ -76,7 +82,10 @@ namespace MISA.CukCuk.MF734.PVTHANG.Service.Classes
             if (res > 0)
                 _serviceResult.Code = Common.Enum.ResultCode.Created;
             else
+            {
+                _serviceResult.Message = Common.Properties.Resources.Fail;
                 _serviceResult.Code = Common.Enum.ResultCode.BadRequest;
+            }
             return _serviceResult;
         }
 
@@ -98,7 +107,10 @@ namespace MISA.CukCuk.MF734.PVTHANG.Service.Classes
             if (res > 0)
                 _serviceResult.Code = Common.Enum.ResultCode.Ok;
             else
+            {
+                _serviceResult.Message = Common.Properties.Resources.Fail;
                 _serviceResult.Code = Common.Enum.ResultCode.BadRequest;
+            }
             return _serviceResult;
         }
 
@@ -117,7 +129,10 @@ namespace MISA.CukCuk.MF734.PVTHANG.Service.Classes
             if (res > 0)
                 _serviceResult.Code = Common.Enum.ResultCode.Ok;
             else
+            {
+                _serviceResult.Message = Common.Properties.Resources.Fail;
                 _serviceResult.Code = Common.Enum.ResultCode.BadRequest;
+            }
             return _serviceResult;
         }
 
