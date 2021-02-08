@@ -1,0 +1,12 @@
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.DataLayer\bin\Debug\netcoreapp3.1\MISA.DataLayer.deps.json
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.DataLayer\bin\Debug\netcoreapp3.1\MISA.DataLayer.dll
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.DataLayer\bin\Debug\netcoreapp3.1\MISA.DataLayer.pdb
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.DataLayer\bin\Debug\netcoreapp3.1\MISA.Common.dll
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.DataLayer\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.csprojAssemblyReference.cache
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.AssemblyInfoInputs.cache
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.AssemblyInfo.cs
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.csproj.CoreCompileInputs.cache
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.csproj.CopyComplete
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.dll
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.pdb

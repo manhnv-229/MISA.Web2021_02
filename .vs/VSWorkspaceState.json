@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MISA.BL",
+    "\\MISA.Common",
+    "\\MISA.CukCuk.Web",
+    "\\MISA.CukCuk.Web\\Controllers",
+    "\\MISA.CukCuk.Web\\Models",
+    "\\MISA.DL",
+    "\\WebApplication1"
+  ],
+  "SelectedNode": "\\MISA.CukCuk.Web\\Controllers\\EmployeeController.cs",
+  "PreviewInSolutionExplorer": false
+}

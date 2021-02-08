@@ -1,0 +1,14 @@
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Service.deps.json
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Service.dll
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Service.pdb
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Common.dll
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\bin\Debug\netcoreapp3.1\MISA.DataLayer.dll
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\bin\Debug\netcoreapp3.1\MISA.DataLayer.pdb
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.csprojAssemblyReference.cache
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.AssemblyInfoInputs.cache
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.AssemblyInfo.cs
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.csproj.CoreCompileInputs.cache
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.csproj.CopyComplete
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.dll
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.pdb
