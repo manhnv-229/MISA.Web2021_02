@@ -5,6 +5,7 @@ using Misa.Common.Enum;
 using Misa.Common.Requests;
 using Misa.Common.Results;
 using Misa.Data.Interfaces;
+using Misa.Data.Version2;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -14,10 +15,12 @@ namespace Misa.Bussiness.Version1
     {
         private IBaseData<T> _baseData;
         //private DbConnection<T> dbConnection;
+       
         public BaseBussiness(IBaseData<T> baseData)
         {
             //dbConnection = new DbConnection<T>();
             _baseData = baseData;
+            
         }
 
         /// <summary>

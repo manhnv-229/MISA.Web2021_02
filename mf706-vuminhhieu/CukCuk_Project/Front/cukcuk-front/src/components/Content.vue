@@ -104,11 +104,18 @@ export default {
 
       // do stuff with the data received by the modal
     },
-    createCofirm : async function(){
-       alert("Thêm mới thành công");
-       var getData = this.$refs.table_ref.getData();      
-       this.$refs.EmployeeModeCreate_ref.hide();
-      getData.await;
+    createCofirm : async function(e){
+      if(e == true){
+         alert("Thêm mới thành công");
+          var getData = this.$refs.table_ref.getData();      
+        this.$refs.EmployeeModeCreate_ref.hide();
+        getData.await;
+      }
+       if(e == false){
+         alert("Thêm mới thất bại");
+      }
+      
+      
 
     },
     openEditModal: async function() {

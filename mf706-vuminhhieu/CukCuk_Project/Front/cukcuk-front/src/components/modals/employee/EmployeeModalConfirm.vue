@@ -21,7 +21,7 @@ export default {
    BaseModalConfirm
  },
  created(){
-    console.log(this.successConfirm);
+   // console.log(this.successConfirm);
  },
   methods: {
     hide: async function() {

@@ -19,4 +19,24 @@ namespace Misa.Common.Enum
         /// </summary>
         Exception = 500
     }
+
+    public enum Gender
+    {
+        Female = 0,
+
+        Male = 1,        
+       
+        Other = 2
+    }
+
+    
+
+    //public enum WorkStatus
+    //{
+    //     "thử Việc",
+
+    //    Male = 1,
+
+    //    Other = 2
+    //}
 }

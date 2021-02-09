@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Misa.Bussiness;
 using Misa.Bussiness.Interfaces;
+using Misa.Bussiness.Version1;
 using Misa.Common.Entities;
 using Misa.Common.Requests;
 using Misa.Common.Requests.Employee;
 using Misa.Data;
 using Misa.Data.Interfaces;
+using Misa.Data.Version2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,8 +21,7 @@ namespace Misa.NETCore.Controllers
     [ApiController]
     public class EmployeeController : BaseController<Employee>
     {
-        private IEmployeeBussiness _employeeBussiness;       
-
+        private IEmployeeBussiness _employeeBussiness;
         public EmployeeController(IEmployeeBussiness employeeBussiness, IBaseBussiness<Employee> baseBussiness):base(baseBussiness)
         {
             _employeeBussiness = employeeBussiness;
@@ -54,7 +55,7 @@ namespace Misa.NETCore.Controllers
         [HttpPost]
         public override async Task<IActionResult> Post([FromBody] Employee employee)
         {
-            var result =await _employeeBussiness.Insert(employee);
+            var result = await _employeeBussiness.Insert(employee);
             return Ok(result);
         }
 

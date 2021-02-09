@@ -1,5 +1,5 @@
 <template>
-<BaseModalConfirm ref="BaseForm_ref">
+  <BaseModalConfirm ref="BaseForm_ref">
     <div class="h-dialog-content">
       <div class="h-dialog-header">
         <div class="h-dialog-header-title">Thông tin nhân viên</div>
@@ -9,7 +9,10 @@
       </div>
       <div class="h-dialog-content-body">
         <div class="col-xs-3 ml-2">
-          <img src="~@/content/img/default-avatar.jpg" class="default-avt img-circle">
+          <img
+            src="~@/content/img/default-avatar.jpg"
+            class="default-avt img-circle"
+          />
 
           <p>(Vui lòng chọn ảnh có địng dạng .jpg, .jpeg, .png, .gif)</p>
           <input type="file" id="avtUpdate" style="display: none" />
@@ -25,7 +28,13 @@
                 <p class="label-text">
                   Mã nhân viên(<span class="required">*</span>)
                 </p>
-                <input type="text" id="em-code" class="form-control" required v-model="employee.EmployeeCode" />
+                <input
+                  type="text"
+                  id="em-code"
+                  class="form-control"
+                  required
+                  v-model="employee.employeeCode"
+                />
               </div>
               <div class="form-group">
                 <p class="label-text">Ngày sinh</p>
@@ -34,7 +43,7 @@
                   id="em-birth"
                   class="form-control"
                   placeholder="mm/dd/yyyy"
-                  v-model="employee.DateOfBirth"
+                  v-model="employee.dateOfBirth"
                 />
               </div>
 
@@ -47,7 +56,7 @@
                   id="em-identification"
                   class="form-control"
                   required
-                  v-model="employee.IdentityNumber"
+                  v-model="employee.identityCardNumber"
                 />
               </div>
             </div>
@@ -57,9 +66,13 @@
                 <p class="label-text">
                   Họ và tên(<span class="required">*</span>)
                 </p>
-                <input 
-                type="text" id="em-name" class="form-control" required 
-                v-model="employee.FullName"/>
+                <input
+                  type="text"
+                  id="em-name"
+                  class="form-control"
+                  required
+                  v-model="employee.fullName"
+                />
               </div>
               <div class="form-group">
                 <p class="label-text">Giới tính</p>
@@ -70,7 +83,7 @@
                   fieldValue="value"
                   fieldText="text"
                   apiGetUrl="/api/v1/enums/gender"
-                  v-model="employee.Gender"
+                  v-model="employee.gender"
                 >
                   <option value="1">Nam</option>
                   <option value="0">Nữ</option>
@@ -85,7 +98,7 @@
                   id="em-birth"
                   class="form-control"
                   placeholder="mm/dd/yyyy"
-                  v-model="employee.IdentityDate"
+                  v-model="employee.identityDate"
                 />
               </div>
             </div>
@@ -94,21 +107,25 @@
             <div class="col-xs-6 h-container-column pd-1">
               <div class="form-group">
                 <p class="label-text">Nơi cấp</p>
-                <input type="text" class="form-control" id="em-identifyPlace"
-                v-model="employee.IdentityPlace" />
+                <input
+                  type="text"
+                  class="form-control"
+                  id="em-identifyPlace"
+                  v-model="employee.identityPlace"
+                />
               </div>
             </div>
           </div>
           <div>
             <div class="col-xs-6 h-container-column pd-1">
               <div class="form-group">
-                <p class="label-text">Email(<span class="required">*</span>)</p>
+                <p class="label-text">email(<span class="required">*</span>)</p>
                 <input
                   type="email"
                   id="em-email"
                   class="form-control"
                   required
-                  v-model="employee.Email"
+                  v-model="employee.email"
                 />
               </div>
             </div>
@@ -122,7 +139,7 @@
                   id="em-phone"
                   class="form-control"
                   required
-                  v-model="employee.PhoneNumber"
+                  v-model="employee.phoneNumber"
                 />
               </div>
             </div>
@@ -137,11 +154,11 @@
                 <p class="label-text">Vị trí</p>
                 <select
                   id="em-position"
-                  fieldName="PositionName"
-                  fieldValue="PositionId"
+                  fieldName="positionName"
+                  fieldValue="positionId"
                   class="form-control"
                   api="https://localhost:44376/api/EmployeePositions"
-                  v-model="employee.PositionId"
+                  v-model="employee.positionId"
                 >
                   <option value="3700cc49-55b5-69ea-4929-a2925c0f334d">
                     Giám đốc
@@ -156,13 +173,21 @@
               </div>
               <div class="form-group">
                 <p class="label-text">Mã số thuế cá nhân</p>
-                <input type="text" id="em-tax" class="form-control" 
-                v-model="employee.PersonalTaxCode"/>
+                <input
+                  type="text"
+                  id="em-tax"
+                  class="form-control"
+                  v-model="employee.taxCode"
+                />
               </div>
               <div class="form-group">
                 <p class="label-text">Ngày gia nhập công ty</p>
-                <input type="date" id="em-dateJoin" class="form-control"
-                v-model="employee.JoinDate" />
+                <input
+                  type="date"
+                  id="em-dateJoin"
+                  class="form-control"
+                  v-model="employee.dateJoin"
+                />
               </div>
             </div>
             <div class="col-xs-6 h-container-column">
@@ -170,13 +195,13 @@
                 <p class="label-text">Phòng ban</p>
                 <select
                   id="em-department"
-                  fieldName="DepartmentName"
-                  fieldValue="DepartmentId"
+                  fieldName="departmentName"
+                  fieldValue="departmentId"
                   class="form-control"
                   api="https://localhost:44376/api/EmployeeDepartments"
-                  v-model="employee.DepartmentId"
+                  v-model="employee.departmentId"
                 >
-                <option value="17120d02-6ab5-3e43-18cb-66948daf6128">
+                  <option value="17120d02-6ab5-3e43-18cb-66948daf6128">
                     Phòng đào tạo
                   </option>
                   <option value="4e272fc4-7875-78d6-7d32-6a1673ffca7c">
@@ -198,13 +223,17 @@
                   type="text"
                   id="em-salary"
                   class="text-align-right pr-45 form-control"
-                  v-model="employee.Salary"
+                  v-model="employee.salary"
                 />
                 <span class="currency-for-input">(VNĐ)</span>
               </div>
               <div class="form-group">
                 <p class="label-text">Tình trạng công việc</p>
-                <select id="cbxWorkStatus" class="form-control" v-model="employee.WorkStatus" >
+                <select
+                  id="cbxworkStatus"
+                  class="form-control"
+                  v-model="employee.workStatus"
+                >
                   <option value="1">Đang làm việc</option>
                   <option value="2">Đang thử việc</option>
                   <option value="0">Đã nghỉ việc</option>
@@ -227,17 +256,16 @@
           Hủy
         </button>
         <button class="h-btn h-save-btn" id="btnSave" v-on:click="Confirm()">
-          <i class="fa fa-floppy-o" aria-hidden="true" ></i>Lưu
+          <i class="fa fa-floppy-o" aria-hidden="true"></i>Lưu
         </button>
       </div>
     </div>
-    </BaseModalConfirm>
-  
+  </BaseModalConfirm>
 </template>
 
 <script>
 import * as axios from "axios";
-import BaseModalConfirm from "../BaseModalForm.vue"
+import BaseModalConfirm from "../BaseModalForm.vue";
 export default {
   // props: {
   //     showModal: Boolean
@@ -246,56 +274,52 @@ export default {
     return {
       visible: false,
       employee: {       
-       
-        
-        EmployeeCode: "",
-        FullName: "",
-        DateOfBirth: "",
-        Gender: null, 
-        IdentityNumber:"",
-        IdentityDate: null,
-        IdentityPlace: "",             
-        Email: "",
-        PhoneNumber: "",
-            
-        PositionId: "",     
-        DepartmentId: "",  
-        PersonalTaxCode:"",
-        Salary: null,        
-        JoinDate: "",
-        WorkStatus: null
-        
+            employeeCode: "",
+            fullName: "",
+            dateOfBirth: "",
+            gender: null,
+            identityCardNumber: "",
+            identityDate: "",
+            identityPlace: "",
+            email: "",
+            phoneNumber: "",
+            positionId: "",
+            departmentId: "",
+            taxCode: "",
+            salary: null,
+            dateJoin: "",
+            workStatus: null
       },
+     
     };
   },
   components: {
-    BaseModalConfirm
+    BaseModalConfirm,
   },
   methods: {
-    hide: async function(){
-     
+    hide: async function () {
       this.$refs.BaseForm_ref.hide();
     },
-    show: async function() {       
-       this.$refs.BaseForm_ref.show();
+    show: async function () {
+      this.$refs.BaseForm_ref.show();
     },
 
-    Confirm : async function(){      
+    Confirm: async function () {
       var confirm = false;
       console.log(this.employee);
-      await axios.post('http://api.manhnv.net/api/Employees', this.employee)
-            .then(function (res) {
-              console.log("success: "+res);
-             confirm = true;
-            })
-            .catch(function (err) {
-               console.log("false: " +err);    
-               confirm = false;          
-            });
+      await axios
+        .post("https://localhost:44339/api/employee", this.employee)
+        .then(function (res) {
+          console.log("success: " + res);
+          confirm = true;
+        })
+        .catch(function (err) {
+          console.log("false: " + err);
+          confirm = false;
+        });
 
-            this.$emit("created", confirm);        
-
-    }
+      this.$emit("created", confirm);
+    },
   },
 };
 </script>
