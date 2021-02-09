@@ -1,0 +1,16 @@
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\obj\Debug\netcoreapp3.1\FresherProject.Service.csprojAssemblyReference.cache
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\obj\Debug\netcoreapp3.1\FresherProject.Service.AssemblyInfoInputs.cache
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\obj\Debug\netcoreapp3.1\FresherProject.Service.AssemblyInfo.cs
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\obj\Debug\netcoreapp3.1\FresherProject.Service.csproj.CoreCompileInputs.cache
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\bin\Debug\netcoreapp3.1\FresherProject.Service.deps.json
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\bin\Debug\netcoreapp3.1\FresherProject.Service.dll
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\bin\Debug\netcoreapp3.1\FresherProject.Service.pdb
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\bin\Debug\netcoreapp3.1\FresherProject.Common.dll
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\bin\Debug\netcoreapp3.1\FresherProject.DataLayer.dll
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\bin\Debug\netcoreapp3.1\FresherProject.Common.pdb
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\bin\Debug\netcoreapp3.1\FresherProject.DataLayer.pdb
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\obj\Debug\netcoreapp3.1\FresherProject.Service.Properties.Resources.resources
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\obj\Debug\netcoreapp3.1\FresherProject.Service.csproj.GenerateResource.cache
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\obj\Debug\netcoreapp3.1\FresherProject.Service.csproj.CopyComplete
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\obj\Debug\netcoreapp3.1\FresherProject.Service.dll
+D:\ThucTapMiSa\FresherProject.API\FresherProject.Service\obj\Debug\netcoreapp3.1\FresherProject.Service.pdb
