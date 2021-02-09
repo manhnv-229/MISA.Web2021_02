@@ -7,5 +7,6 @@ namespace MISA.DataLayer.Interface
 {
     public interface ICustomerGroupDL: IBaseDL<CustomerGroup>
     {
+        //
     }
 }

@@ -21,7 +21,7 @@ namespace MISA.Service
         /// Lấy tất cả đối tượng
         /// </summary>
         /// <returnsr>Danh sách đối tượng</returnsr></returns>
-        /// CreatedBy VTThien 08/02/21
+        /// CreatedBy VTThien (08/02/21)
         public ServiceResult GetAll()
         {
             var result = new ServiceResult();
