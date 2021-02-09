@@ -1,0 +1,11 @@
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.deps.json
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.dll
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csprojAssemblyReference.cache
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.Properties.Resources.resources
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csproj.GenerateResource.cache
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.AssemblyInfoInputs.cache
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.AssemblyInfo.cs
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csproj.CoreCompileInputs.cache
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.dll
+D:\WDT2020_MS4_17_PHAM_NGOC_THUAN\MISA.CukCuk.Web - Copy\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.pdb
