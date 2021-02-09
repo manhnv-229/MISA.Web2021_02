@@ -71,7 +71,7 @@ namespace MISA.CukCuk.Api.Controllers
         /// Cập nhật đối tượng với giao thức HttpPut
         /// </summary>
         /// <param name="entity">Đối tượng cân sửa</param>
-        /// <returns></returns>
+        /// <returns>số bản update và kết quả update</returns>
         /// CreatedBy: PNTHANG (09/02/2021)
         [HttpPut]
         public IActionResult Put([FromBody] MISAEntity entity)
@@ -82,7 +82,7 @@ namespace MISA.CukCuk.Api.Controllers
         /// Xóa đối với giao thức HttpDelete
         /// </summary>
         /// <param name="id">Id đối tượng cần xóa</param>
-        /// <returns></returns>
+        /// <returns>kết quả xóa và số bản xóa</returns>
         /// CreatedBy: PNTHANG (09/02/2021)
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)
