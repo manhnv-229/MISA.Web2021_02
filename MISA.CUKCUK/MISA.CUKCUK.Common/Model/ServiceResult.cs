@@ -14,14 +14,17 @@ namespace MISA.Common.Model
         {
             Success = true;
         }
-         /// <summary>
-         /// Trạng thái service/ true: thành công- fail- thất bại
-         /// </summary>
+
+        /// <summary>
+        /// Trạng thái service/ true: thành công- fail- thất bại
+        /// </summary>
         public bool Success { get; set; }
+
         /// <summary>
         /// Dữ liệu
         /// </summary>
         public object Data { get; set; }
+
         /// <summary>
         /// Mã MISA
         /// </summary>

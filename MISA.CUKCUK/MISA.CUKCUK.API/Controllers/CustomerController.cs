@@ -70,8 +70,8 @@ namespace MISA.CUKCUK.API.Controllers
         /// <param name="id"></param>
         /// <param name="customer"></param>
         /// <returns></returns>
-        [HttpPut]
-        public IActionResult PutCustomer(Guid id, Customer customer)
+        [HttpPut("{id}")]
+        public IActionResult PutCustomer([FromRoute] Guid id, [FromBody] Customer customer)
         {
             // Gọi đến hàm Insert thực hiện validate -> Sửa
             var res = _customerService.UpdateCustomer( id,  customer);
@@ -80,7 +80,7 @@ namespace MISA.CUKCUK.API.Controllers
             {
                 return StatusCode(400, res.Data);
             }
-            else if (res.Success == true && (int)res.Data > 0)
+            else if (res.Success == true && res.Data != null)
             {
                 return StatusCode(201, res.Data);
             }

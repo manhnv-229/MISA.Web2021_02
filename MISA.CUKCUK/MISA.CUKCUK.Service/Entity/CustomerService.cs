@@ -1,9 +1,5 @@
 ﻿using System;
 using MISA.Common.Model;
-using System.Collections.Generic;
-using System.Text;
-using MISA.CUKCUK.DataLayer;
-using System.Data.Common;
 using MISA.DataLayer.Interface;
 using MISA.Service.Interface;
 
