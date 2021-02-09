@@ -29,6 +29,11 @@ namespace MISA.CUKCUK.API.Controllers
             return serviceResult;
         }
         
+        /// <summary>
+        /// Lấy nhóm khách hàng theo Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public ServiceResult GetByID([FromRoute] Guid id)
         {
