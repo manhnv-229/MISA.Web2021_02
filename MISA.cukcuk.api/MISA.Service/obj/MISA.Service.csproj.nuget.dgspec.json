@@ -1,0 +1,191 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Service\\MISA.Service.csproj": {}
+  },
+  "projects": {
+    "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Common\\MISA.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Common\\MISA.Common.csproj",
+        "projectName": "MISA.Common",
+        "projectPath": "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Common\\MISA.Common.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.DataLayer\\MISA.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.DataLayer\\MISA.DataLayer.csproj",
+        "projectName": "MISA.DataLayer",
+        "projectPath": "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.DataLayer\\MISA.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Common\\MISA.Common.csproj": {
+                "projectPath": "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Common\\MISA.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Service\\MISA.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Service\\MISA.Service.csproj",
+        "projectName": "MISA.Service",
+        "projectPath": "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Service\\MISA.Service.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Common\\MISA.Common.csproj": {
+                "projectPath": "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.Common\\MISA.Common.csproj"
+              },
+              "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.DataLayer\\MISA.DataLayer.csproj": {
+                "projectPath": "E:\\Học Tập\\my project\\misa\\back_end\\MISA.cukcuk.api\\MISA.DataLayer\\MISA.DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

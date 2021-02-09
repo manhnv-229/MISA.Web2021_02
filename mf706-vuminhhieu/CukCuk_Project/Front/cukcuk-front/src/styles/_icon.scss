@@ -1,0 +1,44 @@
+.h-icon {
+    margin-left: .05rem;
+    font-size: 1.2rem;
+    margin-right: .2rem;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.h-icon-add {
+    width: 16px;
+    height: 16px;
+    background-image: url('../content/icon/add.png');
+}
+
+.h-icon-search {
+    background-image: url(../content/icon/search.png);
+    background-repeat: no-repeat;
+    background-position: 16px center;
+}
+
+
+.h-icon-dashboard {
+    background-image: url(../content/icon/dashboard.png);
+}
+
+.h-icon-report {
+    background-image: url(../content/icon/report.png);
+}
+
+.h-icon-dic-employee {
+    background-image: url(../content/icon/dic-employee.png);
+}
+
+.h-icon-setting {
+    background-image: url(../content/icon/setting.png);
+}
+
+.h-icon-option {
+    background-image: url(../content/icon/option.png);
+}

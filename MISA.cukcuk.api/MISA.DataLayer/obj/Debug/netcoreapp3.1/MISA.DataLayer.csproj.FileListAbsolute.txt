@@ -1,0 +1,12 @@
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.DataLayer\bin\Debug\netcoreapp3.1\MISA.DataLayer.deps.json
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.DataLayer\bin\Debug\netcoreapp3.1\MISA.DataLayer.dll
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.DataLayer\bin\Debug\netcoreapp3.1\MISA.DataLayer.pdb
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.DataLayer\bin\Debug\netcoreapp3.1\MISA.Common.dll
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.DataLayer\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.csprojAssemblyReference.cache
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.AssemblyInfoInputs.cache
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.AssemblyInfo.cs
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.csproj.CoreCompileInputs.cache
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.csproj.CopyComplete
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.dll
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.DataLayer\obj\Debug\netcoreapp3.1\MISA.DataLayer.pdb
