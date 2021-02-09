@@ -67,5 +67,27 @@ namespace MISA.CukCuk.Api.Controllers
                 return StatusCode(200, res.Data);
             }
         }
+        /// <summary>
+        /// Cập nhật đối tượng với giao thức HttpPut
+        /// </summary>
+        /// <param name="entity">Đối tượng cân sửa</param>
+        /// <returns></returns>
+        /// CreatedBy: PNTHANG (09/02/2021)
+        [HttpPut]
+        public IActionResult Put([FromBody] MISAEntity entity)
+        {
+            return Ok(_baseService.Update(entity));
+        }
+        /// <summary>
+        /// Xóa đối với giao thức HttpDelete
+        /// </summary>
+        /// <param name="id">Id đối tượng cần xóa</param>
+        /// <returns></returns>
+        /// CreatedBy: PNTHANG (09/02/2021)
+        [HttpDelete("{id}")]
+        public IActionResult Delete(Guid id)
+        {
+            return Ok(_baseService.Delete(id));
+        }
     }
 }

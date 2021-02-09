@@ -60,6 +60,32 @@ namespace MISA.Service
             }
             return serviceResult; 
         }
+
+        /// <summary>
+        /// Cập nhật thông tin khách hàng
+        /// </summary>
+        /// <param name="entity">Đối tượng cần cập nhật</param>
+        /// <returns>Kết quả truy vấn và đối tượng</returns>
+        public ServiceResult Update(MISAEntity entity)
+        {
+            var serviceResult = new ServiceResult();
+            var dbContext = new DbContext<MISAEntity>();
+            serviceResult.Data = dbContext.Update(entity);
+            return serviceResult;
+        }
+        /// <summary>
+        /// Hàm service Xóa đối tượng
+        /// </summary>
+        /// <param name="id">ID đối tượng cần xóa</param>
+        /// <returns>Kết quả truy vấn và đối tượng</returns>
+        /// Created By: PNTHANG (09/02/2021)
+        public ServiceResult Delete(Guid id)
+        {
+            var serviceResult = new ServiceResult();
+            var dbContext = new DbContext<MISAEntity>();
+            serviceResult.Data = dbContext.Delete(id);
+            return serviceResult;
+        }
         /// <summary>
         /// Thực hiện validate
         /// </summary>

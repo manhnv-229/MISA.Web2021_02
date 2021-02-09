@@ -20,5 +20,17 @@ namespace MISA.Service.Interfaces
         /// <param name="entity">Đối tượng cần thêm vào</param>
         /// <returns>true - thành công, false - thất bại và số bản ghi</returns>
         ServiceResult Insert(MISAEntity entity);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <returns></returns>
+        ServiceResult Update(MISAEntity entity);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        ServiceResult Delete(Guid id);
     }
 }

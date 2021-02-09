@@ -119,7 +119,46 @@ namespace MISA.DataLayer
             return res;
         }
 
-        
+        /// <summary>
+        /// Xóa một đối tượng
+        /// </summary>
+        /// <param name="id">Id đối tượng</param>
+        /// <returns></returns>
+        public int Delete(Guid id)
+        {
+            var tableName = typeof(MISAEntity).Name;
+            var storeName = $"Proc_Delete{tableName}";
+            DynamicParameters dynamicParameters = new DynamicParameters();
+            dynamicParameters.Add($"@Delete{tableName}Id", id.ToString());
+            var affectRows = _dbConnection.Execute(storeName, dynamicParameters, commandType: CommandType.StoredProcedure);
+            return affectRows;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <returns></returns>
+        public int Update(MISAEntity entity)
+        {
+            var tableName = typeof(MISAEntity).Name;
+            var storeName = $"Proc_Update{tableName}";
+            DynamicParameters dynamicParameters = new DynamicParameters();
+            //Đọc các property của T:
+            var properties = typeof(MISAEntity).GetProperties();
+            foreach (var property in properties)
+            {
+                var propertyName = property.Name;
+                var propertyValue = property.GetValue(entity);
+                var propertyType = property.PropertyType.Name;
+                if (propertyType != "String" && propertyType != "DateTime")
+                    propertyValue = property.GetValue(entity).ToString();
+                dynamicParameters.Add($"@{propertyName}", propertyValue);
+            }
+            var affectRows = _dbConnection.Execute(storeName, dynamicParameters, commandType: CommandType.StoredProcedure);
+            return affectRows;
+        }
+
+
         #endregion
     }
 }
