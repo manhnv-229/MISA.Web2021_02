@@ -1,0 +1,12 @@
+0. git clone <link_repository>
+1.Tạo nhánh mới
+git branch <branch name>
+2 checkout nhánh (chuyển nhánh)
+git checkout <branch_name>
+3. Tạo nhánh đồng thời check out
+git checkout -b <branch_name>
+4. git add <file_name>
+5. git add . (add tất cả)
+6. git status (Kiểm tra)
+7. git push origin <branch_name>
+8. git pull origin <branch_name>
