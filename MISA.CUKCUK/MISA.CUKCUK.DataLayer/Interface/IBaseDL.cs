@@ -20,5 +20,19 @@ namespace MISA.DataLayer.Interface
 
         //Xóa
         int Delete(Guid id);
+
+        /// <summary>
+        /// Check trùng mã
+        /// </summary>
+        /// <param name="code"></param>
+        /// <returns></returns>
+        T GetEntityByCode(string code);
+
+        /// <summary>
+        /// Check trùng theo tên trường
+        /// </summary>
+        /// <param name="fieldName"></param>
+        /// <returns></returns>
+        T GetEntityByField(string fieldName, string fieldValue);
     }
 }

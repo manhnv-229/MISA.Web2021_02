@@ -47,7 +47,7 @@ namespace MISA.CUKCUK.API.Controllers
         /// <returns>Response tương ứng và số bản ghi được thêm nếu thêm được</returns>
         /// CreatedBy VTThien (07/02/21)
         [HttpPost]
-        public IActionResult PostCustomer(Customer customer)
+        public IActionResult PostCustomer([FromBody] Customer customer)
         {
             var res = _customerService.InsertCustomer(customer);
             if (res.Success == false)
@@ -90,24 +90,20 @@ namespace MISA.CUKCUK.API.Controllers
             }
         }
 
-        //[HttpDelete]
-        //public IActionResult Delete(T entity)
-        //{
-        //    // Gọi đến hàm Insert thực hiện validate -> Sửa
-        //    var res = _customerService.Delete(entity);
+        [HttpDelete("{id}")]
+        public IActionResult Delete([FromRoute] Guid id)
+        {
+            // Gọi đến hàm Insert thực hiện validate -> Sửa
+            var res = _customerService.Delete(id);
 
-        //    if (res.Success == false)
-        //    {
-        //        return StatusCode(400, res.Data);
-        //    }
-        //    else if (res.Success == true && (int)res.Data > 0)
-        //    {
-        //        return StatusCode(201, res.Data);
-        //    }
-        //    else
-        //    {
-        //        return StatusCode(200, res.Data);
-        //    }
-        //}
+            if (res.Success == false)
+            {
+                return StatusCode(400, res.Data);
+            }
+            else
+            {
+                return StatusCode(200, res.Data);
+            }
+        }
     }
 }

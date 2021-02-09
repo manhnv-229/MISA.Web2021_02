@@ -92,9 +92,45 @@ namespace MISA.DataLayer
         public int Delete(Guid id)
         {
             var procName = "Proc_Delete" + typeof(T).Name;
-            var parameters = new DynamicParameters(id);
+            // vì dynamicParam không parse được id ?
+            var param = new
+            {
+                id = id.ToString()
+            };
+            var parameters = new DynamicParameters(param);
             var result = _dbContext.Excute(procName, parameters, CommandType.StoredProcedure);
             return result;
         }
+
+        /// <summary>
+        /// Check trùng mã
+        /// </summary>
+        /// <param name="code"></param>
+        /// <returns></returns>
+        public T GetEntityByCode(string code)
+        {
+            string tableName = typeof(T).Name;
+            string fieldCode = tableName + "Code";
+
+            var sql = $"SELECT * FROM {tableName} WHERE {fieldCode} = '{code}'";
+            var result = _dbContext.QueryFirst(sql);
+            return result;
+        }
+
+        /// <summary>
+        /// Check trùng theo tên trường
+        /// </summary>
+        /// <param name="fieldName">Tên trường cần check trùng</param>
+        /// <param name="fieldValue">Giá trị</param>
+        /// <returns></returns>
+        public T GetEntityByField(string fieldName, string fieldValue)
+        {
+            string tableName = typeof(T).Name;
+
+            var sql = $"SELECT * FROM {tableName} WHERE {fieldName} = '{fieldValue}'";
+            var result = _dbContext.QueryFirst(sql);
+            return result;
+        }
+
     }
 }

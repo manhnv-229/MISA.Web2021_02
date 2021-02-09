@@ -79,5 +79,37 @@ namespace MISA.Service
 
             return result;
         }
+
+        /// <summary>
+        /// Xóa theo Id
+        /// </summary>
+        /// <param name="id">ID của thực thể cần xóa</param>
+        /// <returns></returns>
+        public ServiceResult Delete(Guid id)
+        {
+            var result = new ServiceResult();
+            int deleteResult = _baseDL.Delete(id);
+
+            if (deleteResult > 0)
+            {
+                result.Data = deleteResult;
+                result.MISACode = "200";
+                result.Success = true;
+            }
+            else
+            {
+                result.Data = new ErrorMsg()
+                {
+                    DevMsg = MISA.Common.Properties.Resources.HaveNoObject,
+                    MoreInfo = MISA.Common.Properties.Resources.MoreInfo,
+                    UserMsg = MISA.Common.Properties.Resources.Error_UserMsg
+                };
+                result.Success = false;
+                result.MISACode = "400";
+            }
+
+            return result;
+
+        }
     }
 }
