@@ -1,0 +1,156 @@
+/* Grid */
+
+.grid {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.grid-customer {
+    height: calc(100vh - 251px);
+}
+
+.grid .grid-header {
+    height: 50px;
+}
+
+.grid .grid-content,
+.tablescroll_wrapper,
+.tablescroll {
+    height: calc(100% - 25px);
+}
+
+// .tablescroll {
+// }
+
+.grid table th {
+    border-bottom: 1px solid #bbbbbb;
+    
+    text-align: left;
+}
+
+    .grid table th .cell {
+        padding: 15px 16px !important;
+    }
+
+.grid table td {
+    border-bottom: 1px solid #bbbbbb;
+  
+    padding: 15px 16px !important;
+    text-align: left;
+    white-space: nowrap;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.grid table th {
+    z-index: 1;
+    position: sticky;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    padding-top: 22px !important;
+    font-weight: bold !important;
+}
+
+.grid tbody tr:nth-child(2n+1) {
+    background-color: #f4f4f4;
+}
+
+.grid tbody tr:hover {
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+
+.grid table td span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+
+div.tableContainer {
+    clear: both;
+    border: 1px solid #963;
+    height: 285px;
+    overflow: auto;
+    width: 900px;
+}
+
+
+
+
+html > body div.tableContainer {
+    overflow: hidden;
+    width: 900px;
+}
+
+
+
+
+    div.tableContainer table {
+        float: left;
+        border-spacing: 0;
+    }
+
+        div.tableContainer table tr {
+            display: table;
+            width: 100%;
+        }
+
+
+
+
+thead.fixedHeader tr {
+    position: relative;
+}
+
+
+
+.grid thead.fixedHeader th {
+    border: 1px solid #ccc;
+    font-weight: normal;
+    text-align: left;
+}
+
+html > body .grid thead.fixedHeader {
+    display: table;
+    overflow: auto;
+    width: 100%;
+}
+
+html > body .grid tbody.scrollContent {
+    display: block;
+    height: 262px;
+    overflow: auto;
+    width: 100%;
+}
+
+
+  
+
+.grid tbody.scrollContent td,
+tbody.scrollContent tr.normalRow td {
+    background: #fff;
+    border-bottom: none;
+    border-left: none;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ddd;
+}
+
+.grid td div {
+    max-width: 200px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.row-selected {
+    background-color: rgba(150, 109, 48, 0.767) !important;
+}
