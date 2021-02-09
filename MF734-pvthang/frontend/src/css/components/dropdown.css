@@ -1,0 +1,24 @@
+﻿.drop--down {
+    width: calc(100% - 2px);
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    font-family: GoogleSans-Medium;
+    font-size: 13px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.drop--down select {
+    width: calc(100%);
+    height: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-left: 16px;
+}
+
+.drop--down:focus-within {
+    border: 1px solid #019160;
+    outline: none;
+}

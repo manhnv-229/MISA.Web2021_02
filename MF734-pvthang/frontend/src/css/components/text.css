@@ -1,0 +1,41 @@
+﻿.heading {
+    font-family: GoogleSans-Bold;
+    font-size: 24px;
+    color: #000000;
+}
+
+.title {
+    font-family: GoogleSans-Bold;
+    font-size: 20px;
+    color: #000000;
+}
+
+.title2 {
+    font-family: GoogleSans-Bold;
+    font-size: 15px;
+    color: #000000;
+}
+
+.label--field--input {
+    font-family: GoogleSans-Medium;
+    font-size: 13px;
+    color: #000000;
+}
+
+.lable, .body--content {
+    font-family: GoogleSans-Regular;
+    font-size: 13px;
+    color: #454545;
+}
+
+.content--details {
+    font-family: GoogleSans-Medium;
+    font-size: 13px;
+    color: #00000;
+}
+
+.sub--text {
+    font-family: GoogleSans-Regular;
+    font-size: 11px;
+    color: #bbbbbb;
+}

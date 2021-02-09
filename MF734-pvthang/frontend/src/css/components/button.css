@@ -1,0 +1,126 @@
+﻿button:focus {
+    outline: none;
+}
+
+button:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.button {
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #019160;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    min-width: 100px;
+    cursor: pointer;
+    font-family: GoogleSans-Regular;
+}
+
+    .button:hover {
+        background-color: #2FBE8E;
+        border: none;
+    }
+
+    .button:focus {
+        background-color: #01B075;
+        outline: none;
+    }
+
+.button--icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #019160;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: GoogleSans-Regular;
+}
+
+    .button--icon:hover {
+        background-color: #2FBE8E;
+        border: none;
+    }
+
+    .button--icon:focus {
+        background-color: #01B075;
+        outline: none;
+    }
+
+    .button--icon .icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+
+.button--second {
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 40px;
+    border-radius: 4px;
+    min-width: 100px;
+    border: 1px solid #bbbbbb;
+    color: #000000;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ffffff;
+    font-family: GoogleSans-Regular;
+    color: #019160;
+}
+
+    .button--second:hover {
+        background-color: #bbbbbb;
+    }
+
+    .button--second:focus {
+        background-color: #01B075;
+        outline: none;
+        color: #ffffff;
+    }
+
+.btn--first {
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #bbbbbb;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #E5E5E5;
+}
+
+    .btn--first:hover {
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
+        color: #000000;
+    }
+
+.btn--second {
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #bbbbbb;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+    .btn--second:hover {
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
+        color: #000000;
+    }
