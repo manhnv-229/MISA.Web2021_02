@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NNyVB52rm4tTrJLvElyNt0UATGQiNeHb/Ita2A6DEUWpxaWiLiMQPIrS/WSn1DfOM2Z5/Ah2QAudy5tpMEwgKA==",
+  "success": true,
+  "projectFilePath": "E:\\LearnedFromMISA\\MyExcercise\\CukCukAPI\\CukCuk.Common\\CukCuk.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DinhQuang99\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\DinhQuang99\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\DinhQuang99\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

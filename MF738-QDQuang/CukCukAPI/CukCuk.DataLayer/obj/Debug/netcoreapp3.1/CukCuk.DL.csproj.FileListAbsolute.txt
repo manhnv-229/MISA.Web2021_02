@@ -1,0 +1,12 @@
+E:\LearnedFromMISA\MyExcercise\CukCukAPI\CukCuk.DataLayer\bin\Debug\netcoreapp3.1\CukCuk.DL.deps.json
+E:\LearnedFromMISA\MyExcercise\CukCukAPI\CukCuk.DataLayer\bin\Debug\netcoreapp3.1\CukCuk.DL.dll
+E:\LearnedFromMISA\MyExcercise\CukCukAPI\CukCuk.DataLayer\bin\Debug\netcoreapp3.1\CukCuk.DL.pdb
+E:\LearnedFromMISA\MyExcercise\CukCukAPI\CukCuk.DataLayer\bin\Debug\netcoreapp3.1\CukCuk.Common.dll
+E:\LearnedFromMISA\MyExcercise\CukCukAPI\CukCuk.DataLayer\bin\Debug\netcoreapp3.1\CukCuk.Common.pdb
+E:\LearnedFromMISA\MyExcercise\CukCukAPI\CukCuk.DataLayer\obj\Debug\netcoreapp3.1\CukCuk.DL.csprojAssemblyReference.cache
+E:\LearnedFromMISA\MyExcercise\CukCukAPI\CukCuk.DataLayer\obj\Debug\netcoreapp3.1\CukCuk.DL.AssemblyInfoInputs.cache
+E:\LearnedFromMISA\MyExcercise\CukCukAPI\CukCuk.DataLayer\obj\Debug\netcoreapp3.1\CukCuk.DL.AssemblyInfo.cs
+E:\LearnedFromMISA\MyExcercise\CukCukAPI\CukCuk.DataLayer\obj\Debug\netcoreapp3.1\CukCuk.DL.csproj.CoreCompileInputs.cache
+E:\LearnedFromMISA\MyExcercise\CukCukAPI\CukCuk.DataLayer\obj\Debug\netcoreapp3.1\CukCuk.DL.csproj.CopyComplete
+E:\LearnedFromMISA\MyExcercise\CukCukAPI\CukCuk.DataLayer\obj\Debug\netcoreapp3.1\CukCuk.DL.dll
+E:\LearnedFromMISA\MyExcercise\CukCukAPI\CukCuk.DataLayer\obj\Debug\netcoreapp3.1\CukCuk.DL.pdb
