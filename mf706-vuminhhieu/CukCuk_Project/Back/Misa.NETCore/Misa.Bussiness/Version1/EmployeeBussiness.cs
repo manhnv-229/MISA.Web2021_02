@@ -6,6 +6,7 @@ using Misa.Common.Requests.Employee;
 using Misa.Common.Results;
 using Misa.Common.Results.model;
 using Misa.Data.Interfaces;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -55,7 +56,7 @@ namespace Misa.Bussiness.Version1
             var listEmployee = await _employeeData.GetData(pageRequest);
             var ListPage = new PageResult<EmployeeResult>()
             {
-                Items = listEmployee,
+                Items = AddProperty(listEmployee),
                 TotalRecord = listEmployee.Count()
             };
             return new ServiceResult()
@@ -74,15 +75,11 @@ namespace Misa.Bussiness.Version1
         /// create :4/2/2021
         public async Task<ServiceResult> GetFullData()
         {
-            var listEmployee = await _employeeData.GetData();
-            var ListPage = new PageResult<EmployeeResult>()
-            {
-                Items = listEmployee,
-                TotalRecord = listEmployee.Count()
-            };
+            var listEmployee = await _employeeData.GetData();    
+            
             return new ServiceResult()
             {
-                Data = ListPage,
+                Data = AddProperty(listEmployee),
                 Error = null,
                 MISACukCukCode = MISACukCukServiceCode.Success
             };
@@ -230,6 +227,24 @@ namespace Misa.Bussiness.Version1
                 });
                 serviceResult.MISACukCukCode = MISACukCukServiceCode.BadRequest;
             }
+        }
+
+        /// <summary>
+        /// Thêm 1 số trường cho dữ liệu 
+        /// -- dịch vụ của version 1
+        /// </summary>
+        /// <param name="employees">danh sách nhân viên kiểu EmployeeResult</param>
+        /// <returns>danh sách nhân viên kiểu EmployeeResult</returns>
+        private IEnumerable<EmployeeResult> AddProperty(IEnumerable<EmployeeResult> employees)
+        {
+            foreach(EmployeeResult employee in employees)
+            {
+                if (employee.Gender != null)
+                    employee.GenderName = CommonProperty.Gender[employee.Gender.GetValueOrDefault()];
+                if (employee.WorkStatus != null)
+                    employee.WorkStatusName = CommonProperty.WorkStatus[employee.WorkStatus.GetValueOrDefault()];
+            }
+            return employees;
         }
     }
 }

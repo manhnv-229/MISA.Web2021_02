@@ -1,0 +1,9 @@
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Common\bin\Debug\netcoreapp3.1\Misa.Common.deps.json
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Common\bin\Debug\netcoreapp3.1\Misa.Common.dll
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Common\bin\Debug\netcoreapp3.1\Misa.Common.pdb
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Common\obj\Debug\netcoreapp3.1\Misa.Common.AssemblyInfoInputs.cache
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Common\obj\Debug\netcoreapp3.1\Misa.Common.AssemblyInfo.cs
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Common\obj\Debug\netcoreapp3.1\Misa.Common.csproj.CoreCompileInputs.cache
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Common\obj\Debug\netcoreapp3.1\Misa.Common.dll
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Common\obj\Debug\netcoreapp3.1\Misa.Common.pdb
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Common\obj\Debug\netcoreapp3.1\Misa.Common.csprojAssemblyReference.cache

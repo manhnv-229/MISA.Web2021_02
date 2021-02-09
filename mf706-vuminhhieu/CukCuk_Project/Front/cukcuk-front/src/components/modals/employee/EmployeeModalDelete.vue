@@ -47,11 +47,11 @@ export default {
 
     Confirm: async function() {
       var confirm = [];
-      console.log(this.employee);
+     // console.log(this.employee);
       this.listId.forEach(async function (item) {
-        console.log("id: " + item);
+//console.log("id: " + item);
         await axios
-          .delete("http://api.manhnv.net/api/employees", item)
+          .delete("https://localhost:44339/api/employee/"+item)
           .then(function (res) {
             console.log("success: " + res);
             confirm.push({ id: item, state: true });

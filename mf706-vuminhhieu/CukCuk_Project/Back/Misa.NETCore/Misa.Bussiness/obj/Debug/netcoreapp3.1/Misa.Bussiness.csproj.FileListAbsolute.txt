@@ -1,0 +1,16 @@
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\obj\Debug\netcoreapp3.1\Misa.Bussiness.csprojAssemblyReference.cache
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\obj\Debug\netcoreapp3.1\Misa.Bussiness.Properties.Resources.resources
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\obj\Debug\netcoreapp3.1\Misa.Bussiness.csproj.GenerateResource.cache
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\obj\Debug\netcoreapp3.1\Misa.Bussiness.AssemblyInfoInputs.cache
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\obj\Debug\netcoreapp3.1\Misa.Bussiness.AssemblyInfo.cs
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\obj\Debug\netcoreapp3.1\Misa.Bussiness.csproj.CoreCompileInputs.cache
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\bin\Debug\netcoreapp3.1\Misa.Bussiness.deps.json
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\bin\Debug\netcoreapp3.1\Misa.Bussiness.dll
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\bin\Debug\netcoreapp3.1\Misa.Bussiness.pdb
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\bin\Debug\netcoreapp3.1\Misa.Common.dll
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\bin\Debug\netcoreapp3.1\Misa.Data.dll
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\bin\Debug\netcoreapp3.1\Misa.Common.pdb
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\bin\Debug\netcoreapp3.1\Misa.Data.pdb
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\obj\Debug\netcoreapp3.1\Misa.Bussiness.csproj.CopyComplete
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\obj\Debug\netcoreapp3.1\Misa.Bussiness.dll
+E:\Lap_trinh_web\MISA_Demo_Web\MISA.Web2021_02\mf706-vuminhhieu\CukCuk_Project\Back\Misa.NETCore\Misa.Bussiness\obj\Debug\netcoreapp3.1\Misa.Bussiness.pdb

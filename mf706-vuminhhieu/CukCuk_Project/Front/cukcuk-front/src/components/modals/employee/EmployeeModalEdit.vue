@@ -25,7 +25,7 @@
                 <p class="label-text">
                   Mã nhân viên(<span class="required">*</span>)
                 </p>
-                <input type="text" id="em-code" class="form-control" required v-model="employee.EmployeeCode" />
+                <input type="text" id="em-code" class="form-control" required v-model="employee.employeeCode" />
               </div>
               <div class="form-group">
                 <p class="label-text">Ngày sinh</p>
@@ -34,7 +34,7 @@
                   id="em-birth"
                   class="form-control"
                   placeholder="mm/dd/yyyy"
-                  v-model="employee.DateOfBirth"
+                  v-model="employee.dateOfBirth"
                 />
               </div>
 
@@ -47,7 +47,7 @@
                   id="em-identification"
                   class="form-control"
                   required
-                  v-model="employee.IdentityNumber"
+                  v-model="employee.identityCardNumber"
                 />
               </div>
             </div>
@@ -59,18 +59,18 @@
                 </p>
                 <input 
                 type="text" id="em-name" class="form-control" required 
-                v-model="employee.FullName"/>
+                v-model="employee.fullName"/>
               </div>
               <div class="form-group">
                 <p class="label-text">Giới tính</p>
                 <select
                   id="em-gender"
-                  dataIndex="Gender"
+                  dataIndex="gender"
                   class="form-control"
                   fieldValue="value"
                   fieldText="text"
                   apiGetUrl="/api/v1/enums/gender"
-                  v-model="employee.Gender"
+                  v-model="employee.gender"
                 >
                   <option value="1">Nam</option>
                   <option value="0">Nữ</option>
@@ -85,7 +85,7 @@
                   id="em-birth"
                   class="form-control"
                   placeholder="mm/dd/yyyy"
-                  v-model="employee.IdentityDate"
+                  v-model="employee.identityDate"
                 />
               </div>
             </div>
@@ -95,20 +95,20 @@
               <div class="form-group">
                 <p class="label-text">Nơi cấp</p>
                 <input type="text" class="form-control" id="em-identifyPlace"
-                v-model="employee.IdentityPlace" />
+                v-model="employee.identityPlace" />
               </div>
             </div>
           </div>
           <div>
             <div class="col-xs-6 h-container-column pd-1">
               <div class="form-group">
-                <p class="label-text">Email(<span class="required">*</span>)</p>
+                <p class="label-text">email(<span class="required">*</span>)</p>
                 <input
                   type="email"
                   id="em-email"
                   class="form-control"
                   required
-                  v-model="employee.Email"
+                  v-model="employee.email"
                 />
               </div>
             </div>
@@ -122,7 +122,7 @@
                   id="em-phone"
                   class="form-control"
                   required
-                  v-model="employee.PhoneNumber"
+                  v-model="employee.phoneNumber"
                 />
               </div>
             </div>
@@ -137,32 +137,32 @@
                 <p class="label-text">Vị trí</p>
                 <select
                   id="em-position"
-                  fieldName="PositionName"
-                  fieldValue="PositionId"
+                  fieldName="positionName"
+                  fieldValue="positionId"
                   class="form-control"
                   api="https://localhost:44376/api/EmployeePositions"
-                  v-model="employee.PositionId"
+                  v-model="employee.positionId"
                 >
-                  <option value="3700cc49-55b5-69ea-4929-a2925c0f334d">
+                  <option value="19165ed7-212e-21c4-0428-030d4265475f">
                     Giám đốc
                   </option>
-                  <option value="25c6c36e-1668-7d10-6e09-bf1378b8dc91">
-                    Thu ngân
+                  <option value="3631011e-4559-4ad8-b0ad-cb989f2177da">
+                    Trưởng phòng
                   </option>
-                  <option value="148ed882-32b8-218e-9c20-39c2f00615e8">
-                    Nhân viên Marketing
+                  <option value="3631011e-4559-4ad8-b0ad-cb989f2177da">
+                    Nhân viên
                   </option>
                 </select>
               </div>
               <div class="form-group">
                 <p class="label-text">Mã số thuế cá nhân</p>
                 <input type="text" id="em-tax" class="form-control" 
-                v-model="employee.PersonalTaxCode"/>
+                v-model="employee.taxCode"/>
               </div>
               <div class="form-group">
                 <p class="label-text">Ngày gia nhập công ty</p>
                 <input type="date" id="em-dateJoin" class="form-control"
-                v-model="employee.JoinDate" />
+                v-model="employee.dateJoin" />
               </div>
             </div>
             <div class="col-xs-6 h-container-column">
@@ -170,22 +170,22 @@
                 <p class="label-text">Phòng ban</p>
                 <select
                   id="em-department"
-                  fieldName="DepartmentName"
-                  fieldValue="DepartmentId"
+                  fieldName="departmentName"
+                  fieldValue="departmentId"
                   class="form-control"
                   api="https://localhost:44376/api/EmployeeDepartments"
-                  v-model="employee.DepartmentId"
+                  v-model="employee.departmentId"
                 >
-                  <option value="17120d02-6ab5-3e43-18cb-66948daf6128">
+                  <option value="34bd2cef-5026-567c-3b71-153b37881afe">
                     Phòng đào tạo
                   </option>
-                  <option value="4e272fc4-7875-78d6-7d32-6a1673ffca7c">
+                  <option value="43a6bdf5-1b6b-451b-3695-2c566fa88632">
                     Phòng công nghệ
                   </option>
-                  <option value="469b3ece-744a-45d5-957d-e8c757976496">
+                  <option value="64a59a25-2488-54b0-f6b4-c8af08a50cbf">
                     Phòng nhân sự
                   </option>
-                  <option value="142cb08f-7c31-21fa-8e90-67245e8b283e">
+                  <option value="674934cc-42cf-20cf-1d4a-aea48a10ed18">
                     Phòng Marketting
                   </option>
                 </select>
@@ -198,13 +198,13 @@
                   type="text"
                   id="em-salary"
                   class="text-align-right pr-45 form-control"
-                  v-model="employee.Salary"
+                  v-model="employee.salary"
                 />
                 <span class="currency-for-input">(VNĐ)</span>
               </div>
               <div class="form-group">
                 <p class="label-text">Tình trạng công việc</p>
-                <select id="cbxWorkStatus" class="form-control" v-model="employee.WorkStatus" >
+                <select id="cbxworkStatus" class="form-control" v-model="employee.workStatus" >
                   <option value="1">Đang làm việc</option>
                   <option value="2">Đang thử việc</option>
                   <option value="0">Đã nghỉ việc</option>
@@ -264,9 +264,9 @@ export default {
     },
 
     Confirm : async function(){      
-      console.log(this.employee);
+    //  console.log(this.employee);
       var edited;
-      await axios.put('http://api.manhnv.net/api/Employees', this.employee)
+      await axios.put('https://localhost:44339/api/employee', this.employee)
             .then(function (res) {
               console.log("success in edit: "+res);
               edited = true;

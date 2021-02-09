@@ -192,10 +192,22 @@ namespace Misa.Bussiness.Version2
             }
         }
 
-        public Task<ServiceResult> GetFullData()
+        /// <summary>
+        /// Lấy ra toàn bộ danh sách nhân viên đầy đủ
+        /// </summary>
+        /// <param name="pageRequest"></param>
+        /// <returns>ServiceResult</returns>
+        /// create :9/2/2021
+        public async Task<ServiceResult> GetFullData()
         {
-            //todo
-            throw new NotImplementedException();
+            var listEmployee = await _employeeData.GetData();
+
+            return new ServiceResult()
+            {
+                Data = listEmployee,
+                Error = null,
+                MISACukCukCode = MISACukCukServiceCode.Success
+            };
         }
     }
 }

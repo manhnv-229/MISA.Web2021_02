@@ -90,7 +90,7 @@ namespace Misa.Common.Entities
         /// <summary>
         /// Ngày tham gia
         /// </summary>
-        public DateTime? DateJoin { get; set; }
+        public DateTime? dateJoin { get; set; }
 
         /// <summary>
         /// Mã tình trạng công việc

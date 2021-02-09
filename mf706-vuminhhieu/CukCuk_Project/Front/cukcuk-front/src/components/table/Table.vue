@@ -14,59 +14,59 @@
         >
           <thead class="has-gutter">
             <tr class="el-table__row">
-              <th colspan="1" rowspan="1" fieldName="EmployeeCode">
+              <th colspan="1" rowspan="1" fieldName="employeeCode">
                 <div class="cell" style="width: 130px">Mã nhân viên</div>
               </th>
-              <th colspan="1" rowspan="1" fieldName="FullName">
+              <th colspan="1" rowspan="1" fieldName="fullName">
                 <div class="cell">Họ và tên</div>
               </th>
               <th
                 colspan="1"
                 rowspan="1"
-                fieldName="Gender"
-                formatType="Gender"
+                fieldName="gender"
+                formatType="gender"
               >
                 <div class="cell w-82">Giới tính</div>
               </th>
               <th
                 colspan="1"
                 rowspan="1"
-                fieldName="DateOfBirth"
+                fieldName="dateOfBirth"
                 formatType="ddmmyyyy"
                 style="text-align: center"
               >
                 <div class="cell">Ngày sinh</div>
               </th>
-              <th colspan="1" rowspan="1" fieldName="PhoneNumber">
+              <th colspan="1" rowspan="1" fieldName="phoneNumber">
                 <div class="cell">Số điện thoại</div>
               </th>
-              <th colspan="1" rowspan="1" fieldName="Email">
-                <div class="cell">Email</div>
+              <th colspan="1" rowspan="1" fieldName="email">
+                <div class="cell">email</div>
               </th>
               <th
                 colspan="1"
                 rowspan="1"
-                fieldName="PositionId"
-                formatType="PositionName"
+                fieldName="positionId"
+                formatType="positionName"
               >
                 <div class="cell">Chức vụ</div>
               </th>
               <th
                 colspan="1"
                 rowspan="1"
-                fieldName="DepartmentId"
-                formatType="DepartmentName"
+                fieldName="departmentId"
+                formatType="departmentName"
               >
                 <div class="cell">Phòng ban</div>
               </th>
-              <th colspan="1" rowspan="1" fieldName="Salary" formatType="Money">
+              <th colspan="1" rowspan="1" fieldName="salary" formatType="Money">
                 <div class="cell w-140">Mức lương cơ bản</div>
               </th>
               <th
                 colspan="1"
                 rowspan="1"
-                fieldName="WorkStatus"
-                formatType="WorkStatusName"
+                fieldName="workStatus"
+                formatType="workStatusName"
               >
                 <div class="cell w-155">Tình trạng công việc</div>
               </th>
@@ -77,41 +77,41 @@
             <tr
               class="el-table__row first"
               v-for="employee in employees"
-              :key="employee.EmployeeId"
-              @click="selectRow(employee.EmployeeId)"
-              v-bind:class="isSelected(employee.EmployeeId) ? 'selected' : ''"
+              :key="employee.employeeId"
+              @click="selectRow(employee.employeeId)"
+              v-bind:class="isSelected(employee.employeeId) ? 'selected' : ''"
             >
               <td>
-                <div class="cell">{{ employee.EmployeeCode }}</div>
+                <div class="cell">{{ employee.employeeCode }}</div>
               </td>
               <td>
-                <div class="cell">{{ employee.FullName }}</div>
+                <div class="cell">{{ employee.fullName }}</div>
               </td>
               <td>
-                <div class="cell" v-bind:data-id="employee.Gender">
-                  {{ employee.GenderName }}
+                <div class="cell" v-bind:data-id="employee.gender">
+                  {{ employee.genderName }}
                 </div>
               </td>
               <td>
-                <div class="cell">{{ employee.DateOfBirth | getDate }}</div>
+                <div class="cell">{{ employee.dateOfBirth | getDate }}</div>
               </td>
               <td>
-                <div class="cell">{{ employee.PhoneNumber }}</div>
+                <div class="cell">{{ employee.phoneNumber }}</div>
               </td>
               <td>
-                <div class="cell">{{ employee.Email }}</div>
+                <div class="cell">{{ employee.email }}</div>
               </td>
               <td>
-                <div class="cell">{{ employee.PositionName }}</div>
+                <div class="cell">{{ employee.positionName }}</div>
               </td>
               <td>
-                <div class="cell">{{ employee.DepartmentName }}</div>
+                <div class="cell">{{ employee.departmentName }}</div>
               </td>
               <td>
-                <div class="cell">{{ employee.Salary }}</div>
+                <div class="cell">{{ employee.salary }}</div>
               </td>
               <td>
-                <div class="cell">{{ employee.WorkStatusName }}</div>
+                <div class="cell">{{ employee.workStatusName }}</div>
               </td>
             </tr>
           </tbody>
@@ -162,34 +162,27 @@ export default {
     return {
       processing: true,
       employees: [],
-      employee: {
-        Address: "",
-        DateOfBirth: "",
-        DepartmentId: "",
-        DepartmentName: "",
-        EducationalBackground: null,
-        Email: "",
-        EmployeeCode: "",
-        EmployeeId: "",
-        FirstName: "",
-        FullName: "",
-        Gender: null,
-        GenderName: "",
-        IdentityDate: "",
-        IdentityNumber: "",
-        IdentityPlace: "",
-        JoinDate: "",
-        LastName: "",
-        MaritalStatus: null,
-        PersonalTaxCode: "",
-        PhoneNumber: "",
-        PositionId: "",
-        PositionName: "",
-        QualificationId: "",
-        QualificationName: "",
-        Salary: null,
-        WorkStatus: null,
-        WorkStatusName: "",
+      employee: {      
+        dateOfBirth: "",
+        departmentId: "",
+        departmentName: "",       
+        email: "",
+        employeeCode: "",
+        employeeId: "",       
+        fullName: "",
+        gender: null,
+        genderName: "",
+        identityDate: "",
+        identityCardNumber: "",
+        identityPlace: "",
+        dateJoin: "", 
+        taxCode: "",
+        phoneNumber: "",
+        positionId: "",
+        positionName: "",        
+        salary: null,
+        workStatus: null,
+        workStatusName: "",
       },
       selected: [],
       messageConfirm: '',
@@ -198,7 +191,7 @@ export default {
   },
 watch:{
   employees: function() {
-    console.log(this.employee);
+   // console.log(this.employee);
   }
 },
   methods: {
@@ -206,10 +199,9 @@ watch:{
     async getData() {
       this.processing = true;
       this.resetSelected();
-      const response = await axios.get("http://api.manhnv.net/api/Employees");     
-      //this.employees = response.data.data;
-      this.employees = response.data;
-       console.log("employees");
+      const response = await axios.get("https://localhost:44339/api/employee/fullAll");     
+      this.employees = response.data.data;
+      //this.employees = response.data;     
       console.log(this.employees);
       this.processing = false;
       // console.log(this.employees);
@@ -240,19 +232,19 @@ watch:{
       this.employee = employee;
       // console.log(this.employee);
       if (
-        this.employee.DateOfBirth != null &&
-        this.employee.DateOfBirth != ""
+        this.employee.dateOfBirth != null &&
+        this.employee.dateOfBirth != ""
       ) {
-        this.employee.DateOfBirth = this.employee.DateOfBirth.split("T")[0];
+        this.employee.dateOfBirth = this.employee.dateOfBirth.split("T")[0];
       }
       if (
-        this.employee.IdentityDate != null &&
-        this.employee.IdentityDate != ""
+        this.employee.identityDate != null &&
+        this.employee.identityDate != ""
       ) {
-        this.employee.IdentityDate = this.employee.IdentityDate.split("T")[0];
+        this.employee.identityDate = this.employee.identityDate.split("T")[0];
       }
-      if (this.employee.JoinDate != null && this.employee.JoinDate != "") {
-        this.employee.JoinDate = this.employee.JoinDate.split("T")[0];
+      if (this.employee.dateJoin != null && this.employee.dateJoin != "") {
+        this.employee.dateJoin = this.employee.dateJoin.split("T")[0];
       }
 
       await this.$refs.EmployeeModalEdit_ref.show();
@@ -272,7 +264,7 @@ watch:{
         return;
       }
       var empId = this.selected[0];
-      var emp = this.employees.find((e) => e.EmployeeId == empId);
+      var emp = this.employees.find((e) => e.employeeId == empId);
       this.openEmployeeModalEdit(emp);
       
     },

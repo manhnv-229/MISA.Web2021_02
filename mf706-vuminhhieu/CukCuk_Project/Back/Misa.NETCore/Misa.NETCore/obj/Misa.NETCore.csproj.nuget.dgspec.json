@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.NETCore\\Misa.NETCore.csproj": {}
+  },
+  "projects": {
+    "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Bussiness\\Misa.Bussiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Bussiness\\Misa.Bussiness.csproj",
+        "projectName": "Misa.Bussiness",
+        "projectPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Bussiness\\Misa.Bussiness.csproj",
+        "packagesPath": "C:\\Users\\BlueMan\\.nuget\\packages\\",
+        "outputPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Bussiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BlueMan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Common\\Misa.Common.csproj": {
+                "projectPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Common\\Misa.Common.csproj"
+              },
+              "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Data\\Misa.Data.csproj": {
+                "projectPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Data\\Misa.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Common\\Misa.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Common\\Misa.Common.csproj",
+        "projectName": "Misa.Common",
+        "projectPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Common\\Misa.Common.csproj",
+        "packagesPath": "C:\\Users\\BlueMan\\.nuget\\packages\\",
+        "outputPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BlueMan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Data\\Misa.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Data\\Misa.Data.csproj",
+        "projectName": "Misa.Data",
+        "projectPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Data\\Misa.Data.csproj",
+        "packagesPath": "C:\\Users\\BlueMan\\.nuget\\packages\\",
+        "outputPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BlueMan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Common\\Misa.Common.csproj": {
+                "projectPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Common\\Misa.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.NETCore\\Misa.NETCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.NETCore\\Misa.NETCore.csproj",
+        "projectName": "Misa.NETCore",
+        "projectPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.NETCore\\Misa.NETCore.csproj",
+        "packagesPath": "C:\\Users\\BlueMan\\.nuget\\packages\\",
+        "outputPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.NETCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BlueMan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Bussiness\\Misa.Bussiness.csproj": {
+                "projectPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Bussiness\\Misa.Bussiness.csproj"
+              },
+              "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Common\\Misa.Common.csproj": {
+                "projectPath": "E:\\Lap_trinh_web\\MISA_Demo_Web\\MISA.Web2021_02\\mf706-vuminhhieu\\CukCuk_Project\\Back\\Misa.NETCore\\Misa.Common\\Misa.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
