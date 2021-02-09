@@ -1,0 +1,11 @@
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.deps.json
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.dll
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.Common\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csprojAssemblyReference.cache
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.AssemblyInfoInputs.cache
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.AssemblyInfo.cs
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csproj.CoreCompileInputs.cache
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.dll
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.pdb
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.Properties.Resources.resources
+E:\Học Tập\my project\misa\back_end\MISA.cukcuk.api\MISA.Common\obj\Debug\netcoreapp3.1\MISA.Common.csproj.GenerateResource.cache
