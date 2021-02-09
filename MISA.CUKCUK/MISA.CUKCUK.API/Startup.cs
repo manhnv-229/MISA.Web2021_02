@@ -50,10 +50,10 @@ namespace MISA.CUKCUK.API
             services.AddScoped(typeof(IBaseDL<>), typeof(BaseDL<>));
             services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
             services.AddScoped(typeof(IDbContext<>), typeof(LocalDbContext<>));
-
+            //DataLayer
             services.AddScoped<ICustomerDL, CustomerDL>();
             services.AddScoped<ICustomerGroupDL, CustomerGroupDL>();
-
+            //Service
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<ICustomerGroupService, CustomerGroupService>();
         }

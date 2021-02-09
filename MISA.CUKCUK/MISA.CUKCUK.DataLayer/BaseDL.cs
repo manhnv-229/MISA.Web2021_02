@@ -7,6 +7,10 @@ using System.Text;
 
 namespace MISA.DataLayer
 {
+    /// <summary>
+    /// Interface Datalayer
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class BaseDL<T>: IBaseDL<T> where T: class
     {
         private readonly IDbContext<T> _dbContext;
@@ -16,6 +20,12 @@ namespace MISA.DataLayer
             _dbContext = dbContext;
         }
 
+        /// <summary>
+        /// Thực thi proceduce lấy tất cả
+        /// Đặt tên proc theo kiểu Proc_GetAll...
+        /// </summary>
+        /// <returns>Danh sách thực thể</returns>
+        /// CreatedBy Vtthien 09/02/21
         public IEnumerable<T> GetAll()
         {
             var procName = "Proc_GetAll" + typeof(T).Name;
@@ -23,6 +33,13 @@ namespace MISA.DataLayer
             return listEntity;
         }
 
+        /// <summary>
+        /// Thực thi proceduce lấy theo id
+        /// Đặt tên proc theo kiểu Proc_Get...ById
+        /// </summary>
+        /// <param name="id">Id</param>
+        /// CreatedBy Vtthien 09/02/21
+        /// <returns>Danh sách thực thể</returns>
         public T GetById(Guid id)
         {
             var procName = "Proc_Get" + typeof(T).Name + "ById" ;
@@ -35,6 +52,13 @@ namespace MISA.DataLayer
             return listEntity;
         }
 
+        /// <summary>
+        /// Thực thi proceduce insert
+        /// Đặt tên proc theo kiểu Proc_Insert...
+        /// </summary>
+        /// <param name="entity">Thực thể cần thêm</param>
+        /// <returns>Số bản ghi thay đổi</returns>
+        /// CreatedBy VTThien 09/02/21
         public int Insert(T entity)
         {
             var procName = "Proc_Insert" + typeof(T).Name;
@@ -43,6 +67,13 @@ namespace MISA.DataLayer
             return result;
         }
 
+        /// <summary>
+        /// Thực thi proceduce update
+        /// Đặt tên proc theo kiểu Proc_Update...
+        /// </summary>
+        /// <param name="entity">Thực thể cần sửa</param>
+        /// <returns>Số bản ghi thay đổi</returns>
+        /// CreatedBy VTThien 09/02/21
         public int Update(T entity)
         {
             var procName = "Proc_Update" + typeof(T).Name;
@@ -51,6 +82,13 @@ namespace MISA.DataLayer
             return result;
         }
 
+        /// <summary>
+        /// Thực thi proceduce delete
+        /// Đặt tên proc theo kiểu Proc_Delete...
+        /// </summary>
+        /// <param name="entity">Thực thể cần xóa</param>
+        /// <returns>Số bản ghi thay đổi</returns>
+        /// CreatedBy VTThien 09/02/21
         public int Delete(Guid id)
         {
             var procName = "Proc_Delete" + typeof(T).Name;

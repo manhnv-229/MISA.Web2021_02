@@ -28,6 +28,11 @@ namespace MISA.CUKCUK.API.Controllers
             return serviceResult;
         }
 
+        /// <summary>
+        /// Lấy theo Id
+        /// </summary>
+        /// <param name="id">id cần tìm</param>
+        /// <returns>Khách hàng cần tìm</returns>
         [HttpGet("{id}")]
         public ServiceResult GetById([FromRoute] Guid id)
         {
@@ -59,6 +64,12 @@ namespace MISA.CUKCUK.API.Controllers
             }
         }
 
+        /// <summary>
+        /// Sửa thông tin khách hàng
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="customer"></param>
+        /// <returns></returns>
         [HttpPut]
         public IActionResult PutCustomer(Guid id, Customer customer)
         {
