@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Service.deps.json
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Service.dll
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Service.pdb
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Common.dll
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\bin\Debug\netcoreapp3.1\MISA.DataLayer.dll
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\bin\Debug\netcoreapp3.1\MISA.Common.pdb
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\bin\Debug\netcoreapp3.1\MISA.DataLayer.pdb
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.dll
+C:\Users\Admin\Documents\GitHub\BackendCukCukDemo\MISA.Service\obj\Debug\netcoreapp3.1\MISA.Service.pdb
