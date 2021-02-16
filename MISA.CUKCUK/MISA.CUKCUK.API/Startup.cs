@@ -49,7 +49,7 @@ namespace MISA.CUKCUK.API
             //base
             services.AddScoped(typeof(IBaseDL<>), typeof(BaseDL<>));
             services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
-            services.AddScoped(typeof(IDbContext<>), typeof(LocalDbContext<>));
+            services.AddScoped(typeof(IDbContext<>), typeof(OnlineDbContext<>));
             //DataLayer
             services.AddScoped<ICustomerDL, CustomerDL>();
             services.AddScoped<ICustomerGroupDL, CustomerGroupDL>();

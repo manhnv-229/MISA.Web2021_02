@@ -8,11 +8,11 @@ namespace MISA.Service.Entity
     /// <summary>
     /// Entity CusomerService kế thừa từ interface CustomerService
     /// </summary>
-    public class CustomerService: BaseService<Customer>, ICustomerService
+    public class CustomerService : BaseService<Customer>, ICustomerService
     {
         private readonly ICustomerDL _customerDL;
 
-        public CustomerService(IBaseDL<Customer> baseDL, ICustomerDL customerDL): base (baseDL)
+        public CustomerService(IBaseDL<Customer> baseDL, ICustomerDL customerDL) : base(baseDL)
         {
             _customerDL = customerDL;
         }
@@ -69,7 +69,7 @@ namespace MISA.Service.Entity
 
             // thông tin khách hàng không bị trùng lặp ==> insert
             var res = _customerDL.Insert(customer);
-            
+
             // insert thành công
             if (res > 0)
             {

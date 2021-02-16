@@ -10,7 +10,7 @@ using MISA.DataLayer.Interface;
 
 namespace MISA.CUKCUK.DataLayer
 {
-    public class LocalDbContext<T>: IDbContext<T> where T:class
+    public class LocalDbContext<T> : IDbContext<T> where T : class
     {
         #region DECLARE
         //Khai báo chuỗi kết nối tới db
@@ -20,7 +20,7 @@ namespace MISA.CUKCUK.DataLayer
             "User Id = root;" +
             "Password = ";
         // Khai báo kết nối
-        private readonly IDbConnection _dbConnection ;
+        private readonly IDbConnection _dbConnection;
         #endregion
 
         #region CONTRUCTOR

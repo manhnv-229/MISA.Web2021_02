@@ -6,19 +6,38 @@ namespace MISA.DataLayer.Interface
 {
     public interface IBaseDL<T> where T: class
     {
-        //Lấy tất cả
+        /// <summary>
+        /// Lấy tất cả
+        /// </summary>
+        /// <returns></returns>
         IEnumerable<T> GetAll();
 
-        //Lấy theo id
+        /// <summary>
+        /// Lấy theo id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         T GetById(Guid id);
 
-        //Thêm mới
+        /// <summary>
+        /// Thêm mới
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <returns></returns>
         int Insert(T entity);
 
-        //Sửa
+        /// <summary>
+        /// Sửa
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <returns></returns>
         int Update(T entity);
 
-        //Xóa
+        /// <summary>
+        /// Xóa
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         int Delete(Guid id);
 
         /// <summary>

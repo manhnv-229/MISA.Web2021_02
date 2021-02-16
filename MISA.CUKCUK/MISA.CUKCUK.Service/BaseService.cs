@@ -8,7 +8,7 @@ using System.Text;
 namespace MISA.Service
 {
 
-    public class BaseService<T>: IBaseService<T> where T:class
+    public class BaseService<T> : IBaseService<T> where T : class
     {
         private readonly IBaseDL<T> _baseDL;
 

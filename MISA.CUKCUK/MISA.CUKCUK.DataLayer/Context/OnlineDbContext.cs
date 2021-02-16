@@ -12,14 +12,14 @@ namespace MISA.DataLayer.Context
     /// <summary>
     /// Db online
     /// </summary>
-    public class OnlineDbContext<T> : IDbContext<T> where T:class
+    public class OnlineDbContext<T> : IDbContext<T> where T : class
     {
         #region DECLARE
         //Khai báo chuỗi kết nối tới db
-        string _connectionString = "Server=103.124.92.43;" +
+        string _connectionString = "Server=47.241.69.179;" +
             "port=3306;" +
-            "Database=MS4_16_VuThanhThien_CukCuk;" +
-            "User=nvmanh;" +
+            "Database=MF726_VTThien_CukCuk;" +
+            "User=dev;" +
             "Password=12345678;";
 
         // Khai báo kết nối
