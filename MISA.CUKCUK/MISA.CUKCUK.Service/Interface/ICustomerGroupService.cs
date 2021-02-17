@@ -11,5 +11,8 @@ namespace MISA.Service.Interface
     /// CreatedBy Vtthien( 08/02/21)
     public interface ICustomerGroupService: IBaseService<CustomerGroup>
     {
+        ServiceResult InsertCustomerGroup(CustomerGroup customerGroup);
+
+        ServiceResult UpdateCustomerGroup(Guid id, CustomerGroup customerGroup);
     }
 }

@@ -10,5 +10,12 @@ namespace MISA.Service.Interface
         ServiceResult GetAll();
 
         ServiceResult GetById(Guid id);
+
+        /// <summary>
+        /// Xóa theo Id
+        /// </summary>
+        /// <param name="id">ID của thực thể cần xóa</param>
+        /// <returns></returns>
+        ServiceResult Delete(Guid id);
     }
 }

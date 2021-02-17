@@ -40,5 +40,23 @@ namespace MISA.CUKCUK.API.Controllers
             var serviceResult = _customerGroupService.GetById(id);
             return serviceResult;
         }
+
+        //[HttpPost]
+        //public IActionResult PostCustomerGroup([FromBody] CustomerGroup customerGroup)
+        //{
+        //    var res = _customerGroupService.InsertCustomerGroup(customerGroup);
+        //    if (res.Success == false)
+        //    {
+        //        return StatusCode(400, res.Data);
+        //    }
+        //    else if (res.Success == true && (int)res.Data > 0)
+        //    {
+        //        return StatusCode(201, res.Data);
+        //    }
+        //    else
+        //    {
+        //        return StatusCode(200, res.Data);
+        //    }
+        //}
     }
 }

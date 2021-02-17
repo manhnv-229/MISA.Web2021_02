@@ -7,9 +7,19 @@ namespace MISA.DataLayer.Interface
 {
     public interface ICustomerDL: IBaseDL<Customer>
     {
-        //Check trùng ,ã khách hàng
+        /// <summary>
+        /// Check trùng mã khách hàng
+        /// </summary>
+        /// <param name="customerCode"></param>
+        /// <returns></returns>
+        // CreatedBy VTThien
         bool CheckCustomerCodeExisted(string customerCode);
-        //Check trùng số điện thoại
+        /// <summary>
+        /// Check trùng số điện thoại
+        /// </summary>
+        /// <param name="phoneNumber"></param>
+        /// <returns></returns>
+        // CreatedBy VTThien
         bool CheckPhoneNumberExisted(string phoneNumber);
     }
 }
