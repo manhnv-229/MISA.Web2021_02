@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using System.Text;
+using System.Text;  
 
 namespace MISA.DataLayer.DbContext1
 {
@@ -14,12 +14,12 @@ namespace MISA.DataLayer.DbContext1
     {
         #region DECLARE
         string connectionString = "" +
-                "Host = 103.124.92.43;" +
+                "Host = 47.241.69.179;" +
                 "Port= 3306;" +
-                "Database = MS1_23_TLMINH_CukCuk;" +
-                "User Id = nvmanh;" +
+                "Database = MF707_TLMinh_CukCuk;" +
+                "User Id = dev;" +
                 "Password = 12345678";
-        IDbConnection _dbConnection;
+        protected IDbConnection _dbConnection;
         #endregion
 
         #region CONTRUCTORS
@@ -110,7 +110,7 @@ namespace MISA.DataLayer.DbContext1
         /// </summary>
         /// <param name="entityId">Id của thực thể cần xóa</param>
         /// <returns>Số bẳn ghi bị xóa</returns>
-        public int Delete(string entityId)
+        public virtual int Delete(string entityId,int way = 1)
         {
             var tableName = typeof(TEntity).Name;
             string executeString = $"DELETE FROM {tableName} WHERE {tableName}Id = '{entityId}'";

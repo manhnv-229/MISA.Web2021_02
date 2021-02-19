@@ -18,17 +18,19 @@ namespace MISA.Service.Interfaces
         /// Thêm một bản ghi 
         /// </summary>
         /// <param name="entity">Thực thể cần thêm</param>
+        /// <param name="entityCode">Mã thực thể mà chủ thể có khóa ngoại chỉ tới</param>
         /// <returns>Số bản ghi được thêm</returns>
         /// CreatedBy: TLMinh (07/02/2021)
-        public ServiceResult Post(TEntity entity);
+        public ServiceResult Post(TEntity entity,string entityCode = null);
 
         /// <summary>
         /// Xóa một bản ghi 
         /// </summary>
         /// <param name="entityId">Id của thực thể cần xóa</param>
+        /// <param name="way">1 xóa theo id chính, 2 xóa theo id ngoại</param>
         /// <returns>Số bản ghi được xóa</returns>\
         /// CreatedBy: TLMinh (07/02/2021)
-        public ServiceResult Delete(string entityId);
+        public ServiceResult Delete(string entityId,int way = 1);
 
         /// <summary>
         /// Sửa thông tin bản ghi

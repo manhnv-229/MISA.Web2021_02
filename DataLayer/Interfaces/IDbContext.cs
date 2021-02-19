@@ -29,9 +29,10 @@ namespace MISA.DataLayer.Interfaces
         /// Xóa một bản ghi khỏi database
         /// </summary>
         /// <param name="entityId">Id của thực thể cần xóa</param>
+        /// <param name="way">1 xóa theo Id chính, 2 xóa theo Id ngoại; Default: 1</param>
         /// <returns>Số bản ghi bị xóa</returns>
         /// CreatedBy: TLMinh (07/02/2021)
-        public int Delete(string entityId);
+        public int Delete(string entityId,int way = 1);
 
         /// <summary>
         /// Sửa thông tin bản ghi

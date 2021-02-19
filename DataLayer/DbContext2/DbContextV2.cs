@@ -93,6 +93,11 @@ namespace MISA.DataLayer.DbContext2
             return 0;
         }
 
+        public int Delete(string entityId, int way = 1)
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<TEntity> GetAll(string query = null, object param = null, CommandType cmdType = CommandType.Text)
         {
             if (typeof(TEntity).Name == "Employee")

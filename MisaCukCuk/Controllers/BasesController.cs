@@ -49,12 +49,13 @@ namespace MisaCukCuk.Controllers
         /// Thêm một nhân viên vào danh sách
         /// </summary>
         /// <param name="employee">Thực thể khách hàng</param>
+        /// <param name="entityCode">Mã thực thể mà chủ thể có khóa ngoại chỉ tới</param>
         /// <returns>Mã trạng thái và số bản ghi được thêm</returns>
         /// CreatedBy: TLMinh (01/02/2021)
         [HttpPost]
-        public IActionResult Post([FromBody] TEntity entity)
+        public IActionResult Post([FromBody] TEntity entity, [FromQuery] string entityCode = null)
         {
-            var result = _baseService.Post(entity);
+            var result = _baseService.Post(entity,entityCode);
             if (result.Success && (int)result.Data > 0)
             {
                 return StatusCode(201, result.Data);
@@ -69,12 +70,13 @@ namespace MisaCukCuk.Controllers
         /// Xóa một bản ghi
         /// </summary>
         /// <param name="entityId">Id của bản ghi cần xóa</param>
+        /// <param name="way">1 xóa theo id chính, 2 xóa theo id ngoại</param>
         /// <returns>Mã trạng thái và số bản ghi bị xóa</returns>
         /// CreatedBy: TLMinh (07/02/2021)
         [HttpDelete]
-        public IActionResult Delete([FromQuery]string entityId)
+        public IActionResult Delete([FromQuery]string entityId, [FromQuery] int way = 1)
         {
-            var result = _baseService.Delete(entityId);
+            var result = _baseService.Delete(entityId,way);
             if ((int)result.Data > 0)
                 return StatusCode(200, result.Data);
             return StatusCode(204, result.Data);

@@ -1,4 +1,5 @@
 ﻿using Common;
+using MISA.Common;
 using MISA.DataLayer;
 using MISA.DataLayer.Interfaces;
 using MISA.Service.Interfaces;
@@ -12,6 +13,7 @@ namespace MISA.Service
     {
         #region DECLARE
         protected IDbContext<TEntity> _dbContext;
+        protected IDbContext<Employeee> _dbContext2;
         #endregion
 
         #region CONTRUCTOR
@@ -40,8 +42,9 @@ namespace MISA.Service
         /// Thêm mới 1 bản ghi
         /// </summary>
         /// <param name="entity">Thực thể cần thêm vào database</param>
+        /// <param name="entityCode">Mã thực thể mà chủ thể có khóa ngoại chỉ tới</param>
         /// <returns>Số bản ghi được thêm mới</returns>
-        public ServiceResult Post(TEntity entity)
+        public ServiceResult Post(TEntity entity,string entityCode = null)
         {
             var serviceResult = new ServiceResult();
             ErrorMessenger errorMessenger = new ErrorMessenger();
@@ -76,7 +79,7 @@ namespace MISA.Service
         /// <param name="entityId">Id của thực thể cần xóa</param>
         /// <returns>Số bản ghi bị xóa</returns>
         /// CreatedBy: TLMinh (07/02/2021)
-        public ServiceResult Delete(string entityId)
+        public virtual ServiceResult Delete(string entityId,int way = 1)
         {
             var serviceResult = new ServiceResult();
             serviceResult.Data = _dbContext.Delete(entityId);
@@ -90,7 +93,7 @@ namespace MISA.Service
         /// <param name="entityCode">Mã của thực thể cần sửa</param>
         /// <returns>Số bản ghi bị chỉnh sửa</returns>
         /// CreatedBy: TLMinh (07/02/2021)
-        public ServiceResult Put(TEntity entity, string entityCode = null)
+        public virtual ServiceResult Put(TEntity entity, string entityCode = null)
         {
             var serviceResult = new ServiceResult();
             ErrorMessenger errorMessenger = new ErrorMessenger();

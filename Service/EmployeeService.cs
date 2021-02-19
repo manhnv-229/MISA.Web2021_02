@@ -30,6 +30,14 @@ namespace Service
             return serviceResult;
         }
 
+        /// <summary>
+        /// Validate dữ liệu nhân viên
+        /// </summary>
+        /// <param name="employee">Thực thể nhân viên cần validate dữ liệu</param>
+        /// <param name="errorMessenger">Tập hợp các thông báo lỗi</param>
+        /// <param name="entityCode">Mã nhân viên tương ứng</param>
+        /// <returns>True: dữ liệu hợp lệ; False: dữ liệu không hợp lệ</returns>
+        /// CreatedBy : TLMinh (06/02/2021)
         public override bool Validate(Employee employee, ErrorMessenger errorMessenger, string entityCode = null)
         {
             var isValid = true;

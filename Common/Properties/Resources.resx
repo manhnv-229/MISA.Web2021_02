@@ -123,6 +123,9 @@
   <data name="ErrorService_DuplicateEmployeeCode" xml:space="preserve">
     <value>Mã nhân viên bị trùng</value>
   </data>
+  <data name="ErrorService_DuplicateEmployeeIdentity" xml:space="preserve">
+    <value>Số chứng minh thư nhân dân bị trùng</value>
+  </data>
   <data name="ErrorService_EmptyDataInput" xml:space="preserve">
     <value>Không được để trống các thông tin bắt buộc</value>
   </data>

@@ -79,6 +79,15 @@ namespace MISA.Common.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Số chứng minh thư nhân dân bị trùng.
+        /// </summary>
+        public static string ErrorService_DuplicateEmployeeIdentity {
+            get {
+                return ResourceManager.GetString("ErrorService_DuplicateEmployeeIdentity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Không được để trống các thông tin bắt buộc.
         /// </summary>
         public static string ErrorService_EmptyDataInput {

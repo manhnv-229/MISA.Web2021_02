@@ -26,6 +26,8 @@ namespace MisaCukCuk
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "http://localhost:8080/";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -36,6 +38,17 @@ namespace MisaCukCuk
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:8080",
+                                                           "http://localhost:8080")
+                                                           .AllowAnyHeader()
+                                                           .AllowAnyMethod();
+                                  });
+            });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -56,12 +69,16 @@ namespace MisaCukCuk
             services.AddScoped((typeof(IOfficeRepository<>)), (typeof(MISA.DataLayer.DbContext1.OfficeRepository<>)));
             services.AddScoped((typeof(IPositionRepository<>)), (typeof(MISA.DataLayer.DbContext1.PositionRepository<>)));
             services.AddScoped((typeof(IEmployeeRepository<>)), (typeof(MISA.DataLayer.DbContext1.EmployeeRepository<>)));
+            services.AddScoped((typeof(IEmployeeeRepository<>)), (typeof(MISA.DataLayer.DbContext1.EmployeeeRepository<>)));
+            services.AddScoped((typeof(IBankRepository<>)), (typeof(MISA.DataLayer.DbContext1.BankRepository<>)));
 
             //Config tầng service
             services.AddScoped((typeof(IBaseService<>)), (typeof(BaseService<>)));
             services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddScoped<IOfficeService, OfficeService>();
             services.AddScoped<IPositionService, PositionService>();
+            services.AddScoped<IEmployeeeService, EmployeeeService>();
+            services.AddScoped<IBankService, BankService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -73,6 +90,8 @@ namespace MisaCukCuk
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MisaCukCuk v1"));
             }
+            //Cors
+            app.UseCors(MyAllowSpecificOrigins);
 
             // xử lí exception chung
             app.UseExceptionHandler(a => a.Run(async context =>

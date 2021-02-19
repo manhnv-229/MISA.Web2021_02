@@ -10,7 +10,7 @@ namespace Common
         /// <summary>
         /// Id Nhân viên
         /// </summary>
-        public Guid EmployeeId { get; set; }
+        public Guid? EmployeeId { get; set; }
         /// <summary>
         /// Mã nhân viên
         /// </summary>
