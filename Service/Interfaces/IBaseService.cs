@@ -19,6 +19,7 @@ namespace MISA.Service.Interfaces
         /// </summary>
         /// <param name="entity">Thực thể cần thêm</param>
         /// <param name="entityCode">Mã thực thể mà chủ thể có khóa ngoại chỉ tới</param>
+        /// <param name="identity">số chứng minh thư nhân dân(Thực thể là nhân viên)</param>
         /// <returns>Số bản ghi được thêm</returns>
         /// CreatedBy: TLMinh (07/02/2021)
         public ServiceResult Post(TEntity entity,string entityCode = null);
@@ -37,9 +38,10 @@ namespace MISA.Service.Interfaces
         /// </summary>
         /// <param name="entity">Thực thể đã sửa thông tin</param>
         /// <param name="entityCode">Mã thực thể(nếu có, là trường thông tin khác Id, vd: employeeCode)</param>
+        /// <param name="identity">số chứng minh thư nhân dân(Thực thể là nhân viên)</param>
         /// <returns>Số bản ghi được sửa</returns>
         /// CreatedBy: TLMinh (07/02/2021)
-        public ServiceResult Put(TEntity entity, string entityCode = null);
+        public ServiceResult Put(TEntity entity, string entityCode = null, string identity = null);
 
     }
 }

@@ -7,6 +7,6 @@ namespace MISA.Service.Interfaces
 {
     public interface IEmployeeeService:IBaseService<Employeee>
     {
-
+        
     }
 }

@@ -15,7 +15,7 @@ namespace MisaCukCuk.Controllers
     {
         public EmployeeesController(IEmployeeeService employeeeService) : base(employeeeService)
         {
-
+            
         }
     }
 }

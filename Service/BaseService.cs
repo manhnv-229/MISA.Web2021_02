@@ -67,8 +67,11 @@ namespace MISA.Service
         /// </summary>
         /// <param name="entity">Thực thể cần validate thông tin</param>
         /// <param name="errorMessenger">Tập các thông báo lỗi</param>
-        /// <returns></returns>
-        public virtual bool Validate(TEntity entity, ErrorMessenger errorMessenger,string entityCode = null)
+        /// <param name="entityCode">Mã thực thể có thông tin cần validate(nếu có)</param>
+        /// <param name="identidy">số chứng minh thư nhân dân(nếu thực thể là nhân viên)</param>
+        /// <returns>true: nếu dữ liệu hợp lệ; false: nếu dữ liệu không hợp lệ</returns>
+        /// CreatedBy: TLMinh(20/02/2021)
+        public virtual bool Validate(TEntity entity, ErrorMessenger errorMessenger,string entityCode = null,string identidy = null)
         {
             return true;
         }
@@ -91,15 +94,16 @@ namespace MISA.Service
         /// </summary>
         /// <param name="entity">Thực thể đã sửa thông tin</param>
         /// <param name="entityCode">Mã của thực thể cần sửa</param>
+        /// <param name="identidy">số chứng minh thư nhân dân(nếu thực thể là nhân viên)</param>
         /// <returns>Số bản ghi bị chỉnh sửa</returns>
         /// CreatedBy: TLMinh (07/02/2021)
-        public virtual ServiceResult Put(TEntity entity, string entityCode = null)
+        public virtual ServiceResult Put(TEntity entity, string entityCode = null,string identidy = null)
         {
             var serviceResult = new ServiceResult();
             ErrorMessenger errorMessenger = new ErrorMessenger();
 
             //Validate dữ liệu
-            if (!Validate(entity, errorMessenger,entityCode))
+            if (!Validate(entity, errorMessenger,entityCode,identidy))
             {
                 serviceResult.Data = errorMessenger;
                 return serviceResult;

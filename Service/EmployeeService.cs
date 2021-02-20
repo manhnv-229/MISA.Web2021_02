@@ -38,7 +38,7 @@ namespace Service
         /// <param name="entityCode">Mã nhân viên tương ứng</param>
         /// <returns>True: dữ liệu hợp lệ; False: dữ liệu không hợp lệ</returns>
         /// CreatedBy : TLMinh (06/02/2021)
-        public override bool Validate(Employee employee, ErrorMessenger errorMessenger, string entityCode = null)
+        public override bool Validate(Employee employee, ErrorMessenger errorMessenger, string entityCode = null,string identity = null)
         {
             var isValid = true;
 

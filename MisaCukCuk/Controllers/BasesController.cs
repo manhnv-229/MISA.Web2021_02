@@ -15,7 +15,7 @@ namespace MisaCukCuk.Controllers
     public class BasesController<TEntity> : ControllerBase
     {
         #region DECLARE
-        IBaseService<TEntity> _baseService;
+        protected IBaseService<TEntity> _baseService;
         #endregion
 
         #region CONTRUCTOR
@@ -53,7 +53,7 @@ namespace MisaCukCuk.Controllers
         /// <returns>Mã trạng thái và số bản ghi được thêm</returns>
         /// CreatedBy: TLMinh (01/02/2021)
         [HttpPost]
-        public IActionResult Post([FromBody] TEntity entity, [FromQuery] string entityCode = null)
+        public virtual IActionResult Post([FromBody] TEntity entity, [FromQuery] string entityCode = null)
         {
             var result = _baseService.Post(entity,entityCode);
             if (result.Success && (int)result.Data > 0)
@@ -83,15 +83,17 @@ namespace MisaCukCuk.Controllers
         }
 
         /// <summary>
-        /// 
+        /// nhận và trả về kết quả sửa 1 bản ghi
         /// </summary>
-        /// <param name="entity"></param>
-        /// <param name="entityCode"></param>
-        /// <returns></returns>
+        /// <param name="entity">thực thể sửa thông tin</param>
+        /// <param name="entityCode">mã thực thể sửa thông tin(nếu có)</param>
+        /// <param name="identity">số chứng minh thư nhân dân(nếu thực thể là nhân viên)</param>
+        /// <returns>số bản ghi được sửa</returns>
+        /// CreatedBy: TLMinh(20/02/2021)
         [HttpPut]
-        public IActionResult Put([FromBody]TEntity entity, [FromQuery] string entityCode = null)
+        public IActionResult Put([FromBody]TEntity entity, [FromQuery] string entityCode = null,[FromQuery]string identity = null)
         {
-            var result = _baseService.Put(entity,entityCode);
+            var result = _baseService.Put(entity,entityCode,identity);
             if (result.Success && (int)result.Data > 0)
             {
                 return StatusCode(201, result.Data);
