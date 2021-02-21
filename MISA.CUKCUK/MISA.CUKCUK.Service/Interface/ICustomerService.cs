@@ -6,7 +6,7 @@ using System.Text;
 namespace MISA.Service.Interface
 {
     /// <summary>
-    /// Interface CustomerService
+    /// Interface CustomerService 
     /// </summary>
     /// CreatedBy Vtthien( 08/02/21)
     public interface ICustomerService: IBaseService<Customer>

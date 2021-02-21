@@ -93,7 +93,7 @@ namespace MISA.CUKCUK.API.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete([FromRoute] Guid id)
         {
-            // Gọi đến hàm Insert thực hiện validate -> Sửa
+            
             var res = _customerService.Delete(id);
 
             if (res.Success == false)

@@ -7,6 +7,6 @@ namespace MISA.DataLayer.Interface
 {
     public interface ICustomerGroupDL: IBaseDL<CustomerGroup>
     {
-        //
+        bool CheckCustomerGroupExisted(Guid customerGroupId);
     }
 }

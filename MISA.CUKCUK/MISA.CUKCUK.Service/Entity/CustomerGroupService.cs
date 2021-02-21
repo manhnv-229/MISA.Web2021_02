@@ -17,12 +17,17 @@ namespace MISA.Service
             _customerGroupDL = customerGroupDL;
         }
 
+        /// <summary>
+        /// Thêm mới customergroup
+        /// </summary>
+        /// <param name="customerGroup">Nhóm khách hàng cần thêm</param>
+        /// <returns></returns>
         public ServiceResult InsertCustomerGroup(CustomerGroup customerGroup)
         {
             var serviceResult = new ServiceResult();
             var errorMsg = new ErrorMsg();
 
-            //kiểm tra xem khách hàng này có các trường bị trùng lặp không
+            //kiểm tra xem nhóm khách hàng này có các trường bị trùng lặp không
             serviceResult = CheckDuplicateDataCustomerGroup(customerGroup , customerGroup.CustomerGroupId.ToString());
 
             // nếu bị trùng lặp, trả về luôn lỗi
@@ -31,7 +36,7 @@ namespace MISA.Service
                 return serviceResult;
             }
 
-            // thông tin khách hàng không bị trùng lặp ==> insert
+            // thông tin nhóm khách hàng không bị trùng lặp ==> insert
             var res = _customerGroupDL.Insert(customerGroup);
 
             // insert thành công
@@ -61,11 +66,11 @@ namespace MISA.Service
                 return null;
             }
             // lay theo id
-            var customerDelete = _customerGroupDL.GetById(id);
+            var customerGroupDelete = _customerGroupDL.GetById(id);
 
-            if (customerDelete != null)
+            if (customerGroupDelete != null)
             {
-                // trước khi cập nhật, kiểm tra dữ liệu sau khi sửa có bị trùng lặp với người dùng khác hay không
+                // trước khi cập nhật, kiểm tra dữ liệu sau khi sửa có bị trùng lặp với  khác hay không
                 //kiểm tra xem khách hàng này có các trường bị trùng lặp không
                 serviceResult = CheckDuplicateDataCustomerGroup(customerGroup , id.ToString());
 

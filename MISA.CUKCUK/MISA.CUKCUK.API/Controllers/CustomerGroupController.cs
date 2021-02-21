@@ -58,5 +58,20 @@ namespace MISA.CUKCUK.API.Controllers
         //        return StatusCode(200, res.Data);
         //    }
         //}
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete([FromRoute] Guid id)
+        {
+            var res = _customerGroupService.Delete(id);
+
+            if (res.Success == false)
+            {
+                return StatusCode(400, res.Data);
+            }
+            else
+            {
+                return StatusCode(200, res.Data);
+            }
+        }
     }
 }

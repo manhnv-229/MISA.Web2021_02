@@ -6,7 +6,7 @@ using MISA.Service.Interface;
 namespace MISA.Service.Entity
 {
     /// <summary>
-    /// Entity CusomerService kế thừa từ interface CustomerService
+    /// Entity CusomerService 
     /// </summary>
     public class CustomerService : BaseService<Customer>, ICustomerService
     {
@@ -131,7 +131,7 @@ namespace MISA.Service.Entity
                 else
                 {
                     serviceResult.Success = false;
-                    errorMsg.UserMsg = MISA.Common.Properties.Resources.Error_UserMsg;
+                    errorMsg.UserMsg = Common.Properties.Resources.Error_UserMsg;
                     serviceResult.Data = errorMsg;
                     return serviceResult;
                 }
@@ -139,8 +139,8 @@ namespace MISA.Service.Entity
             else
             {
                 serviceResult.Success = true;
-                errorMsg.DevMsg = MISA.Common.Properties.Resources.HaveNoObject;
-                errorMsg.UserMsg = MISA.Common.Properties.Resources.Error_UserMsg;
+                errorMsg.DevMsg = Common.Properties.Resources.HaveNoObject;
+                errorMsg.UserMsg = Common.Properties.Resources.Error_UserMsg;
                 serviceResult.Data = errorMsg;
                 return serviceResult;
             }

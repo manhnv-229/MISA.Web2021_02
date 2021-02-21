@@ -3,6 +3,7 @@ using MISA.DataLayer.Interface;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Text;
 
 namespace MISA.DataLayer.EntityDL
@@ -14,10 +15,16 @@ namespace MISA.DataLayer.EntityDL
     {
         private readonly IDbContext<CustomerGroup> _dbContext;
 
-        //
         public CustomerGroupDL(IDbContext<CustomerGroup> dbContext) : base(dbContext)
         {
             _dbContext = dbContext;
+        }
+
+        public bool CheckCustomerGroupExisted(Guid customerGroupId)
+        {
+            var sqlCheckCustomerCode = $"Select CustomerGroupID From customergroup cg Where cg.CustomerGroupID = '{customerGroupId}'";
+            var result = _dbContext.Query(sqlCheckCustomerCode).FirstOrDefault();
+            return result != null;
         }
     }
 }

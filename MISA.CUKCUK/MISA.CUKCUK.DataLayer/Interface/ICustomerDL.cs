@@ -12,14 +12,14 @@ namespace MISA.DataLayer.Interface
         /// </summary>
         /// <param name="customerCode"></param>
         /// <returns></returns>
-        // CreatedBy VTThien
+        /// CreatedBy VTThien
         bool CheckCustomerCodeExisted(string customerCode);
         /// <summary>
         /// Check trùng số điện thoại
         /// </summary>
         /// <param name="phoneNumber"></param>
         /// <returns></returns>
-        // CreatedBy VTThien
+        /// CreatedBy VTThien
         bool CheckPhoneNumberExisted(string phoneNumber);
     }
 }
