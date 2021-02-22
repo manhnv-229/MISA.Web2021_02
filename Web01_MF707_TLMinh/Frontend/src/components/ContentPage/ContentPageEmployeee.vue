@@ -476,7 +476,7 @@ span {
 
 @media screen and (max-width: 1820px) and (max-height: 1050px){
   .body-main-content {
-    height: 640px;
+    height: 630px;
     width: calc(100% - 32px);
     background-color: white;
     margin-left: 16px;
@@ -504,8 +504,8 @@ span {
 @media screen and (max-height: 900px){
   .all-information {
     width: 99%;
-    height: 545px;
-    max-height: 545px;
+    height: 535px;
+    max-height: 535px;
     overflow: auto;
     margin-top: 8px;
   }
