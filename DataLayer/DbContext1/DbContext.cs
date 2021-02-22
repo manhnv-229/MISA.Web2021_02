@@ -109,7 +109,9 @@ namespace MISA.DataLayer.DbContext1
         /// Xóa 1 bản ghi theo Id
         /// </summary>
         /// <param name="entityId">Id của thực thể cần xóa</param>
+        /// <param name="way">Id của khóa ngoại(nếu có)</param>
         /// <returns>Số bẳn ghi bị xóa</returns>
+        /// CreatedBy: TLMinh(06/02/2021)
         public virtual int Delete(string entityId,int way = 1)
         {
             var tableName = typeof(TEntity).Name;

@@ -28,7 +28,7 @@ namespace MISA.Service
         /// <summary>
         /// Lấy toàn bộ dữ liệu 
         /// </summary>
-        /// <returns>toàn bộ dữ liệu</returns>
+        /// <returns>toàn bộ dữ liệu(ServiceResutl.Data)</returns>
         /// CreatedBy: TLMinh (03/02/2021)
         public virtual ServiceResult Get()
         {
@@ -43,7 +43,7 @@ namespace MISA.Service
         /// </summary>
         /// <param name="entity">Thực thể cần thêm vào database</param>
         /// <param name="entityCode">Mã thực thể mà chủ thể có khóa ngoại chỉ tới</param>
-        /// <returns>Số bản ghi được thêm mới</returns>
+        /// <returns>Số bản ghi được thêm mới(ServiceResutl.Data)</returns>
         public ServiceResult Post(TEntity entity,string entityCode = null)
         {
             var serviceResult = new ServiceResult();
@@ -80,7 +80,7 @@ namespace MISA.Service
         /// Xóa một bản ghi 
         /// </summary>
         /// <param name="entityId">Id của thực thể cần xóa</param>
-        /// <returns>Số bản ghi bị xóa</returns>
+        /// <returns>Số bản ghi bị xóa(ServiceResutl.Data)</returns>
         /// CreatedBy: TLMinh (07/02/2021)
         public virtual ServiceResult Delete(string entityId,int way = 1)
         {
@@ -95,7 +95,7 @@ namespace MISA.Service
         /// <param name="entity">Thực thể đã sửa thông tin</param>
         /// <param name="entityCode">Mã của thực thể cần sửa</param>
         /// <param name="identidy">số chứng minh thư nhân dân(nếu thực thể là nhân viên)</param>
-        /// <returns>Số bản ghi bị chỉnh sửa</returns>
+        /// <returns>Số bản ghi bị chỉnh sửa(ServiceResutl.Data)</returns>
         /// CreatedBy: TLMinh (07/02/2021)
         public virtual ServiceResult Put(TEntity entity, string entityCode = null,string identidy = null)
         {

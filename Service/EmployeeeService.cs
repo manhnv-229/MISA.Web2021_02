@@ -21,7 +21,7 @@ namespace MISA.Service
         /// <summary>
         /// Lấy toàn bộ dữ liệu 
         /// </summary>
-        /// <returns>toàn bộ dữ liệu</returns>
+        /// <returns>toàn bộ dữ liệu(ServiceResutl.Data)</returns>
         /// CreatedBy: TLMinh (18/02/2021)
         public override ServiceResult Get()
         {
@@ -91,7 +91,8 @@ namespace MISA.Service
         /// </summary>
         /// <param name="entity">Thực thể đã sửa thông tin</param>
         /// <param name="entityCode">Mã của thực thể cần sửa</param>
-        /// <returns>Số bản ghi bị chỉnh sửa</returns>
+        /// <param name="identity">số chứng minh thư nhân dân(nếu thực thể là nhân viên)</param>
+        /// <returns>Số bản ghi bị chỉnh sửa(ServiceResutl.Data)</returns>
         /// CreatedBy: TLMinh (07/02/2021)
         public override ServiceResult Put(Employeee employeee, string entityCode = null, string identity = null)
         {
