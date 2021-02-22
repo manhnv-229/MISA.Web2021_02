@@ -1,0 +1,172 @@
+@import url('./common/BaseInput.css');
+@import url('./common/BaseSelect.css');
+@import url('./common/BaseButton.css');
+@import url('./common/BaseArrow.css');
+@import url('./common/BaseTable.css');
+
+body{
+    font-size: 13px;
+    font-family: 'notosans-regular';
+    font-style: normal;
+}
+
+/* scroll */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+    display: none;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+/* font */
+@font-face {
+    font-family: 'notosans-regular';
+    src: url('../assets/fonts/notosans-regular.2cb88a13.woff2') format('opentype');
+}
+@font-face {
+    font-family: 'notosans-italic';
+    src: url('../assets//fonts/notosans-italic.1c1aaac9.woff2') format('opentype');
+}
+@font-face {
+    font-family: 'notosans-bold';
+    src: url('../assets/fonts/notosans-bold.3ede5aff.woff2') format('opentype');
+}
+@font-face {
+    font-family: 'notosans-semibold';
+    src: url('../assets/fonts/notosans-semibold.df3e6dc4.woff2') format('opentype');
+}
+
+/* img */
+.menu-img
+{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -1157px -32px;
+}
+
+.app-img
+{
+    background: url('../assets/img/Logo_Module_TiengViet_White.66947422.svg') no-repeat -31px -24px;
+}
+
+.overview-img
+{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -33px -1630px;
+}
+
+.cast-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -78px -1631px;
+}
+
+.bank-cast-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -121px -1633px;
+}
+
+.b-store-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -165px -1632px;
+}
+
+.s-store-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -206px -1631px;
+
+}
+
+.manage-bill-img
+{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -254px -1632px;
+}
+
+.capacity-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -294px -1632px;
+}
+
+.material-img
+{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -339px -1633px;
+}
+
+.asset-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -382px -1632px;
+}
+
+.tax-img
+{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -427px -1634px;
+}
+
+.price-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -471px -1633px;
+}
+
+.gatheration-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -514px -1632px;
+}
+
+.budget-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -382px -1664px;
+}
+
+.reportation-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -552px -1636px;
+}
+
+.analysation-img
+{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -207px -1667px;
+}
+
+.searching-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat 85px -1659px;
+}
+
+.more-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -568px -30px;
+}
+
+.setting-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -676px -30px;
+}
+
+.messenger-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -899px -30px;
+}
+
+.support-img
+{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -732px -31px;
+}
+
+.notify-img
+{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -788px -30px;
+}
+
+.default-avatar-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -116px -1661px;
+}
+
+.delete-img
+{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -458px -295px;
+}
+
+.arrow-down-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -1794px -473px;
+}
+
+.warning-img{
+    background: url('../assets/img/Sprites.64af8f61.svg') no-repeat -598px -453px;
+}

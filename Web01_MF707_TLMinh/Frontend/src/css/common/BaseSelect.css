@@ -1,0 +1,8 @@
+.slc{
+    border: none;
+    outline: none;
+}
+
+.slc option{
+    background-color: white;
+}

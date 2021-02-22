@@ -1,0 +1,43 @@
+@media screen and (max-width: 1920px){
+    table{
+        width: 1680px;
+        border-collapse: collapse;
+        margin-top: 8px;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1820px){
+    table{
+        width: 1300px;
+        border-collapse: collapse;
+        margin-top: 8px;
+        margin-left: 16px;
+    }
+}
+
+
+table th{
+    background-color: #d9d9d9;
+}
+
+table tbody tr{
+    height: 56px;
+    background-color: #f2f2f2;
+}
+
+table thead tr{
+    height: 40px;
+}
+
+table td,th{
+    border-bottom: 1px solid #8c8c8c;
+    border-right: 1px solid #8c8c8c;
+    text-align: left;
+    height: 56px;
+}
+
+table tr:hover{
+    background-color:#d9d9d9;
+}
+
