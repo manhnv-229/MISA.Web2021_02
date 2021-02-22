@@ -1,4 +1,4 @@
-﻿using AplicationCore.Interfaces;
+﻿using MISA.CukCuk.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace DotNetCoreSample.Controllers
+namespace MISA.CukCuk.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
@@ -24,7 +24,7 @@ namespace DotNetCoreSample.Controllers
             _baseService = baseService;
         }
         [HttpGet]
-        public IActionResult Get()
+        public virtual IActionResult Get()
         {
             var res = _baseService.GetEntities();
             return StatusCode(res.StatusCode, res.Data);

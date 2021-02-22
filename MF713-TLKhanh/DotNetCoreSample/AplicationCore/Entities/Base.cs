@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AplicationCore.Entities
+namespace MISA.CukCuk.core.Entities
 {
     [AttributeUsage(AttributeTargets.Property)]
     public class Required : Attribute

@@ -1,13 +1,10 @@
-﻿using AplicationCore.Entities;
-using AplicationCore.Interfaces;
-using Dapper;
-using System.Data;
+﻿using MISA.CukCuk.Core.Entities;
+using MISA.CukCuk.Core.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Linq;
 
-namespace AplicationCore.Services
+namespace MISA.CukCuk.Core.Services
 {
     public class BaseService<T> : IBaseService<T>
     {
@@ -23,7 +20,7 @@ namespace AplicationCore.Services
         /// <summary>
         /// ErrorMsg: Chứa các câu thông báo lỗi, mã lỗi...
         /// </summary>
-        ErrorMsg _errorMsg;
+        ErrorMessage _errorMsg;
         /// <summary>
         /// Tên của bảng trong csdl
         /// </summary>
@@ -35,7 +32,7 @@ namespace AplicationCore.Services
         {
             _baseRepository = baseRepository;
             _serviceResult = new ServiceResult();
-            _errorMsg = new ErrorMsg();
+            _errorMsg = new ErrorMessage();
             className = typeof(T).Name;
         }
 
@@ -46,7 +43,7 @@ namespace AplicationCore.Services
         public ServiceResult GetEntities()
         {
             var entities = _baseRepository.Get() as List<T>;
-            if(entities.Count > 0)
+            if (entities.Count > 0)
             {
                 _serviceResult.StatusCode = MisaCode.Success;
                 _serviceResult.Data = entities;
@@ -57,7 +54,7 @@ namespace AplicationCore.Services
         public ServiceResult GetEntity(string id)
         {
             var res = _baseRepository.GetById(id);
-            if(res == null)
+            if (res == null)
             {
                 _serviceResult.StatusCode = MisaCode.NotFound;
                 return _serviceResult;
@@ -72,7 +69,7 @@ namespace AplicationCore.Services
         public ServiceResult InsertEntity(T entity)
         {
             bool isValid = Validate(entity, _errorMsg);
-            if(isValid == true)
+            if (isValid == true)
             {
                 var res = _baseRepository.Insert(entity);
                 _serviceResult.StatusCode = MisaCode.Created;
@@ -82,7 +79,7 @@ namespace AplicationCore.Services
             _serviceResult.StatusCode = MisaCode.BadRequest;
             _serviceResult.Data = _errorMsg;
             return _serviceResult;
-            
+
         }
         public ServiceResult UpdateEntity(string id, T entity)
         {
@@ -90,7 +87,7 @@ namespace AplicationCore.Services
             if (isValid == true)
             {
                 var res = _baseRepository.Update(id, entity);
-                if(res == 0)
+                if (res == 0)
                 {
                     _serviceResult.StatusCode = MisaCode.NotFound;
                     return _serviceResult;
@@ -108,7 +105,7 @@ namespace AplicationCore.Services
         public ServiceResult DeleteEntity(string id)
         {
             var res = _baseRepository.Delete(id);
-            if(res == 1)
+            if (res == 1)
             {
                 _serviceResult.StatusCode = MisaCode.Success;
                 _serviceResult.Data = res;
@@ -117,11 +114,10 @@ namespace AplicationCore.Services
             _serviceResult.StatusCode = MisaCode.NotFound;
             return _serviceResult;
         }
-        public virtual bool Validate(T entity, ErrorMsg errorMsg = null, string id = null)
+        public virtual bool Validate(T entity, ErrorMessage errorMsg = null, string id = null)
         {
             return true;
         }
         #endregion
-
     }
 }

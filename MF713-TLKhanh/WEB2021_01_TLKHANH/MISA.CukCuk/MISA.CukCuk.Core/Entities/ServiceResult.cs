@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AplicationCore.Entities
+namespace MISA.CukCuk.Core.Entities
 {
     public class ServiceResult
     {
