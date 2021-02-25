@@ -768,6 +768,10 @@ input[type="checkbox"]:focus {
   margin-left: 10px;
 }
 
+.add-btn:focus{
+  border: 1px solid black;
+}
+
 .close-btn {
   height: 35px !important;
   width: 60px;
@@ -775,11 +779,19 @@ input[type="checkbox"]:focus {
   margin-top: 10px;
 }
 
+.close-btn:focus{
+  border: 1px solid black;
+}
+
 .edit-btn {
   height: 35px !important;
   width: 60px;
   margin-left: 540px;
   margin-top: 10px;
+}
+
+.edit-btn:focus{
+  border: 1px solid black;
 }
 
 .line-notify {
