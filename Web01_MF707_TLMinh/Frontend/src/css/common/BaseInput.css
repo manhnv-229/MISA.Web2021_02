@@ -1,0 +1,46 @@
+.ip{
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+}
+
+.icon-ip{
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+}
+
+.cb {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+}
+
+
+.cb > input {
+    height: 16px !important;
+    width: 16px !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 1px solid #34495E;
+    border-radius: 8px;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.cb > input:checked {
+    border: 1px solid #41B883;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../../assets/img/green-cirle.jpg');
+    background-size: 18px;
+    background-position: center;
+}
+

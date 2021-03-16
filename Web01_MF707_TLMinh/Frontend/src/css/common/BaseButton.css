@@ -1,0 +1,51 @@
+.btn{
+    height: 30px;
+    border-radius: 10px;
+    background-color: #009900;
+    outline: none;
+    border: none;
+}
+
+.btn-w
+{
+    height: 20px;
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid #bfbfbf;
+}
+
+.yes-btn-confirm
+{
+    height: 40px;
+    border-radius: 2px;
+    background-color: #009900;
+    border: none;
+    color: white;
+}
+
+.no-btn-confirm
+{
+    height: 40px;
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid #bfbfbf;
+}
+
+.btn-w:hover,.no-btn-confirm:hover,.yes-btn-confirm:hover
+{
+    background-color: #bfbfbf;
+}
+
+.btn-w:active,.no-btn-confirm:active,.yes-btn-confirm:active
+{
+    background-color: #009900;
+}
+
+
+.btn:hover{
+    background-color: #bfbfbf;
+}
+
+.btn:active{
+    background-color: #404040;
+}
